@@ -1,0 +1,34 @@
+version: 1.0.{build}
+configuration: Release
+platform: x64
+clone_folder: c:\oss\
+init:
+- cmd: >-
+    git config --global core.autolf true
+    git config --list
+    if exist .gitattributes type .gitattributes
+    if exist .gitignore type .gitignore
+    SET PATH=%PYTHON%;%path%
+    python -V
+    where python
+    which python
+    python -m pip install numpy
+
+environment:
+  OML_ROOT: c:\oss\OpenMatrix
+  OML_THIRDPARTY: c:\oss\third_party
+  OML_APPVEYOR: TRUE
+  PYTHON: c:\python36-x64
+  
+build:
+  project: OpenMatrix\VS2015\OpenMatrix\OpenMatrix.sln
+  verbosity: minimal
+
+test_script:
+
+- cmd: >-
+    \oss\OpenMatrix\scripts\appveyor_test.bat appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
+    rem appveyor_test.bat script supports following test related options:
+    rem appveyor_setup mingw where core_test_perl core_test_python end
+    rem dir_x64_Release check_x64_Release
+
