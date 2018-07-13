@@ -5,14 +5,23 @@ clone_folder: c:\oss\
 init:
 - cmd: >-
     git config --global core.autolf true
+    
     git config --list
+    
     if exist .gitattributes type .gitattributes
+    
     if exist .gitignore type .gitignore
+    
     SET PATH=%PYTHON%;%path%
+    
     python -V
+    
     where python
+    
     which python
+    
     python -m pip install numpy
+    
 
 environment:
   OML_ROOT: c:\oss\OpenMatrix
