@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B2FC74D-A24F-37AB-A7F2-C34CF08666E5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFLibMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDF5Macros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConfigureChecks.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\ConfigureChecks.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.9\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckVariableExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFortranFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\TestBigEndian.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cxx;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cxx.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_CHAR.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SHORT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UNSIGNED.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF___INT64.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_FLOAT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SSIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF64_T.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_BOOL.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\SIZEOF___FLOAT128.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDFCompilerFlags.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\UserMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeFilters.cmake;C:\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\tmp\ZLIB-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\tmp\SZIP-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\CTest.cmake;C:\CMake\share\cmake-3.9\Modules\CTestUseLaunchers.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\CMake\share\cmake-3.9\Modules\CTestTargets.cmake;C:\CMake\share\cmake-3.9\Modules\DartConfiguration.tcl.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\CTestCustom.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\H5pubconf.h.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeInstallation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.9\Modules\WriteBasicConfigVersionFile.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config-version.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\libhdf5.settings.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\README.txt.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\COPYING;C:\CMake\share\cmake-3.9\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.9\Modules\CPack.cmake;C:\CMake\share\cmake-3.9\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFLibMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDF5Macros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConfigureChecks.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\ConfigureChecks.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.9\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckVariableExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFortranFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\TestBigEndian.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cxx;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cxx.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_CHAR.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SHORT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UNSIGNED.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF___INT64.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_FLOAT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SSIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF64_T.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_BOOL.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\SIZEOF___FLOAT128.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDFCompilerFlags.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\UserMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeFilters.cmake;C:\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\tmp\ZLIB-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\tmp\SZIP-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\CTest.cmake;C:\CMake\share\cmake-3.9\Modules\CTestUseLaunchers.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\CMake\share\cmake-3.9\Modules\CTestTargets.cmake;C:\CMake\share\cmake-3.9\Modules\DartConfiguration.tcl.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\CTestCustom.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\H5pubconf.h.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeInstallation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.9\Modules\WriteBasicConfigVersionFile.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config-version.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\libhdf5.settings.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\README.txt.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\COPYING;C:\CMake\share\cmake-3.9\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.9\Modules\CPack.cmake;C:\CMake\share\cmake-3.9\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFLibMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDF5Macros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConfigureChecks.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\ConfigureChecks.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.9\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckVariableExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFortranFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\TestBigEndian.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cxx;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cxx.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_CHAR.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SHORT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UNSIGNED.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF___INT64.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_FLOAT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SSIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF64_T.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_BOOL.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\SIZEOF___FLOAT128.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDFCompilerFlags.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\UserMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeFilters.cmake;C:\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\tmp\ZLIB-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\tmp\SZIP-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\CTest.cmake;C:\CMake\share\cmake-3.9\Modules\CTestUseLaunchers.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\CMake\share\cmake-3.9\Modules\CTestTargets.cmake;C:\CMake\share\cmake-3.9\Modules\DartConfiguration.tcl.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\CTestCustom.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\H5pubconf.h.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeInstallation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.9\Modules\WriteBasicConfigVersionFile.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config-version.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\libhdf5.settings.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\README.txt.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\COPYING;C:\CMake\share\cmake-3.9\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.9\Modules\CPack.cmake;C:\CMake\share\cmake-3.9\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\feature_tests.cxx;C:\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFLibMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDF5Macros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConfigureChecks.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\ConfigureChecks.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.9\Modules\CheckLibraryExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.9\Modules\CheckVariableExists.cmake;C:\CMake\share\cmake-3.9\Modules\CheckFortranFunctionExists.cmake;C:\CMake\share\cmake-3.9\Modules\TestBigEndian.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cmake;C:\CMake\share\cmake-3.9\Modules\TestForSTDNamespace.cxx;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.cxx.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckIncludeFile.c.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_CHAR.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SHORT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UNSIGNED.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_LONG.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF___INT64.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_FLOAT.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_LONG_DOUBLE.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST8_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST16_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST32_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_LEAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_INT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_UINT_FAST64_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_SSIZE_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF_T.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_OFF64_T.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\H5_SIZEOF_BOOL.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CMakeConfigurableFile.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFCXXTests.cpp;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake_ext_mod\HDFTests.c;C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c;C:\CMake\share\cmake-3.9\Modules\CheckTypeSize.c.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\CheckTypeSize\SIZEOF___FLOAT128.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\ConversionTests.c;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\HDFCompilerFlags.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\UserMacros.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeFilters.cmake;C:\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\tmp\ZLIB-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\CMake\share\cmake-3.9\Modules\ExternalProject-verify.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\tmp\SZIP-cfgcmd.txt.in;C:\CMake\share\cmake-3.9\Modules\CTest.cmake;C:\CMake\share\cmake-3.9\Modules\CTestUseLaunchers.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\CMake\share\cmake-3.9\Modules\CTestTargets.cmake;C:\CMake\share\cmake-3.9\Modules\DartConfiguration.tcl.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CTestConfig.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\CTestCustom.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\H5pubconf.h.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeInstallation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.9\Modules\WriteBasicConfigVersionFile.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\hdf5-config-version.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\libhdf5.settings.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\config\cmake\README.txt.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\COPYING;C:\CMake\share\cmake-3.9\Modules\InstallRequiredSystemLibraries.cmake;C:\CMake\share\cmake-3.9\Modules\CPack.cmake;C:\CMake\share\cmake-3.9\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\CMake\share\cmake-3.9\Templates\CPackConfig.cmake.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZERO_CHECK.vcxproj">
+      <Project>{936DD9ED-CB83-3045-8A8A-8E52B12995AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\src\H5detect.vcxproj">
+      <Project>{36832884-8443-3CC0-AEB4-604ABAB1DD98}</Project>
+      <Name>H5detect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\src\H5make_libsettings.vcxproj">
+      <Project>{59E86796-7ED8-3979-96D1-A7AB378CE803}</Project>
+      <Name>H5make_libsettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\HDF5_TEST_LIB_files.vcxproj">
+      <Project>{D3D02057-6C08-377B-B89D-96115066EDD3}</Project>
+      <Name>HDF5_TEST_LIB_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP.vcxproj">
+      <Project>{42275B62-F97E-3B73-BDE7-22613DC20578}</Project>
+      <Name>SZIP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-GenHeader-Copy.vcxproj">
+      <Project>{AD563944-DB08-377D-9BC7-C01B8049436B}</Project>
+      <Name>SZIP-GenHeader-Copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB.vcxproj">
+      <Project>{1B836BB4-F778-3483-B7EF-6E0984711317}</Project>
+      <Name>ZLIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-GenHeader-Copy.vcxproj">
+      <Project>{EF81FA06-5FF9-3C02-AD87-9C75C1120C87}</Project>
+      <Name>ZLIB-GenHeader-Copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\accum.vcxproj">
+      <Project>{BA5A2B5E-C2AA-38FC-8A0B-FEF903802D25}</Project>
+      <Name>accum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\accum_swmr_reader.vcxproj">
+      <Project>{9A722E67-6DF6-3E3E-A734-76F4C757BD65}</Project>
+      <Name>accum_swmr_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\app_ref.vcxproj">
+      <Project>{A0182A12-8535-3EC0-9C05-B4CF1344D8E6}</Project>
+      <Name>app_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\atomic_reader.vcxproj">
+      <Project>{9EF69AAD-3993-36A2-B641-FE8D27246AC4}</Project>
+      <Name>atomic_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\atomic_writer.vcxproj">
+      <Project>{42C8306A-8BE8-3FB7-A376-8B6FC0090C9C}</Project>
+      <Name>atomic_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\big.vcxproj">
+      <Project>{EDF947F9-05A0-3FDA-B30F-187D17203B6F}</Project>
+      <Name>big</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\bittests.vcxproj">
+      <Project>{9A09CEAF-557C-3597-9DAC-8F350A75D5D0}</Project>
+      <Name>bittests</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\btree2.vcxproj">
+      <Project>{2DDA4D3C-B305-3478-9787-BEE29415ACCB}</Project>
+      <Name>btree2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cache.vcxproj">
+      <Project>{B08860A9-55F2-3F62-AE4D-C31606B1CF37}</Project>
+      <Name>cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cache_api.vcxproj">
+      <Project>{55862E04-EEBF-3797-82E9-72F03612C003}</Project>
+      <Name>cache_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cache_image.vcxproj">
+      <Project>{9E917B6F-93F6-3FE8-8B2D-CD61114F2920}</Project>
+      <Name>cache_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cache_logging.vcxproj">
+      <Project>{7865E57F-C1FE-363D-A53D-B7FD37E8AFF7}</Project>
+      <Name>cache_logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cache_tagging.vcxproj">
+      <Project>{6CB0DE8C-A5A3-38D4-92F8-2AF3D9B69373}</Project>
+      <Name>cache_tagging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\chunk.vcxproj">
+      <Project>{7E954331-A0B2-3829-909B-19112527FE9A}</Project>
+      <Name>chunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\clear_open_chk.vcxproj">
+      <Project>{2EF24E2D-8FE4-3EDF-A5B7-5E9BC235371D}</Project>
+      <Name>clear_open_chk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cmpd_dset.vcxproj">
+      <Project>{01C711BB-A3A3-36B7-9065-0ADDE0A011B6}</Project>
+      <Name>cmpd_dset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cork.vcxproj">
+      <Project>{60312AE4-8B5A-3999-A3A4-1FF9522441B7}</Project>
+      <Name>cork</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_chunks.vcxproj">
+      <Project>{10EC0787-0FFB-30D0-A190-ECCA5F50ED40}</Project>
+      <Name>cpp_ex_chunks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_compound.vcxproj">
+      <Project>{C6AFA530-D9C5-34E6-8794-8C50B7B15376}</Project>
+      <Name>cpp_ex_compound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_create.vcxproj">
+      <Project>{87F9C17D-015A-33A4-95BF-B732FB83EFA0}</Project>
+      <Name>cpp_ex_create</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_extend_ds.vcxproj">
+      <Project>{95161E1A-5C30-373B-A68F-E53A44A40596}</Project>
+      <Name>cpp_ex_extend_ds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5group.vcxproj">
+      <Project>{D705A234-0440-3F82-B93E-A59DD8D4447D}</Project>
+      <Name>cpp_ex_h5group</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_cmprss.vcxproj">
+      <Project>{66FE4F7E-13C7-35AB-ACBA-3ECEE283135B}</Project>
+      <Name>cpp_ex_h5tutr_cmprss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_crtatt.vcxproj">
+      <Project>{0C41AB97-5B5C-3348-A064-C7ECB3B3412E}</Project>
+      <Name>cpp_ex_h5tutr_crtatt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_crtdat.vcxproj">
+      <Project>{B40CA488-DE1D-3ABF-AF1F-92D17800D939}</Project>
+      <Name>cpp_ex_h5tutr_crtdat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_crtgrp.vcxproj">
+      <Project>{09494B1D-191A-3954-9E13-C113F274B4FC}</Project>
+      <Name>cpp_ex_h5tutr_crtgrp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_crtgrpar.vcxproj">
+      <Project>{CA738E32-206D-3384-812F-7040DF557058}</Project>
+      <Name>cpp_ex_h5tutr_crtgrpar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_crtgrpd.vcxproj">
+      <Project>{A67AA7A1-7C9E-3379-8F46-C8DD194CBD7C}</Project>
+      <Name>cpp_ex_h5tutr_crtgrpd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_extend.vcxproj">
+      <Project>{0EAE1A9C-F9AD-3167-8C2B-E855CDEB58B1}</Project>
+      <Name>cpp_ex_h5tutr_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_rdwt.vcxproj">
+      <Project>{22B1DF1B-761D-38C8-9CB8-CC52A1BA21DE}</Project>
+      <Name>cpp_ex_h5tutr_rdwt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_h5tutr_subset.vcxproj">
+      <Project>{B9E0CF5A-A390-3552-BDDE-B8DEC7A9AB63}</Project>
+      <Name>cpp_ex_h5tutr_subset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_readdata.vcxproj">
+      <Project>{4EFC7B14-83BC-3719-82DE-5436B282A3B2}</Project>
+      <Name>cpp_ex_readdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\examples\cpp_ex_writedata.vcxproj">
+      <Project>{394ACEAF-E721-343E-A4FF-3FABB92769BE}</Project>
+      <Name>cpp_ex_writedata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\test\cpp_testhdf5.vcxproj">
+      <Project>{DCE49AF7-B992-3FC9-9385-678AF241FD63}</Project>
+      <Name>cpp_testhdf5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\test\cpp_testhdf5_files.vcxproj">
+      <Project>{3A1DBC26-24E6-3BCF-BB10-D6CBE81412FC}</Project>
+      <Name>cpp_testhdf5_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\cross_read.vcxproj">
+      <Project>{41ECFB70-88A9-3093-BC26-0DDE7C8CE8C0}</Project>
+      <Name>cross_read</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dangle.vcxproj">
+      <Project>{A0C088E3-E47D-36D8-AC65-AEC31E75DD19}</Project>
+      <Name>dangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dsets.vcxproj">
+      <Project>{964896BF-6C71-352D-AF33-1C2AD23F6336}</Project>
+      <Name>dsets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dt_arith.vcxproj">
+      <Project>{D8BA1C33-E355-3C4D-A86E-594415E0B016}</Project>
+      <Name>dt_arith</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dtransform.vcxproj">
+      <Project>{71A4ECE9-31DC-37A4-B0B4-0DFDFA1220A4}</Project>
+      <Name>dtransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dtypes.vcxproj">
+      <Project>{AF92EDFF-423F-32EA-A30D-9B282B41ABB2}</Project>
+      <Name>dtypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dynlib1.vcxproj">
+      <Project>{E28E3916-B089-38C8-B6DF-4488B3918E7F}</Project>
+      <Name>dynlib1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dynlib2.vcxproj">
+      <Project>{4A79EBAA-96A2-32F3-A8A2-5EEE0CE15174}</Project>
+      <Name>dynlib2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dynlib3.vcxproj">
+      <Project>{2D120747-B46E-3F7C-A431-BB76CE2F6B2D}</Project>
+      <Name>dynlib3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\dynlib4.vcxproj">
+      <Project>{8FD7B6DD-34E0-3EF8-A5B7-A551ED02EE26}</Project>
+      <Name>dynlib4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5repack\dynlibadd.vcxproj">
+      <Project>{8042F16C-20DA-3BDE-9970-A4D3C9E0FF1E}</Project>
+      <Name>dynlibadd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5diff\dynlibdiff.vcxproj">
+      <Project>{579AF227-E1D4-3983-9EB8-897369845D94}</Project>
+      <Name>dynlibdiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5dump\dynlibdump.vcxproj">
+      <Project>{6978AA66-F798-3A0C-A561-DE2B91B5F468}</Project>
+      <Name>dynlibdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5ls\dynlibls.vcxproj">
+      <Project>{25BBE4A2-D20D-3919-8704-4A9BE15DD698}</Project>
+      <Name>dynlibls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5repack\dynlibvers.vcxproj">
+      <Project>{58FB004B-EC95-3B25-97CE-6F19CB270851}</Project>
+      <Name>dynlibvers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\earray.vcxproj">
+      <Project>{32487399-9EBD-312D-A586-511A1F15F131}</Project>
+      <Name>earray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\efc.vcxproj">
+      <Project>{0BD79A45-B7B7-399E-8866-86D0E75CD537}</Project>
+      <Name>efc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\enc_dec_plist.vcxproj">
+      <Project>{CCC70298-0B01-3E00-93AC-940BCFB2F2A9}</Project>
+      <Name>enc_dec_plist</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\enc_dec_plist_cross_platform.vcxproj">
+      <Project>{C47E3EF1-5B63-3DB2-B4DF-AA37A57EC70F}</Project>
+      <Name>enc_dec_plist_cross_platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\enum.vcxproj">
+      <Project>{57487AD5-AC2A-3E17-A23F-0C210723EDE5}</Project>
+      <Name>enum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\err_compat.vcxproj">
+      <Project>{8746B2B5-59D5-3FBE-BAE4-3D6BCB31ACE0}</Project>
+      <Name>err_compat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\error_test.vcxproj">
+      <Project>{00E45993-C3C4-3C3A-818B-4A8A0AD2DB2D}</Project>
+      <Name>error_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\evict_on_close.vcxproj">
+      <Project>{718184F1-62C7-341A-AAE9-B392611A1F28}</Project>
+      <Name>evict_on_close</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\extend.vcxproj">
+      <Project>{F91328F1-05C3-3E4D-AD9B-5061E56475FF}</Project>
+      <Name>extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\extend_dset.vcxproj">
+      <Project>{EA87BD23-CCB5-3ADF-A1D8-F73255D1C0D2}</Project>
+      <Name>extend_dset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\external.vcxproj">
+      <Project>{6C5FFD7E-8CAD-305D-9E2B-AC9729594C24}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\farray.vcxproj">
+      <Project>{E951B708-E112-3C4C-9C9B-901BA29224CD}</Project>
+      <Name>farray</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\fheap.vcxproj">
+      <Project>{E4A26B0B-1B58-366E-90C9-05759830DDC1}</Project>
+      <Name>fheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\file_image.vcxproj">
+      <Project>{DA449BA8-3896-365C-9957-0B395167B67C}</Project>
+      <Name>file_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\fillval.vcxproj">
+      <Project>{2C738685-9045-31DA-8498-3AC032B812F2}</Project>
+      <Name>fillval</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\filter_fail.vcxproj">
+      <Project>{039C730B-CFC0-3E05-98ED-09D8BD60B49D}</Project>
+      <Name>filter_fail</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\flush1.vcxproj">
+      <Project>{1CF30F62-7956-3B53-ACDA-B92C7DEE6069}</Project>
+      <Name>flush1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\flush2.vcxproj">
+      <Project>{BA756C21-53AF-3060-B7E8-828F3D42DFE5}</Project>
+      <Name>flush2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\flushrefresh.vcxproj">
+      <Project>{5B1436F1-C2FC-33A3-80C7-D1D706115D66}</Project>
+      <Name>flushrefresh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\freespace.vcxproj">
+      <Project>{9D6EB24E-8500-32DC-A464-ED81B628A0A0}</Project>
+      <Name>freespace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\getname.vcxproj">
+      <Project>{8F5ED032-EC60-392F-B48C-35A4A515FF60}</Project>
+      <Name>getname</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\getub.vcxproj">
+      <Project>{74860108-0138-3CEF-8B00-1B4E64164898}</Project>
+      <Name>getub</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\gheap.vcxproj">
+      <Project>{9E9A4FBD-334F-3571-8142-43D19E56A86A}</Project>
+      <Name>gheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\gif2h5.vcxproj">
+      <Project>{7F1B1707-BF69-3251-B447-90D7FD7FC1FC}</Project>
+      <Name>gif2h5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\gif2h5_files.vcxproj">
+      <Project>{F2EE83D0-1AE2-3AAE-A52D-D00A959F3167}</Project>
+      <Name>gif2h5_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\h52gif.vcxproj">
+      <Project>{9462BEDA-6AA0-3B0D-AB4A-2A9CA1D0490B}</Project>
+      <Name>h52gif</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_attribute.vcxproj">
+      <Project>{DD0B6D06-58B0-3EC2-A068-C165D4B99610}</Project>
+      <Name>h5_attribute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_chunk_read.vcxproj">
+      <Project>{7479F740-D0CC-3CF3-829D-DE1F6B4F2E6E}</Project>
+      <Name>h5_chunk_read</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_cmprss.vcxproj">
+      <Project>{25CE534A-9AF2-3B23-8E6D-BECD6E4F7A17}</Project>
+      <Name>h5_cmprss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_compound.vcxproj">
+      <Project>{E9F608FB-20CA-33DA-8387-385C97C2F93B}</Project>
+      <Name>h5_compound</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_crtatt.vcxproj">
+      <Project>{9ACC98D9-D3F4-3F21-9FB4-49D11835EA0D}</Project>
+      <Name>h5_crtatt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_crtdat.vcxproj">
+      <Project>{1F73B529-E57D-3019-B260-07EAA8F85549}</Project>
+      <Name>h5_crtdat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_crtgrp.vcxproj">
+      <Project>{8B20933C-C3EA-35D2-95D4-12E4D4F57F49}</Project>
+      <Name>h5_crtgrp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_crtgrpar.vcxproj">
+      <Project>{5A21D6F5-B04C-31E8-A879-35497501994E}</Project>
+      <Name>h5_crtgrpar</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_crtgrpd.vcxproj">
+      <Project>{2A2CE9B4-8777-3DA8-B6DF-19F9E6A6653A}</Project>
+      <Name>h5_crtgrpd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_drivers.vcxproj">
+      <Project>{57E0ADC4-D766-3944-AC42-246094E6F808}</Project>
+      <Name>h5_drivers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_elink_unix2win.vcxproj">
+      <Project>{6F885A51-9181-37E8-A63D-AE153CF924EE}</Project>
+      <Name>h5_elink_unix2win</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_extend.vcxproj">
+      <Project>{7C0D53C5-18C0-3BC5-B08A-C628BE9EF18C}</Project>
+      <Name>h5_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_extend_write.vcxproj">
+      <Project>{E6FCBB54-E7D8-348F-AC1F-1A97E09D8B33}</Project>
+      <Name>h5_extend_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_extlink.vcxproj">
+      <Project>{DBE43E59-559E-32F5-B511-600CAE185647}</Project>
+      <Name>h5_extlink</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_group.vcxproj">
+      <Project>{EAB2F74D-2F38-36DD-976C-11B15E1634F4}</Project>
+      <Name>h5_group</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_mount.vcxproj">
+      <Project>{8FE7BF60-130C-3E9B-83DE-B0CB84D3D5F1}</Project>
+      <Name>h5_mount</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_rdwt.vcxproj">
+      <Project>{2947E6AA-9314-3780-A11B-69B245D1857B}</Project>
+      <Name>h5_rdwt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_read.vcxproj">
+      <Project>{661AB7B7-37E5-3391-B50B-3F1184E0624E}</Project>
+      <Name>h5_read</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_ref2reg.vcxproj">
+      <Project>{589DDB91-B4E4-33E2-B7E5-5436952AFEBB}</Project>
+      <Name>h5_ref2reg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_reference.vcxproj">
+      <Project>{B150A06B-0670-3D24-A7DD-D55D33A44DCA}</Project>
+      <Name>h5_reference</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_select.vcxproj">
+      <Project>{7A03B832-9ED0-3F66-838F-465FBCEA1414}</Project>
+      <Name>h5_select</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_shared_mesg.vcxproj">
+      <Project>{970DE77F-B441-3DE7-BE75-1EB9C780A425}</Project>
+      <Name>h5_shared_mesg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_subset.vcxproj">
+      <Project>{8D0F6B75-485B-310C-AEFC-64FD86784F9B}</Project>
+      <Name>h5_subset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds.vcxproj">
+      <Project>{ED3F5F97-C767-3185-8202-42B7F7778133}</Project>
+      <Name>h5_vds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-eiger.vcxproj">
+      <Project>{20DC4E9E-22C1-34C3-8545-0B5781FFAA1A}</Project>
+      <Name>h5_vds-eiger</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-exc.vcxproj">
+      <Project>{4DDD0151-F375-358D-82E4-01C0CE11CCD6}</Project>
+      <Name>h5_vds-exc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-exclim.vcxproj">
+      <Project>{CA23CA81-8A3F-3231-B17F-2AD400458091}</Project>
+      <Name>h5_vds-exclim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-percival.vcxproj">
+      <Project>{7D252BEA-1EBB-3BF1-9163-2FCA67CBF731}</Project>
+      <Name>h5_vds-percival</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-percival-unlim.vcxproj">
+      <Project>{6F0DCAF8-2672-3234-AB9F-B1F9D44F7255}</Project>
+      <Name>h5_vds-percival-unlim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-percival-unlim-maxmin.vcxproj">
+      <Project>{D9EA4E9A-2C74-3726-A73A-0BD99C6DE78A}</Project>
+      <Name>h5_vds-percival-unlim-maxmin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_vds-simpleIO.vcxproj">
+      <Project>{DB99E29D-08FE-3321-B4D5-D461FABC354E}</Project>
+      <Name>h5_vds-simpleIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\examples\h5_write.vcxproj">
+      <Project>{6DD91479-3B56-3644-9309-56458951F328}</Project>
+      <Name>h5_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\misc\h5clear.vcxproj">
+      <Project>{BFF1D34A-5D7E-3CCC-B3AF-50EF5B1922F9}</Project>
+      <Name>h5clear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\h5clear_files.vcxproj">
+      <Project>{EE5B5426-43F8-3F62-9A3B-F728664C46B0}</Project>
+      <Name>h5clear_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5copy\h5copy.vcxproj">
+      <Project>{968E7799-52E1-3D0D-BD9A-4B5CD570D32C}</Project>
+      <Name>h5copy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5copy\h5copy_files.vcxproj">
+      <Project>{AAE98EF6-0BD5-396A-BAF6-C27332D26EEF}</Project>
+      <Name>h5copy_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\misc\h5debug.vcxproj">
+      <Project>{C9C4D0A5-222D-38DE-B442-228CFEA6F140}</Project>
+      <Name>h5debug</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5diff\h5diff.vcxproj">
+      <Project>{155DD24B-B4E8-36A6-92B6-A138AEDBF346}</Project>
+      <Name>h5diff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5diff\h5diff_files.vcxproj">
+      <Project>{160171DE-D304-3811-BE18-7C9C4431AA9B}</Project>
+      <Name>h5diff_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5dump\h5dump.vcxproj">
+      <Project>{CB8EC7C3-9E59-3979-9922-39A5B676B14E}</Project>
+      <Name>h5dump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5dump\h5dump_pbits_files.vcxproj">
+      <Project>{FBA64309-3321-38C6-8E80-7D3A9D9D5FDF}</Project>
+      <Name>h5dump_pbits_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5dump\h5dump_std_files.vcxproj">
+      <Project>{9E5BDF13-84F9-33F9-A62C-E1840970047A}</Project>
+      <Name>h5dump_std_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5dump\h5dump_vds_files.vcxproj">
+      <Project>{52785AC0-862A-33D8-8794-AD8FC18C28ED}</Project>
+      <Name>h5dump_vds_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5dump\h5dump_xml_files.vcxproj">
+      <Project>{F1A6D5AD-A773-3979-8036-18BF349780FD}</Project>
+      <Name>h5dump_xml_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5format_convert\h5fc-files.vcxproj">
+      <Project>{891587F0-355E-3AF2-B0EE-F191E68B1ADA}</Project>
+      <Name>h5fc-files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5format_convert\h5fc_chk_idx.vcxproj">
+      <Project>{008111D8-9A3C-3BAC-B2B7-A4535A6E281E}</Project>
+      <Name>h5fc_chk_idx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5format_convert\h5fc_files.vcxproj">
+      <Project>{79A37AD9-C3CE-3C67-87B5-2A8D22F12DE9}</Project>
+      <Name>h5fc_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5format_convert\h5format_convert.vcxproj">
+      <Project>{C21995A1-CB6F-3A4B-BAF0-39C24976AB50}</Project>
+      <Name>h5format_convert</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5import\h5import.vcxproj">
+      <Project>{4761FED2-C054-3D0D-AD3A-A4F04B91FB76}</Project>
+      <Name>h5import</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5import\h5import_files.vcxproj">
+      <Project>{F650D448-7C80-30BF-A0E5-B6FAF1515A02}</Project>
+      <Name>h5import_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5import\h5importtest.vcxproj">
+      <Project>{3C548C0B-A12B-366F-BB19-A7238C93829E}</Project>
+      <Name>h5importtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5jam\h5jam.vcxproj">
+      <Project>{374A5FBE-344E-3766-9436-375075050AE0}</Project>
+      <Name>h5jam</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\h5jam_files.vcxproj">
+      <Project>{5A2FEA28-32D5-34E1-84A4-5805CE071865}</Project>
+      <Name>h5jam_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5ls\h5ls.vcxproj">
+      <Project>{30DCBCC4-34F2-3DD9-B422-FC63C2C550B4}</Project>
+      <Name>h5ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5ls\h5ls_files.vcxproj">
+      <Project>{6CF74F1D-470E-369A-B6BB-44D4D38DD6CA}</Project>
+      <Name>h5ls_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5ls\h5ls_vds_files.vcxproj">
+      <Project>{3F9DEEC5-CFE4-332F-BDF5-8D33C572CB9D}</Project>
+      <Name>h5ls_vds_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\misc\h5mkgrp.vcxproj">
+      <Project>{450E4E82-F48E-3EAC-8049-58AF05BD0CF4}</Project>
+      <Name>h5mkgrp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\h5mkgrp_files.vcxproj">
+      <Project>{9185AB0C-C22E-3189-B1DB-72C5E2E27E30}</Project>
+      <Name>h5mkgrp_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\h5perf_serial.vcxproj">
+      <Project>{A5BD0C93-FDCB-38BE-B1A4-19F376F06AFF}</Project>
+      <Name>h5perf_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5repack\h5repack.vcxproj">
+      <Project>{A536479F-C8EA-35F4-AF76-E3F9DACBF771}</Project>
+      <Name>h5repack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5repack\h5repack_files.vcxproj">
+      <Project>{6543721C-7577-3F18-82C1-C73B10D04E8F}</Project>
+      <Name>h5repack_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5repack\h5repacktest.vcxproj">
+      <Project>{B9D65B0A-450F-36A2-98E1-0438ABD6DD55}</Project>
+      <Name>h5repacktest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\misc\h5repart.vcxproj">
+      <Project>{6E8D6415-B981-3B03-8C74-EAD4C9DD6B87}</Project>
+      <Name>h5repart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\h5repart_files.vcxproj">
+      <Project>{21DAF638-581F-305A-B30B-7C746BA8FBC9}</Project>
+      <Name>h5repart_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\h5repart_test.vcxproj">
+      <Project>{DAB4B270-B85F-33B4-96D0-1275D8DAB48A}</Project>
+      <Name>h5repart_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5stat\h5stat.vcxproj">
+      <Project>{0C5FB6DE-C838-3323-AAF5-95FEDCD66873}</Project>
+      <Name>h5stat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5stat\h5stat_files.vcxproj">
+      <Project>{A57E8BE4-335C-32F4-8F45-0FAB45DECE1F}</Project>
+      <Name>h5stat_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\src\h5jam\h5unjam.vcxproj">
+      <Project>{507127D8-55AE-3593-93D8-CA24FD4AB9FF}</Project>
+      <Name>h5unjam</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watch.vcxproj">
+      <Project>{9555B5D8-341E-37E8-9FF8-4706CD10BDA4}</Project>
+      <Name>h5watch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watch-files.vcxproj">
+      <Project>{51EE73DA-2EF7-3F1D-9FFA-C5BCB44FA079}</Project>
+      <Name>h5watch-files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watchgentest.vcxproj">
+      <Project>{A81C828B-A9A0-3529-962A-D8E7AE636DDA}</Project>
+      <Name>h5watchgentest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\src\hdf5-static.vcxproj">
+      <Project>{22A672BB-638C-3630-84A0-7430D9FF90FB}</Project>
+      <Name>hdf5-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\c++\src\hdf5_cpp-static.vcxproj">
+      <Project>{11D8E315-5DF8-3D1F-B965-9900D15AE5DB}</Project>
+      <Name>hdf5_cpp-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\src\hdf5_hl-static.vcxproj">
+      <Project>{1AF1B8E7-04B1-3BF1-B709-8E86AD2A0EE9}</Project>
+      <Name>hdf5_hl-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\c++\src\hdf5_hl_cpp-static.vcxproj">
+      <Project>{4B54D135-B033-3D4D-AA33-2C4E0C39A985}</Project>
+      <Name>hdf5_hl_cpp-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\hdf5_test-static.vcxproj">
+      <Project>{B3A6D6FC-14B9-3CD4-A573-094C757AF7DF}</Project>
+      <Name>hdf5_test-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\lib\hdf5_tools-static.vcxproj">
+      <Project>{F9D7F6B9-F683-3F4E-AE8E-A2D66A6CE3B1}</Project>
+      <Name>hdf5_tools-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_ds1.vcxproj">
+      <Project>{8823F066-14BF-3EC5-A887-DE32A22CB1E1}</Project>
+      <Name>hl_ex_ex_ds1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_ds1_files.vcxproj">
+      <Project>{C35C233E-C618-3A53-A6CA-477D64A30C6F}</Project>
+      <Name>hl_ex_ex_ds1_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_image1.vcxproj">
+      <Project>{8B4AD04E-9D54-332D-A375-6F1845A2D04B}</Project>
+      <Name>hl_ex_ex_image1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_image2.vcxproj">
+      <Project>{440C6F75-4AF8-3F90-9211-0AE37A9378FB}</Project>
+      <Name>hl_ex_ex_image2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite1.vcxproj">
+      <Project>{8996B365-A696-301B-B77A-BBDB1D2FEDDD}</Project>
+      <Name>hl_ex_ex_lite1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite2.vcxproj">
+      <Project>{C688FFDA-7C2D-3001-9E79-BED64B651911}</Project>
+      <Name>hl_ex_ex_lite2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite3.vcxproj">
+      <Project>{27A22552-1FCD-3895-B4E4-64F995D10D4C}</Project>
+      <Name>hl_ex_ex_lite3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_01.vcxproj">
+      <Project>{F08FCDB3-AD69-3E9B-A979-EDC673A8F500}</Project>
+      <Name>hl_ex_ex_table_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_02.vcxproj">
+      <Project>{488A18C9-5C79-3564-B941-BF95D2969936}</Project>
+      <Name>hl_ex_ex_table_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_03.vcxproj">
+      <Project>{72228A75-B557-3F2F-B95C-CE92EA8A7326}</Project>
+      <Name>hl_ex_ex_table_03</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_04.vcxproj">
+      <Project>{41AC8FBB-BA78-3DAE-9362-3090B10A3AE8}</Project>
+      <Name>hl_ex_ex_table_04</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_05.vcxproj">
+      <Project>{17451411-3B34-34DF-8C7E-451ED5A83089}</Project>
+      <Name>hl_ex_ex_table_05</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_06.vcxproj">
+      <Project>{D1EEC632-451E-368C-A76E-9E8F1A1B92CC}</Project>
+      <Name>hl_ex_ex_table_06</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_07.vcxproj">
+      <Project>{5917F673-FA51-3705-9667-2C8A4BBC8F16}</Project>
+      <Name>hl_ex_ex_table_07</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_08.vcxproj">
+      <Project>{1D10BF06-2ECB-37AF-9FA0-DAEF3645C76B}</Project>
+      <Name>hl_ex_ex_table_08</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_09.vcxproj">
+      <Project>{AFCB6767-9987-3BC9-ABDD-EBAED1EAB26A}</Project>
+      <Name>hl_ex_ex_table_09</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_10.vcxproj">
+      <Project>{6F76BC0F-01D9-30C9-82EC-A402E8587612}</Project>
+      <Name>hl_ex_ex_table_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_11.vcxproj">
+      <Project>{74074E0C-F480-3244-811D-71C63DEF2EBF}</Project>
+      <Name>hl_ex_ex_table_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_12.vcxproj">
+      <Project>{8118FF36-7122-3984-A398-591EE59B5E79}</Project>
+      <Name>hl_ex_ex_table_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ptExampleFL.vcxproj">
+      <Project>{850406B1-9741-3AB3-AB60-B63D3B06551B}</Project>
+      <Name>hl_ex_ptExampleFL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\c++\test\hl_ptableTest.vcxproj">
+      <Project>{55A67EAC-DD42-3A40-BFF7-4E21F8278F6F}</Project>
+      <Name>hl_ptableTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\hl_swmr_check_compat_vfd.vcxproj">
+      <Project>{1866A662-A7DE-31D6-8E91-7A0DDBCDDE3F}</Project>
+      <Name>hl_swmr_check_compat_vfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_ds.vcxproj">
+      <Project>{A3A6FCC1-3F40-3FE5-B063-D838FB5F5487}</Project>
+      <Name>hl_test_ds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_dset_append.vcxproj">
+      <Project>{39093624-3C31-38FF-AF68-F8D78CCD7C68}</Project>
+      <Name>hl_test_dset_append</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_dset_opt.vcxproj">
+      <Project>{FD73C529-01AF-37DA-B2E6-A70659BBA2F9}</Project>
+      <Name>hl_test_dset_opt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_file_image.vcxproj">
+      <Project>{9AB600F8-2C1D-385D-92F9-10E661D74A01}</Project>
+      <Name>hl_test_file_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_files.vcxproj">
+      <Project>{D019EB94-D2DE-3980-BB5E-D507F95F670D}</Project>
+      <Name>hl_test_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_image.vcxproj">
+      <Project>{73DDA3B0-0A53-3961-8DBA-D8A023191F6C}</Project>
+      <Name>hl_test_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_ld.vcxproj">
+      <Project>{B8A005D0-43BE-3DDE-AA84-EBC51234D8A9}</Project>
+      <Name>hl_test_ld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_lite.vcxproj">
+      <Project>{4E09B873-4019-3342-8DC0-E4852D69FA28}</Project>
+      <Name>hl_test_lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_packet.vcxproj">
+      <Project>{416593EC-C20A-3346-AA16-CD28651A18E1}</Project>
+      <Name>hl_test_packet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_table.vcxproj">
+      <Project>{899B4406-12A6-3C07-B28C-7690BEBE48DD}</Project>
+      <Name>hl_test_table</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\hyperslab.vcxproj">
+      <Project>{77A95301-4734-3196-8A88-CCC20989196A}</Project>
+      <Name>hyperslab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\iopipe.vcxproj">
+      <Project>{4DDB1BD7-F3FB-3FB7-9094-393F9D2433C5}</Project>
+      <Name>iopipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\istore.vcxproj">
+      <Project>{A07DFBE0-8F19-3331-8769-FACA677C1E30}</Project>
+      <Name>istore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\lheap.vcxproj">
+      <Project>{D082E8D0-9102-3F04-92C4-32A1BDCF9F97}</Project>
+      <Name>lheap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\links.vcxproj">
+      <Project>{EE441CBF-C7CA-3710-80D0-9843AFEA38A3}</Project>
+      <Name>links</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\links_env.vcxproj">
+      <Project>{F2F34EE8-86A6-3014-AEB6-5493A08D37AE}</Project>
+      <Name>links_env</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\mf.vcxproj">
+      <Project>{E4DA23BD-1216-31B5-AD93-B971B7E2EBA9}</Project>
+      <Name>mf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\mount.vcxproj">
+      <Project>{DE973E34-C922-35B4-81ED-7F814766CD7E}</Project>
+      <Name>mount</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\mtime.vcxproj">
+      <Project>{B6EC1138-17D6-30EA-92EC-D1E0686B1CBE}</Project>
+      <Name>mtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\ntypes.vcxproj">
+      <Project>{7FAB23D7-5863-3DC2-87F3-D87A5D808C2E}</Project>
+      <Name>ntypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\objcopy.vcxproj">
+      <Project>{70717AAA-9C2B-3DCA-B1B4-064990173854}</Project>
+      <Name>objcopy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\ohdr.vcxproj">
+      <Project>{3E2D7B9D-93C4-3522-9937-1A0A54E6CD75}</Project>
+      <Name>ohdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\overhead.vcxproj">
+      <Project>{F2857B81-20E1-3BBF-825F-870EA4EE555B}</Project>
+      <Name>overhead</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\page_buffer.vcxproj">
+      <Project>{8A0B90F2-6E2F-383E-997F-5A30687D5344}</Project>
+      <Name>page_buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\perf_meta.vcxproj">
+      <Project>{25F419D2-F9A6-3331-86C8-F37ABA591488}</Project>
+      <Name>perf_meta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\plugin.vcxproj">
+      <Project>{BDA75461-EF82-32D4-8E86-ACAE19808BAA}</Project>
+      <Name>plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\pool.vcxproj">
+      <Project>{1AC2E9D6-0C54-358A-8782-2826E1F304CA}</Project>
+      <Name>pool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\c++\examples\ptExampleFL.vcxproj">
+      <Project>{C6A11E04-968D-3460-A4D9-100F22562945}</Project>
+      <Name>ptExampleFL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\reserved.vcxproj">
+      <Project>{FBC34B40-A964-30B6-BC61-E5DE36A62C20}</Project>
+      <Name>reserved</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\set_extent.vcxproj">
+      <Project>{D9A17E94-0786-3758-A153-418C0BF9E36F}</Project>
+      <Name>set_extent</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\stab.vcxproj">
+      <Project>{87845AB4-EC54-317F-BB0B-4A046E3AA622}</Project>
+      <Name>stab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr.vcxproj">
+      <Project>{B1EC591B-3929-3E1E-AFC7-5F68F8D8432E}</Project>
+      <Name>swmr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_addrem_writer.vcxproj">
+      <Project>{9C3E28A6-EAB1-3AE4-8278-ED6C961B15F1}</Project>
+      <Name>swmr_addrem_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_check_compat_vfd.vcxproj">
+      <Project>{165101D2-5A76-3C5C-8A7B-725FFE67B80E}</Project>
+      <Name>swmr_check_compat_vfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_generator.vcxproj">
+      <Project>{D118810F-7D8E-3C4B-B438-77532FDBDA48}</Project>
+      <Name>swmr_generator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_reader.vcxproj">
+      <Project>{87FEF53D-B8D3-36AC-93CA-83AE99BC690F}</Project>
+      <Name>swmr_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_remove_reader.vcxproj">
+      <Project>{D2628503-6E4B-3343-A67C-B11EE6B36340}</Project>
+      <Name>swmr_remove_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_remove_writer.vcxproj">
+      <Project>{1C8996EE-48BB-3922-8FAB-1A82C2364942}</Project>
+      <Name>swmr_remove_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_sparse_reader.vcxproj">
+      <Project>{ED2EE9DB-7D82-31CE-B8BC-EF2D4F5F5D2C}</Project>
+      <Name>swmr_sparse_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_sparse_writer.vcxproj">
+      <Project>{609C9801-8117-3539-9960-B637EB8CCE8A}</Project>
+      <Name>swmr_sparse_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_start_write.vcxproj">
+      <Project>{429EF145-51E8-3907-980C-13F99AA36706}</Project>
+      <Name>swmr_start_write</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\swmr_writer.vcxproj">
+      <Project>{C0E72AF5-72D4-3644-BB1B-714047A0BA95}</Project>
+      <Name>swmr_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\tcheck_version.vcxproj">
+      <Project>{ECFB59D9-07C0-35C9-A7CC-988CA4F3C772}</Project>
+      <Name>tcheck_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\tellub.vcxproj">
+      <Project>{7E6EC14D-91DD-30C5-9800-08B2C5EA06E9}</Project>
+      <Name>tellub</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5repack\testh5repack_detect_szip.vcxproj">
+      <Project>{C31FDEDE-56A2-3D7B-BCA9-0D988BFF13E7}</Project>
+      <Name>testh5repack_detect_szip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\testhdf5.vcxproj">
+      <Project>{96F15884-2779-32C9-A3C8-6F86865FB3C1}</Project>
+      <Name>testhdf5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\testmeta.vcxproj">
+      <Project>{669226C8-6CFD-3D0D-B642-6BEE87A4F15D}</Project>
+      <Name>testmeta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\ttsafe.vcxproj">
+      <Project>{77FB65D6-68C2-3099-AB0F-BCB4E742B7F7}</Project>
+      <Name>ttsafe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\twriteorder.vcxproj">
+      <Project>{2F27002A-A0A9-330E-9099-30518C3CF53B}</Project>
+      <Name>twriteorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\unlink.vcxproj">
+      <Project>{13195237-6808-3957-BA2C-1BB646BC962D}</Project>
+      <Name>unlink</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\unregister.vcxproj">
+      <Project>{8B445D50-3EE8-3A9E-856F-CD1C7AF56866}</Project>
+      <Name>unregister</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\use_append_chunk.vcxproj">
+      <Project>{E27E3012-F535-3299-92CF-FED1FC2DC984}</Project>
+      <Name>use_append_chunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\use_append_mchunks.vcxproj">
+      <Project>{EC967CC3-F464-3DD1-971E-616CD59BCACE}</Project>
+      <Name>use_append_mchunks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\use_disable_mdc_flushes.vcxproj">
+      <Project>{6E6505EF-D256-362E-9703-4CF8CE75C85C}</Project>
+      <Name>use_disable_mdc_flushes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\vds.vcxproj">
+      <Project>{B1034389-CADC-379F-A171-78E8935E8381}</Project>
+      <Name>vds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\vds_swmr_gen.vcxproj">
+      <Project>{C9B4E4C8-3E69-3FC4-BF08-0A18D10AE8EC}</Project>
+      <Name>vds_swmr_gen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\vds_swmr_reader.vcxproj">
+      <Project>{B44C083B-FA4A-38B7-9936-FD7F72C3744B}</Project>
+      <Name>vds_swmr_reader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\vds_swmr_writer.vcxproj">
+      <Project>{803284BC-71E9-3B59-BFAB-301EB65B5B44}</Project>
+      <Name>vds_swmr_writer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\vfd.vcxproj">
+      <Project>{2A4364CD-2B15-3FE9-BF53-710D3A16A234}</Project>
+      <Name>vfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\zip_perf.vcxproj">
+      <Project>{908E7A72-86BB-3497-925F-FAE775006081}</Project>
+      <Name>zip_perf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\perform\zip_perf_files.vcxproj">
+      <Project>{52CB75A2-0EDA-3B8A-AAAA-37FD3BD4C735}</Project>
+      <Name>zip_perf_files</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

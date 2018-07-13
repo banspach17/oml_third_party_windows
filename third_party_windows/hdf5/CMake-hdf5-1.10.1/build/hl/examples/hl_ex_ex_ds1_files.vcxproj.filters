@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\examples\CMakeLists.txt" />
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\a65eb5b216fd66ff219d9fa97973c3b6\image24pixel.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\a65eb5b216fd66ff219d9fa97973c3b6\image8.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\c38bb9b7b62b48adac9a9d0c4550a664\hl_ex_ex_ds1_files.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\CMakeFiles\hl_ex_ex_ds1_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4FEAC741-D1A9-3BE2-B887-7D0B865CA293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

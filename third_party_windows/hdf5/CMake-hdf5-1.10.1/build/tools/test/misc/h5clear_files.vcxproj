@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE5B5426-43F8-3F62-9A3B-F728664C46B0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>h5clear_files</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsRepart.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsClear.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsMkgrp.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5mkgrp_version.txt.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsRepart.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsClear.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsMkgrp.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5mkgrp_version.txt.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsRepart.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsClear.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsMkgrp.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5mkgrp_version.txt.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsRepart.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsClear.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeTestsMkgrp.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5mkgrp_version.txt.in;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_log_v3.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_mdc_image.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\mod_h5clear_mdc_image.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/mod_h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/mod_h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/mod_h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/mod_h5clear_mdc_image.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\latest_h5clear_log_v3.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/latest_h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/latest_h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/latest_h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/latest_h5clear_log_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_log_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_log_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_log_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\latest_h5clear_sec2_v3.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/latest_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/latest_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/latest_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/latest_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/latest_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/latest_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_sec2_v0.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_sec2_v2.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_sec2_v3.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_usage.ddl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_usage.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_usage.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_usage.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_usage.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_usage.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_usage.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_usage.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_usage.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_usage.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_usage.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_usage.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_usage.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_usage.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_usage.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_usage.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_usage.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_usage.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_usage.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_usage.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_usage.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_open_fail.ddl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_open_fail.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_open_fail.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_open_fail.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_open_fail.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_open_fail.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_open_fail.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_open_fail.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_open_fail.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_open_fail.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_open_fail.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_open_fail.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_open_fail.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_open_fail.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_open_fail.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_open_fail.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_open_fail.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_open_fail.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_open_fail.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_open_fail.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_open_fail.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_missing_file.ddl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_missing_file.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_missing_file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_missing_file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_missing_file.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_missing_file.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_missing_file.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_missing_file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_missing_file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_missing_file.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_missing_file.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_missing_file.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_missing_file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_missing_file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_missing_file.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_missing_file.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_missing_file.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_missing_file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_missing_file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_missing_file.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_missing_file.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\h5clear_no_mdc_image.ddl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5clear_no_mdc_image.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_no_mdc_image.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5clear_no_mdc_image.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_no_mdc_image.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5clear_no_mdc_image.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_no_mdc_image.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5clear_no_mdc_image.ddl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/h5clear_no_mdc_image.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/h5clear_no_mdc_image.ddl.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\orig_h5clear_sec2_v0.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/orig_h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/orig_h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/orig_h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/orig_h5clear_sec2_v0.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v0.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v0.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v0.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v0.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\orig_h5clear_sec2_v2.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/orig_h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/orig_h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/orig_h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/orig_h5clear_sec2_v2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v2.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\orig_h5clear_sec2_v3.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/orig_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/orig_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/orig_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/orig_h5clear_sec2_v3.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5clear_sec2_v3.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/orig_h5clear_sec2_v3.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/orig_h5clear_sec2_v3.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\h5clear_sec2_v3.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\3b5304986f3a1e15e309891590a10f8d\mod_h5clear_mdc_image2.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/mod_h5clear_mdc_image2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/mod_h5clear_mdc_image2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/mod_h5clear_mdc_image2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/mod_h5clear_mdc_image2.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/mod_h5clear_mdc_image.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/misc/testfiles/mod_h5clear_mdc_image2.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3b5304986f3a1e15e309891590a10f8d/mod_h5clear_mdc_image2.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\c872a9c9c0ec2d287402575de157beda\h5clear_files.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying files needed by h5clear tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/c872a9c9c0ec2d287402575de157beda/h5clear_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\h5clear_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying files needed by h5clear tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/c872a9c9c0ec2d287402575de157beda/h5clear_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\h5clear_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying files needed by h5clear tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/c872a9c9c0ec2d287402575de157beda/h5clear_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\h5clear_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying files needed by h5clear tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/c872a9c9c0ec2d287402575de157beda/h5clear_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_log_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\latest_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_usage.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_open_fail.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_missing_file.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\h5clear_no_mdc_image.ddl;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v0.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v2.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\orig_h5clear_sec2_v3.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\testfiles\mod_h5clear_mdc_image2.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\h5clear_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\misc\CMakeFiles\h5clear_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZERO_CHECK.vcxproj">
+      <Project>{936DD9ED-CB83-3045-8A8A-8E52B12995AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

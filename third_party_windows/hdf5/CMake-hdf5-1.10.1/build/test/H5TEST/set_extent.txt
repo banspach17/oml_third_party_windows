@@ -1,0 +1,13 @@
+Testing with old file format and chunk cache disabled:
+ Testing datasets with ranks 1 to 4 (all configurations)                PASSED
+Testing with old file format and chunk cache enabled:
+ Testing datasets with ranks 1 to 4 (all configurations)                PASSED
+Testing external file use                                              PASSED
+Testing storage layout use                                             PASSED
+Testing with new file format and chunk cache disabled:
+ Testing datasets with ranks 1 to 4 (all configurations)                PASSED
+Testing with new file format and chunk cache enabled:
+ Testing datasets with ranks 1 to 4 (all configurations)                PASSED
+Testing external file use                                              PASSED
+Testing storage layout use                                             PASSED
+All H5Dset_extent tests passed.

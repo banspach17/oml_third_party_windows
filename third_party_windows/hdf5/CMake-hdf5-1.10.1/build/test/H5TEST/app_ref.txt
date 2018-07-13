@@ -1,0 +1,1 @@
+Testing library shutdown with reference count > 1                      PASSED

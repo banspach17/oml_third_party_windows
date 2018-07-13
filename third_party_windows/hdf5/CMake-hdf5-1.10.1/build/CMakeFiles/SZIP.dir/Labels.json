@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/SZIP"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/a3b4aed718deefb4144d04eddddc9ec9/SZIP.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/30f578d521f061177ec9acfbbacadf80/SZIP-complete.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-install.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-download.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-update.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-patch.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-configure.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/3cbc868d0b2812b8640598bc4c0db3e1/SZIP-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "SZIP" ],
+		"name" : "SZIP"
+	}
+}

@@ -1,0 +1,8 @@
+﻿  test_sunmatrix_dense.c
+  test_sunmatrix.c
+  sundials_matrix.c
+  sundials_nvector.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/Debug/test_sunmatrix_dense.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/Debug/test_sunmatrix_dense.exp
+  test_sunmatrix_dense.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\sunmatrix\dense\Debug\test_sunmatrix_dense.exe
+  test_sunmatrix_dense.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/Debug/test_sunmatrix_dense.pdb (Full PDB)

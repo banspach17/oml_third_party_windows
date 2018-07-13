@@ -1,0 +1,18 @@
+
+GROUP "/" {
+   GROUP "int" {
+      GROUP "uint" {
+         DATASET "16-bit" {
+            DATATYPE  H5T_STD_U16LE
+            DATASPACE  SIMPLE { ( 4, 3 ) / ( 4, 3 ) }
+            DATA {
+            (0,0): 83, 85, 87,
+            (1,0): 89, 84, 86,
+            (2,0): 88, 90, 85,
+            (3,0): 87, 89, 91
+            }
+         }
+      }
+   }
+}
+}

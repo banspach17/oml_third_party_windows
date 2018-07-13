@@ -1,0 +1,11 @@
+
+GROUP "/" {
+   DATASET "test" {
+      DATATYPE  H5T_IEEE_F64LE
+      DATASPACE  SIMPLE { ( 2 ) / ( 2 ) }
+      DATA {
+      (0): 6.02e+24, 3.14159
+      }
+   }
+}
+}

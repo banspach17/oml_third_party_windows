@@ -1,0 +1,35 @@
+﻿  cvodea.c
+  cvodea_io.c
+  cvodes.c
+  cvodes_bandpre.c
+  cvodes_bbdpre.c
+  cvodes_io.c
+  cvodes_diag.c
+  cvodes_direct.c
+  cvodes_spils.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_linearsolver.c
+  sundials_math.c
+  sundials_band.c
+  sundials_dense.c
+  sundials_direct.c
+  sundials_iterative.c
+  sundials_version.c
+  nvector_serial.c
+  sunmatrix_band.c
+  Generating Code...
+  Compiling...
+  sunmatrix_dense.c
+  sunmatrix_sparse.c
+  sunlinsol_band.c
+  sunlinsol_dense.c
+  sunlinsol_spbcgs.c
+  sunlinsol_spfgmr.c
+  sunlinsol_spgmr.c
+  sunlinsol_sptfqmr.c
+  sunlinsol_pcg.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/Debug/sundials_cvodes.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/Debug/sundials_cvodes.exp
+  sundials_cvodes_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvodes\Debug\sundials_cvodes.dll
+  sundials_cvodes_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/Debug/sundials_cvodes.pdb (Full PDB)

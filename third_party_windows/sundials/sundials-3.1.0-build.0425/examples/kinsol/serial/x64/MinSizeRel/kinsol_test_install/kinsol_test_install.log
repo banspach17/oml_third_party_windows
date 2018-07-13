@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/kinsol/serial/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/kinsol/serial/CMakeFiles/generate.stamp is up-to-date.
+  Running kinsol installation tests
+    File "C:/oss/third_party/sundials/sundials-3.1.0/test/testRunner", line 73
+      print "testName=%s"%(args.testName)
+                        ^
+  SyntaxError: invalid syntax
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1.

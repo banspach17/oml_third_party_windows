@@ -1,0 +1,8 @@
+﻿  sunmatrix_sparse.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_math.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/Debug/sundials_sunmatrixsparse.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/Debug/sundials_sunmatrixsparse.exp
+  sundials_sunmatrixsparse_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\Debug\sundials_sunmatrixsparse.dll
+  sundials_sunmatrixsparse_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/Debug/sundials_sunmatrixsparse.pdb (Full PDB)

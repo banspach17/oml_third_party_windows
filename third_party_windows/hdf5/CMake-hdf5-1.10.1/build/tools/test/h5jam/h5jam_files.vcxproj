@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A2FEA28-32D5-34E1-84A4-5805CE071865}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>h5jam_files</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\tall.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/tall.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/tall.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/tall.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/tall.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\tall.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/tall.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/tall.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/tall.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/tall.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\tall.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/tall.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/tall.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/tall.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/tall.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\tall.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/tall.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/tall.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/tall.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/tall.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\tall.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\twithub.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/twithub.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/twithub.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/twithub.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/twithub.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\twithub513.h5.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/twithub513.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub513.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub513.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub513.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub513.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/twithub513.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub513.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub513.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub513.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub513.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/twithub513.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub513.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub513.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub513.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub513.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/twithub513.h5</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/twithub513.h5 C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/twithub513.h5
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/twithub513.h5.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\twithub513.h5;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\u10.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/u10.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u10.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u10.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u10.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u10.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/u10.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u10.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u10.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u10.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u10.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/u10.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u10.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u10.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u10.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u10.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/u10.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u10.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u10.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u10.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u10.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\u511.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/u511.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u511.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u511.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u511.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u511.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/u511.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u511.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u511.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u511.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u511.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/u511.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u511.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u511.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u511.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u511.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/u511.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u511.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u511.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u511.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u511.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\u512.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/u512.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u512.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u512.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u512.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u512.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/u512.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u512.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u512.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u512.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u512.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/u512.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u512.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u512.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u512.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u512.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/u512.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u512.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u512.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u512.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u512.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\u513.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/u513.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u513.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u513.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u513.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u513.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/u513.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u513.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u513.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u513.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u513.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/u513.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u513.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u513.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u513.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u513.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/u513.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/u513.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/u513.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/u513.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\u513.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\h5jam-help.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5jam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5jam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5jam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5jam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\h5unjam-help.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5unjam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5unjam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5unjam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5unjam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5unjam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5unjam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5unjam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5unjam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5unjam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5unjam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5unjam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5unjam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5unjam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5unjam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5unjam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5unjam-help.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5unjam-help.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5unjam-help.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5unjam-help.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5unjam-help.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\fc42a2043803ed2c963873c3c4fcb571\h5jam-ub-nohdf5.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating testfiles/h5jam-ub-nohdf5.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-ub-nohdf5.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating testfiles/h5jam-ub-nohdf5.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-ub-nohdf5.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating testfiles/h5jam-ub-nohdf5.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-ub-nohdf5.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating testfiles/h5jam-ub-nohdf5.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/tools/test/h5jam/testfiles/h5jam-ub-nohdf5.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/fc42a2043803ed2c963873c3c4fcb571/h5jam-ub-nohdf5.txt.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\68cfdf2bf14fbd3f744c48d82ceff3f2\h5jam_files.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Copying files needed by h5jam tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/68cfdf2bf14fbd3f744c48d82ceff3f2/h5jam_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\h5jam_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying files needed by h5jam tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/68cfdf2bf14fbd3f744c48d82ceff3f2/h5jam_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\h5jam_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying files needed by h5jam tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/68cfdf2bf14fbd3f744c48d82ceff3f2/h5jam_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\h5jam_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying files needed by h5jam tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/68cfdf2bf14fbd3f744c48d82ceff3f2/h5jam_files.rule;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\tall.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\twithub513.h5;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u10.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u511.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u512.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\u513.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5unjam-help.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\testfiles\h5jam-ub-nohdf5.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\h5jam_files</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\tools\test\h5jam\CMakeFiles\h5jam_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZERO_CHECK.vcxproj">
+      <Project>{936DD9ED-CB83-3045-8A8A-8E52B12995AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

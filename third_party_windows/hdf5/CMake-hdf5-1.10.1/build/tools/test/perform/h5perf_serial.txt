@@ -1,0 +1,49 @@
+HDF5 Library: Version 1.10.1
+==== Parameters ====
+IO API=posix hdf5 
+Number of iterations=1
+Dataset size=100 200 
+Transfer buffer size=10 20 
+Page Aggregation Disabled
+Dimension access order=1 2 
+HDF5 data storage method=Contiguous
+HDF5 file driver=sec2
+Env HDF5_PREFIX=not set
+==== End of Parameters ====
+
+Transfer Buffer Size (bytes): 200
+File Size(MB): 0.02
+        IO API = POSIX
+            Write (1 iteration(s)):
+                Maximum Throughput:   0.66 MB/s
+                Average Throughput:   0.66 MB/s
+                Minimum Throughput:   0.66 MB/s
+            Write Open-Close (1 iteration(s)):
+                Maximum Throughput:   0.46 MB/s
+                Average Throughput:   0.46 MB/s
+                Minimum Throughput:   0.46 MB/s
+            Read (1 iteration(s)):
+                Maximum Throughput:   7.60 MB/s
+                Average Throughput:   7.60 MB/s
+                Minimum Throughput:   7.60 MB/s
+            Read Open-Close (1 iteration(s)):
+                Maximum Throughput:   7.60 MB/s
+                Average Throughput:   7.60 MB/s
+                Minimum Throughput:   7.60 MB/s
+        IO API = HDF5
+            Write (1 iteration(s)):
+                Maximum Throughput:   9.51 MB/s
+                Average Throughput:   9.51 MB/s
+                Minimum Throughput:   9.51 MB/s
+            Write Open-Close (1 iteration(s)):
+                Maximum Throughput:   1.12 MB/s
+                Average Throughput:   1.12 MB/s
+                Minimum Throughput:   1.12 MB/s
+            Read (1 iteration(s)):
+                Maximum Throughput:  38.08 MB/s
+                Average Throughput:  38.08 MB/s
+                Minimum Throughput:  38.08 MB/s
+            Read Open-Close (1 iteration(s)):
+                Maximum Throughput:  19.02 MB/s
+                Average Throughput:  19.02 MB/s
+                Minimum Throughput:  19.02 MB/s

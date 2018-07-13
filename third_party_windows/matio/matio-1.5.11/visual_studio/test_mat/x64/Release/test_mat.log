@@ -1,0 +1,40 @@
+﻿  getopt_long.c
+..\..\getopt\getopt_long.c(373): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+  test_mat.c
+..\..\test\test_mat.c(744): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+..\..\test\test_mat.c(829): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(899): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1006): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1007): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1109): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1110): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1453): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(1494): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1644): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1645): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(1962): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(2112): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(2113): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(2355): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2364): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2395): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2406): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2516): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2568): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\test\test_mat.c(2676): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2679): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2684): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2822): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(2823): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\test\test_mat.c(3285): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\test\test_mat.c(3743): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  Generating code
+c:\oss\third_party\matio\matio-1.5.11\test\test_mat.c(3361): warning C4723: potential divide by 0
+c:\oss\third_party\matio\matio-1.5.11\test\test_mat.c(3332): warning C4723: potential divide by 0
+  All 50 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  test_mat.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\test_mat.exe
+  test_mat.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\test_mat.pdb (Full PDB)

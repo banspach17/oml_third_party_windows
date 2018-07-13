@@ -1,0 +1,6 @@
+﻿  sunmatrix_band.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_math.c
+  Generating Code...
+  sundials_sunmatrixband_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\Debug\sundials_sunmatrixband.lib

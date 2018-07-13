@@ -1,0 +1,4 @@
+Testing local heap write                                               PASSED
+Testing local heap read                                                PASSED
+Testing opening pre-created file with non-default sizes                PASSED
+All local heap tests passed.

@@ -1,0 +1,4 @@
+C:\CMake\bin\cmake.exe -E remove -f CMakeFiles\tmglib.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\tmglib.dir/objects.a @CMakeFiles\tmglib.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gfortran.exe  -g  -shared -o ..\..\bin\libtmglib.dll -Wl,--out-implib,..\..\lib\libtmglib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\tmglib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\tmglib.dir\linklibs.rsp -Wl,--output-def,tmglib.def
+C:\CMake\bin\cmake.exe -Dlib="C:/oss/third_party/lapack/lapack-3.7.1-build/CMakeFiles/CMakeGNUtoMS_lib.bat" -Ddef=tmglib.def -Ddll=..\..\bin\libtmglib.dll -Dimp=..\..\lib\libtmglib.dll.a -P "C:/CMake/share/cmake-3.9/Modules/Platform/GNUtoMS_lib.cmake"

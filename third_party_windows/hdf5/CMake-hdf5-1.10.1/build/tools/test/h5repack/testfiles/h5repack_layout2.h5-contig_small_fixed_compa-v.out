@@ -1,0 +1,20 @@
+HDF5 "out-contig_small_fixed_compa.h5repack_layout2.h5" {
+DATASET "chunked_small_fixed" {
+   DATATYPE  H5T_STD_I32LE
+   DATASPACE  SIMPLE { ( 4, 10 ) / ( 4, 10 ) }
+   STORAGE_LAYOUT {
+      COMPACT
+      SIZE 160
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_IFSET
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_EARLY
+   }
+}
+}

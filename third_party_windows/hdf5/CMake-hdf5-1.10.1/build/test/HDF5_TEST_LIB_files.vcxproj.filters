@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\CMakeLists.txt" />
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tnullspace.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\err_compat_1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\err_compat_2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\error_test_1.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\error_test_2.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\links_env.out.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\acpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_acpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\acpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_acpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\acpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_acpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\acpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_acpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dxpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dxpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dxpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dxpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dxpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dxpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\dxpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_dxpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\fcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_fcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\gcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_gcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\gcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_gcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\gcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_gcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\gcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_gcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lapl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lapl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lapl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lapl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\lcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_lcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpypl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpypl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpypl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpypl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpypl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpypl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\ocpypl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_ocpypl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\strcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_strcpl_32be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\strcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_strcpl_32le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\strcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_strcpl_64be.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\strcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\6c72bc5327047ce0f751f65bb53dc8d8\def_strcpl_64le.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\aggr.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\bad_compound.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\be_data.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\be_extlink1.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\be_extlink2.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\btree_idx_1_6.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\btree_idx_1_8.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\corrupt_stab_msg.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\deflate.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\family_v16_00000.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\family_v16_00001.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\family_v16_00002.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\family_v16_00003.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\file_image_core_test.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\filespace_1_6.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\filespace_1_8.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\fill_old.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\filter_error.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\fsm_aggr_nopersist.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\fsm_aggr_persist.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\group_old.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext1_i.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext1_f.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext2_if.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext2_sf.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext3_isf.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\h5fc_ext_none.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\le_data.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\le_extlink1.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\le_extlink2.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\mergemsg.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\multi_file_v16-r.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\multi_file_v16-s.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\noencoder.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\none.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\paged_nopersist.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\paged_persist.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\specmetaread.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tarrold.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tbad_msg_count.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tbogus.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\test_filters_be.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\test_filters_le.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\th5s.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tlayouto.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tmtimen.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tmtimeo.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\8c3505ef5aaee919f574399fa8f1d874\tsizeslheap.h5.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\dfcdbd387c152e00f53eb3b764805fca\HDF5_TEST_LIB_files.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\test\CMakeFiles\HDF5_TEST_LIB_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4FEAC741-D1A9-3BE2-B887-7D0B865CA293}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

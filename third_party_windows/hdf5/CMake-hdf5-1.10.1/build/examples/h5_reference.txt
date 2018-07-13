@@ -1,0 +1,4 @@
+First dereferenced object is a group. 
+Second dereferenced object is a dataset. 
+Datatype of the dataset is H5T_NATIVE_FLOAT.
+

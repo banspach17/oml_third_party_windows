@@ -1,0 +1,6 @@
+﻿  sunmatrix_sparse.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_math.c
+  Generating Code...
+  sundials_sunmatrixsparse_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\Debug\sundials_sunmatrixsparse.lib

@@ -1,0 +1,16 @@
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/include/SZconfig.h
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/cmake/szip-targets.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/cmake/szip-targets-release.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/cmake/szip-config.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/cmake/szip-config-version.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/./COPYING
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/./README
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/./INSTALL
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/./RELEASE.txt
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/bin/msvcp140.dll
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/bin/vcruntime140.dll
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/bin/concrt140.dll
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/lib/libszip.lib
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/include/ricehdf.h
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/include/szip_adpt.h
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/_CPack_Packages/win64/ZIP/HDF5-1.10.1-win64/include/szlib.h

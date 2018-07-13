@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C3BE210-17EE-3FCB-A8BE-3ACB5E6C8C6E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>kinsol_test_install</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0\examples\kinsol\serial\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/kinsol/serial/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/examples/kinsol/serial/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/sundials/sundials-3.1.0/examples/kinsol/serial/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\examples\kinsol\serial\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\examples\templates\cmakelists_serial_C_ex.in;C:\oss\third_party\sundials\sundials-3.1.0\examples\kinsol\serial\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\examples\kinsol\serial\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\ccb45b9589d0955692299d8ad118cebd\kinsol_test_install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running kinsol installation tests</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\oss\third_party\sundials\sundials-3.1.0-build\Testing_Install\kinsol
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Python36\python.exe C:/oss/third_party/sundials/sundials-3.1.0/test/testRunner --testname=kinRoberts_fp --executablename=./kinRoberts_fp --outputdir=C:/oss/third_party/sundials/sundials-3.1.0-build/Testing_Install/kinsol "--builddir=C:/Program Files/sundials/examples/kinsol/serial" --buildcmd=C:/CMake/bin/cmake.exe --nodiff
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/ccb45b9589d0955692299d8ad118cebd/kinsol_test_install.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\examples\kinsol\serial\CMakeFiles\kinsol_test_install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\kinsol\serial\CMakeFiles\kinsol_test_install" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\ZERO_CHECK.vcxproj">
+      <Project>{BE97B066-C0FA-329E-9BD1-7343E832883C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

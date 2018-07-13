@@ -1,0 +1,17 @@
+﻿ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_N_VDestroy referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeCreate referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeSetUserData referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeSetFixedPoint referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeSetMaxNonlinIters referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeInit referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeSStolerances referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKode referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumSteps referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumStepAttempts referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumRhsEvals referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumErrTestFails referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumNonlinSolvIters referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeGetNumNonlinSolvConvFails referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_ARKodeFree referenced in function main
+ark_brusselator_fp.obj : error LNK2019: unresolved external symbol __imp_N_VNew_Serial referenced in function main
+C:\oss\third_party\sundials\sundials-3.1.0-build\examples\arkode\C_serial\Release\ark_brusselator_fp.exe : fatal error LNK1120: 16 unresolved externals

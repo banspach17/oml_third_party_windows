@@ -1,0 +1,8 @@
+Testing basic functionality                                            PASSED
+Testing compound datatypes                                             PASSED
+Testing GetPacket                                                      PASSED
+Testing GetNextPacket                                                  PASSED
+Testing compression                                                    PASSED
+Testing error conditions                                               PASSED
+Testing multiple datatypes                                             PASSED
+Testing data corruption in packed structs (HDFFV-9758)                 PASSED

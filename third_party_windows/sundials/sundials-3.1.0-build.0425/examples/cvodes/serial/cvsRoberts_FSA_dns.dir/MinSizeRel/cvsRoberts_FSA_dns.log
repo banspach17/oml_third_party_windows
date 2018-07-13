@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/cvodes/serial/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/cvodes/serial/CMakeFiles/generate.stamp is up-to-date.
+  cvsRoberts_FSA_dns.c
+  cvsRoberts_FSA_dns.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\cvodes\serial\MinSizeRel\cvsRoberts_FSA_dns.exe

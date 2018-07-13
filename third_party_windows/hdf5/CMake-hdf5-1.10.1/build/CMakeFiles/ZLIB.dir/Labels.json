@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ZLIB"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/a3b4aed718deefb4144d04eddddc9ec9/ZLIB.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/30f578d521f061177ec9acfbbacadf80/ZLIB-complete.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-install.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-download.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-update.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-patch.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-configure.rule"
+		},
+		
+		{
+			"file" : "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/CMakeFiles/ac0dd9b4edb85b906ef178344ab5d455/ZLIB-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ZLIB" ],
+		"name" : "ZLIB"
+	}
+}

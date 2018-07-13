@@ -1,0 +1,23 @@
+HDF5 "testfiles/binuin32.h5" {
+DATASET "/int/buin/32-bit" {
+   DATATYPE  H5T_STD_U32LE
+   DATASPACE  SIMPLE { ( 5, 3, 4 ) / ( 5, 3, 4 ) }
+   STORAGE_LAYOUT {
+      CONTIGUOUS
+      SIZE 240
+      OFFSET 4096
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_ALLOC
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_LATE
+   }
+   DATA {
+   }
+}
+}

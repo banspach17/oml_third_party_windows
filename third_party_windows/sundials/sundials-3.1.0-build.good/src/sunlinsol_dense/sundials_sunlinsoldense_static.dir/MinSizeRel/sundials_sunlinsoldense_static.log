@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_dense/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/CMakeFiles/generate.stamp is up-to-date.
+  sunlinsol_dense.c
+  sundials_linearsolver.c
+  sundials_dense.c
+  Generating Code...
+  sundials_sunlinsoldense_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\MinSizeRel\sundials_sunlinsoldense.lib

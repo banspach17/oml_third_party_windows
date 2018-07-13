@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\h5test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\testframe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\cache_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\swmr_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\h5test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\cache_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\swmr_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81B79D3A-82FD-36F8-9F99-8B06E7CE3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A5506D51-6C46-34AA-A502-CA3AF95AF360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

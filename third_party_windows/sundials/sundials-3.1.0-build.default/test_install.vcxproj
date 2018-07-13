@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E7087D2D-970D-3BF0-B6A7-277B72FC35D9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>test_install</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\ZERO_CHECK.vcxproj">
+      <Project>{BE97B066-C0FA-329E-9BD1-7343E832883C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\arkode\C_serial\arkode_test_install.vcxproj">
+      <Project>{35FB3CF9-B3CC-3A6E-BD05-8ACD5A57E6CE}</Project>
+      <Name>arkode_test_install</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\cvode\serial\cvode_test_install.vcxproj">
+      <Project>{9201EB51-9E7F-3B10-812A-15DCA47BE06D}</Project>
+      <Name>cvode_test_install</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\cvodes\serial\cvodes_test_install.vcxproj">
+      <Project>{75721D03-0E8D-33A4-B82E-A44FAA812501}</Project>
+      <Name>cvodes_test_install</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\ida\serial\ida_test_install.vcxproj">
+      <Project>{F9B8C3A9-023D-3329-9E0C-A86D3A20096C}</Project>
+      <Name>ida_test_install</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\idas\serial\idas_test_install.vcxproj">
+      <Project>{72C8CF08-59B6-3EAE-8F65-56EB37460A0D}</Project>
+      <Name>idas_test_install</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\examples\kinsol\serial\kinsol_test_install.vcxproj">
+      <Project>{5C3BE210-17EE-3FCB-A8BE-3ACB5E6C8C6E}</Project>
+      <Name>kinsol_test_install</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

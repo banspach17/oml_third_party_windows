@@ -1,0 +1,2 @@
+Number of filters associated with dataset: 1
+Filter Type: H5Z_FILTER_DEFLATE

@@ -1,0 +1,9 @@
+﻿  sunlinsol_sptfqmr.c
+  sundials_math.c
+  sundials_nvector.c
+  sundials_linearsolver.c
+  sundials_iterative.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Debug/sundials_sunlinsolsptfqmr.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Debug/sundials_sunlinsolsptfqmr.exp
+  sundials_sunlinsolsptfqmr_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\Debug\sundials_sunlinsolsptfqmr.dll
+  sundials_sunlinsolsptfqmr_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Debug/sundials_sunlinsolsptfqmr.pdb (Full PDB)

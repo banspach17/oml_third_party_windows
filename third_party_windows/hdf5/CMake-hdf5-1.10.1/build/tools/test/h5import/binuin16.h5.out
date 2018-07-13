@@ -1,0 +1,20 @@
+
+GROUP "/" {
+   GROUP "int" {
+      GROUP "buin" {
+         DATASET "16-bit" {
+            DATATYPE  H5T_STD_U16BE
+            DATASPACE  SIMPLE { ( 2, 3, 4 ) / ( H5S_UNLIMITED, H5S_UNLIMITED, 8 ) }
+            DATA {
+            (0,0,0): 83, 85, 87, 89,
+            (0,1,0): 84, 86, 88, 90,
+            (0,2,0): 85, 87, 89, 91,
+            (1,0,0): 88, 90, 92, 94,
+            (1,1,0): 89, 91, 93, 95,
+            (1,2,0): 90, 92, 94, 96
+            }
+         }
+      }
+   }
+}
+}

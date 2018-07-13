@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/sunmatrix/dense/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/CMakeFiles/generate.stamp is up-to-date.
+  test_sunmatrix_dense.c
+  test_sunmatrix.c
+  sundials_matrix.c
+  sundials_nvector.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/MinSizeRel/test_sunmatrix_dense.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunmatrix/dense/MinSizeRel/test_sunmatrix_dense.exp
+  test_sunmatrix_dense.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\sunmatrix\dense\MinSizeRel\test_sunmatrix_dense.exe

@@ -1,0 +1,22 @@
+HDF5 "testfiles/binuin16.h5" {
+DATASET "/int/buin/16-bit" {
+   DATATYPE  H5T_STD_U16BE
+   DATASPACE  SIMPLE { ( 2, 3, 4 ) / ( H5S_UNLIMITED, H5S_UNLIMITED, 8 ) }
+   STORAGE_LAYOUT {
+      CHUNKED ( 2, 2, 2 )
+      SIZE 64
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_ALLOC
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_INCR
+   }
+   DATA {
+   }
+}
+}

@@ -1,0 +1,22 @@
+HDF5 "testfiles/binin32.h5" {
+DATASET "/int/bin/32-bit" {
+   DATATYPE  H5T_STD_I32BE
+   DATASPACE  SIMPLE { ( 5, 3, 4 ) / ( 5, 3, 4 ) }
+   STORAGE_LAYOUT {
+      CHUNKED ( 1, 2, 1 )
+      SIZE 320
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_ALLOC
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_INCR
+   }
+   DATA {
+   }
+}
+}

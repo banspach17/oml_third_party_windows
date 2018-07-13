@@ -1,0 +1,5 @@
+Testing basic external links.
+Testing external link prefixes.
+Testing user-defined soft links.
+Testing user-defined hard links.
+Testing user-defined property list links.

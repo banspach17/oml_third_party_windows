@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeLists.txt
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeTestsRepart.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeTestsClear.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/CMakeTestsMkgrp.cmake
+C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/tools/test/misc/testfiles/h5mkgrp_version.txt.in

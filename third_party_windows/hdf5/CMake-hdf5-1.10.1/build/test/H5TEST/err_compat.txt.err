@@ -1,0 +1,58 @@
+   This program tests the Error API compatible with HDF5 v1.6.  There're supposed to be some error messages
+********* Print error stack in HDF5 default way *********
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\err_compat.c line 482 in main(): Error test failed
+    major: Error API
+    minor: Bad value
+
+********* Print error stack in customized way *********
+    error #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\err_compat.c in main(): line 482
+        major: Error API
+        minor: Bad value
+
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5D.c line 119 in H5Dcreate2(): not a location ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gloc.c line 251 in H5G_loc(): invalid object ID
+    major: Invalid arguments to routine
+    minor: Bad value
+
+********* Print error stack in customized way *********
+    error #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gloc.c in H5G_loc(): line 251
+        major: Invalid arguments to routine
+        minor: Bad value
+    error #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5D.c in H5Dcreate2(): line 119
+        major: Invalid arguments to routine
+        minor: Inappropriate type
+
+********* Print error stack in customized way *********
+    error #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5E.c in H5Eget_auto2(): line 1619
+        major: Error API
+        minor: Can't get value
+
+********* Print error stack in customized way *********
+    error #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gloc.c in H5G_loc(): line 251
+        major: Invalid arguments to routine
+        minor: Bad value
+    error #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5D.c in H5Dcreate2(): line 119
+        major: Invalid arguments to routine
+        minor: Inappropriate type
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5D.c line 119 in H5Dcreate2(): not a location ID
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gloc.c line 251 in H5G_loc(): invalid object ID
+    major: Invalid arguments to routine
+    minor: Bad value
+
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\err_compat.c line 495 in main(): Error test failed
+    major: Error API
+    minor: Unrecognized message
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\err_compat.c line 400 in test_error2(): H5Dwrite shouldn't succeed
+    major: Error API
+    minor: Write failed
+  #002: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c line 226 in H5Dwrite(): not a dataset
+    major: Invalid arguments to routine
+    minor: Inappropriate type

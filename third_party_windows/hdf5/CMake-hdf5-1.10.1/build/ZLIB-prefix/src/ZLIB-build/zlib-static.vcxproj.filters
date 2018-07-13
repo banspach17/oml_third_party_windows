@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB\win32\zlib.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{75977FC1-0CE5-3D3F-B06B-3AE5F6C620A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2D3FCD6A-0BCC-3C2A-8D47-C6FCB768BFA3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+All metadata performance tests passed.
+		Performance result of metadata for datasets and attributes
+
+1.  Create 8 attributes for each of 16 existing datasets
+	H5Dopen2:		avg=0.000031s;	max=0.000501s;	min=0.000000s
+	H5Dclose:		avg=0.000031s;	max=0.000502s;	min=0.000000s
+	H5A(create & close):	avg=0.000012s;	max=0.000502s;	min=0.000000s
+2.  Create 8 attributes for each of 16 new datasets
+	H5Dcreate2:		avg=0.000031s;	max=0.000500s;	min=0.000000s
+	H5Dclose:		avg=0.000000s;	max=0.000000s;	min=0.000000s
+	H5A(create & close):	avg=0.000012s;	max=0.000502s;	min=0.000000s
+3.  Create 2 attributes for each of 16 existing datasets for 4 times
+	H5Dopen2:		avg=0.000039s;	max=0.000502s;	min=0.000000s
+	H5Dclose:		avg=0.000000s;	max=0.000000s;	min=0.000000s
+	H5A(create & close):	avg=0.000012s;	max=0.000501s;	min=0.000000s

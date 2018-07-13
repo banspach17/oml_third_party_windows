@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_bandpre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_bbdpre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_diag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_direct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\cvode_spils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_nvector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_linearsolver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_band.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_dense.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_direct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_iterative.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\nvec_ser\nvector_serial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_band\sunmatrix_band.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_dense\sunmatrix_dense.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_sparse\sunmatrix_sparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_band\sunlinsol_band.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_dense\sunlinsol_dense.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spbcgs\sunlinsol_spbcgs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spfgmr\sunlinsol_spfgmr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spgmr\sunlinsol_spgmr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_sptfqmr\sunlinsol_sptfqmr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_pcg\sunlinsol_pcg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0\src\cvode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBFD8060-BB6D-3932-835B-33A41A9493FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

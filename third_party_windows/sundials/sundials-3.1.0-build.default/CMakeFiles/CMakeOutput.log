@@ -1,0 +1,124 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/19/2018 2:26:14 PM.
+Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.32
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/3.9.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1e10a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/19/2018 2:26:15 PM.
+Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\cmTC_1e10a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1e10a.dir\Debug\".
+  Creating directory "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1e10a.dir\Debug\cmTC_1e10a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1e10a.dir\Debug\cmTC_1e10a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e10a.dir\Debug\\" /Fd"cmTC_1e10a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e10a.dir\Debug\\" /Fd"cmTC_1e10a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\cmTC_1e10a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_1e10a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_1e10a.lib" /MACHINE:X64  /machine:x64 cmTC_1e10a.dir\Debug\testCCompiler.obj
+  cmTC_1e10a.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\cmTC_1e10a.exe
+  cmTC_1e10a.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_1e10a.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_1e10a.dir\Debug\cmTC_1e10a.tlog\unsuccessfulbuild".
+  Touching "cmTC_1e10a.dir\Debug\cmTC_1e10a.tlog\cmTC_1e10a.lastbuildstate".
+Done Building Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\cmTC_1e10a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_58a33.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/19/2018 2:26:17 PM.
+Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\cmTC_58a33.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_58a33.dir\Debug\".
+  Creating directory "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_58a33.dir\Debug\cmTC_58a33.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_58a33.dir\Debug\cmTC_58a33.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58a33.dir\Debug\\" /Fd"cmTC_58a33.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58a33.dir\Debug\\" /Fd"cmTC_58a33.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\cmTC_58a33.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_58a33.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_58a33.lib" /MACHINE:X64  /machine:x64 cmTC_58a33.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_58a33.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\Debug\cmTC_58a33.exe
+  cmTC_58a33.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/CMakeTmp/Debug/cmTC_58a33.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_58a33.dir\Debug\cmTC_58a33.tlog\unsuccessfulbuild".
+  Touching "cmTC_58a33.dir\Debug\cmTC_58a33.tlog\cmTC_58a33.lastbuildstate".
+Done Building Project "C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\CMakeTmp\cmTC_58a33.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.95
+
+

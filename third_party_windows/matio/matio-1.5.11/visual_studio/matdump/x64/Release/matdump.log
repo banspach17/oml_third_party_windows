@@ -1,0 +1,20 @@
+﻿  getopt_long.c
+..\..\getopt\getopt_long.c(373): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+  matdump.c
+..\..\tools\matdump.c(233): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(261): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\tools\matdump.c(263): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\tools\matdump.c(276): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(279): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(285): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\tools\matdump.c(303): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\tools\matdump.c(361): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(426): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\tools\matdump.c(551): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating code
+  All 24 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  matdump.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\matdump.exe
+  matdump.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\matdump.pdb (Full PDB)

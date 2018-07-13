@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6EE29ED6-A195-39D5-8A18-A64C36831DB3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsCMakeMacros.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsDeprecated.cmake;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsXSDK.cmake;C:\CMake\share\cmake-3.9\Modules\CheckSymbolExists.cmake;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_config.in;C:\oss\third_party\sundials\sundials-3.1.0\include\sundials\sundials_fconfig.in;C:\oss\third_party\sundials\sundials-3.1.0\config\SundialsAddTest.cmake;C:\oss\third_party\sundials\sundials-3.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\ZERO_CHECK.vcxproj">
+      <Project>{BE97B066-C0FA-329E-9BD1-7343E832883C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\arkode\sundials_arkode_shared.vcxproj">
+      <Project>{C0FA6506-76ED-3BED-909D-D347FF8CB826}</Project>
+      <Name>sundials_arkode_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\arkode\sundials_arkode_static.vcxproj">
+      <Project>{3E57063D-3E15-33B6-A086-839F3F742B08}</Project>
+      <Name>sundials_arkode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvode\sundials_cvode_shared.vcxproj">
+      <Project>{F72FC20A-528B-350D-8AB6-C433D73ACA8E}</Project>
+      <Name>sundials_cvode_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvode\sundials_cvode_static.vcxproj">
+      <Project>{D785EA88-549A-3EC6-AF65-D570281CE047}</Project>
+      <Name>sundials_cvode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvodes\sundials_cvodes_shared.vcxproj">
+      <Project>{C5790E38-8B1B-3A82-9179-852AEDEEAF63}</Project>
+      <Name>sundials_cvodes_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvodes\sundials_cvodes_static.vcxproj">
+      <Project>{78123810-B000-35EF-9B53-B200266C0498}</Project>
+      <Name>sundials_cvodes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\ida\sundials_ida_shared.vcxproj">
+      <Project>{30CA808B-F906-3F1E-8F52-B71AA92E6176}</Project>
+      <Name>sundials_ida_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\ida\sundials_ida_static.vcxproj">
+      <Project>{07C640E1-C1D5-3017-8909-8593061F56BF}</Project>
+      <Name>sundials_ida_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\idas\sundials_idas_shared.vcxproj">
+      <Project>{A3963120-61A0-3D2F-9DDA-9E39F81A478C}</Project>
+      <Name>sundials_idas_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\idas\sundials_idas_static.vcxproj">
+      <Project>{CED458EE-C6CA-3776-B948-50F29CDA8158}</Project>
+      <Name>sundials_idas_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\sundials_kinsol_shared.vcxproj">
+      <Project>{034F42C6-3FDD-306C-AA4E-4C4453E6CA31}</Project>
+      <Name>sundials_kinsol_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\sundials_kinsol_static.vcxproj">
+      <Project>{ECA209EE-01F5-3B26-88E5-B86435577B54}</Project>
+      <Name>sundials_kinsol_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\nvec_ser\sundials_nvecserial_shared.vcxproj">
+      <Project>{2C8424D6-5B43-3B7A-8392-670859EFFBEB}</Project>
+      <Name>sundials_nvecserial_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\nvec_ser\sundials_nvecserial_static.vcxproj">
+      <Project>{0FCE9235-B7B8-31F2-BF08-0AE621DE0CF7}</Project>
+      <Name>sundials_nvecserial_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_band\sundials_sunlinsolband_shared.vcxproj">
+      <Project>{900D5F87-3EE5-330B-AA75-BE90244FBC3F}</Project>
+      <Name>sundials_sunlinsolband_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_band\sundials_sunlinsolband_static.vcxproj">
+      <Project>{F3163D4D-6ADF-3200-81B8-70822F11070F}</Project>
+      <Name>sundials_sunlinsolband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\sundials_sunlinsoldense_shared.vcxproj">
+      <Project>{5A579ABD-CA0B-3CDF-982C-A6681562DCA2}</Project>
+      <Name>sundials_sunlinsoldense_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\sundials_sunlinsoldense_static.vcxproj">
+      <Project>{3675D6F9-4266-3DC0-A1FB-D3E4A2CCD3D9}</Project>
+      <Name>sundials_sunlinsoldense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_pcg\sundials_sunlinsolpcg_shared.vcxproj">
+      <Project>{3FBC7C75-0D3D-3A8E-ADB6-33C7DF66C6B2}</Project>
+      <Name>sundials_sunlinsolpcg_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_pcg\sundials_sunlinsolpcg_static.vcxproj">
+      <Project>{CFC962BA-C380-37B1-AC2E-0C15DCD4D99B}</Project>
+      <Name>sundials_sunlinsolpcg_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spbcgs\sundials_sunlinsolspbcgs_shared.vcxproj">
+      <Project>{3D4EA00B-D5E7-39D8-BCC8-0A744A1C23F3}</Project>
+      <Name>sundials_sunlinsolspbcgs_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spbcgs\sundials_sunlinsolspbcgs_static.vcxproj">
+      <Project>{BB0A485C-11DF-3EEA-A619-0D99E75870DE}</Project>
+      <Name>sundials_sunlinsolspbcgs_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spfgmr\sundials_sunlinsolspfgmr_shared.vcxproj">
+      <Project>{1977D1DF-5AC0-3129-A491-206C79E37037}</Project>
+      <Name>sundials_sunlinsolspfgmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spfgmr\sundials_sunlinsolspfgmr_static.vcxproj">
+      <Project>{D26C18F4-6041-3553-B0A4-F8F1E5F777A4}</Project>
+      <Name>sundials_sunlinsolspfgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spgmr\sundials_sunlinsolspgmr_shared.vcxproj">
+      <Project>{65DEA15C-A1B1-3A73-B5A2-FBC13C7F0F60}</Project>
+      <Name>sundials_sunlinsolspgmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spgmr\sundials_sunlinsolspgmr_static.vcxproj">
+      <Project>{CF7DC8CC-38E3-36B9-9D2F-56443415A331}</Project>
+      <Name>sundials_sunlinsolspgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\sundials_sunlinsolsptfqmr_shared.vcxproj">
+      <Project>{0CC99382-C475-31BD-98E3-1A8E743B26F1}</Project>
+      <Name>sundials_sunlinsolsptfqmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\sundials_sunlinsolsptfqmr_static.vcxproj">
+      <Project>{61B86B79-6D56-3C79-9158-19CBB71214C8}</Project>
+      <Name>sundials_sunlinsolsptfqmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\sundials_sunmatrixband_shared.vcxproj">
+      <Project>{F2DE27EE-8E1C-39FF-A4DF-6EA247B15609}</Project>
+      <Name>sundials_sunmatrixband_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\sundials_sunmatrixband_static.vcxproj">
+      <Project>{1C211F06-5FC6-37A6-8CC0-4E9562810415}</Project>
+      <Name>sundials_sunmatrixband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_dense\sundials_sunmatrixdense_shared.vcxproj">
+      <Project>{110C680C-289C-3A95-8AEF-2063EF4F325C}</Project>
+      <Name>sundials_sunmatrixdense_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_dense\sundials_sunmatrixdense_static.vcxproj">
+      <Project>{1D5E4C40-8583-3517-BEB7-8E502CFA6C3A}</Project>
+      <Name>sundials_sunmatrixdense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\sundials_sunmatrixsparse_shared.vcxproj">
+      <Project>{0A2ECCE6-F09B-3EA8-9608-260490C45292}</Project>
+      <Name>sundials_sunmatrixsparse_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\sundials_sunmatrixsparse_static.vcxproj">
+      <Project>{8A8C34A1-A8DF-3E88-8D30-2EE03C32D8C7}</Project>
+      <Name>sundials_sunmatrixsparse_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

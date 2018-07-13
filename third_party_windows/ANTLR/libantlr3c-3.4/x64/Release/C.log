@@ -1,0 +1,27 @@
+﻿  antlr3baserecognizer.c
+  antlr3basetree.c
+  antlr3basetreeadaptor.c
+  antlr3bitset.c
+  antlr3collections.c
+  antlr3commontoken.c
+  antlr3commontree.c
+  antlr3commontreeadaptor.c
+  antlr3commontreenodestream.c
+  antlr3convertutf.c
+  antlr3cyclicdfa.c
+  antlr3debughandlers.c
+  antlr3encodings.c
+  antlr3exception.c
+  antlr3filestream.c
+  antlr3inputstream.c
+  antlr3intstream.c
+  antlr3lexer.c
+  antlr3parser.c
+  antlr3rewritestreams.c
+  Compiling...
+  antlr3string.c
+  antlr3tokenstream.c
+  antlr3treeparser.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(C:\oss\third_party\ANTLR\libantlr3c-3.4\x64\Release\C.lib) does not match the Library's OutputFile property value (C:\oss\third_party\ANTLR\libantlr3c-3.4\x64\Release\antlr3c.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(C) does not match the Library's OutputFile property value (antlr3c). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  C.vcxproj -> C:\oss\third_party\ANTLR\libantlr3c-3.4\x64\Release\C.lib

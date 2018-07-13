@@ -1,0 +1,8 @@
+ Dataset's name (returned by H5Rget_name) the reference points to is /MATRIX, name length is 7
+ Dataset's name (returned by H5Iget_name) the reference points to is /MATRIX, name length is 7
+Selected hyperslab: 
+0 0 0 3 3 4 0 0 0 
+0 0 0 3 4 4 0 0 0 
+Selected points: 
+1 0 0 0 0 0 0 0 6 
+0 0 0 0 0 0 5 0 0 

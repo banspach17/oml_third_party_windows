@@ -1,0 +1,23 @@
+HDF5 "testfiles/binin8w.h5" {
+DATASET "/dataset0" {
+   DATATYPE  H5T_STD_I8LE
+   DATASPACE  SIMPLE { ( 4 ) / ( 4 ) }
+   STORAGE_LAYOUT {
+      CONTIGUOUS
+      SIZE 4
+      OFFSET 2848
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_IFSET
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_LATE
+   }
+   DATA {
+   }
+}
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\rice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\sz_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\ricehdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\szip_adpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\szlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0040012-74C3-36EE-879C-3CAC6902AC93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F823F95D-FF57-3FBB-9A78-3206853803B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

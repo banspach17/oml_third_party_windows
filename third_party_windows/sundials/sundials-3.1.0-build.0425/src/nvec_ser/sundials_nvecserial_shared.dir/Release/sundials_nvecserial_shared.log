@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/nvec_ser/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/CMakeFiles/generate.stamp is up-to-date.
+  nvector_serial.c
+  sundials_math.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/Release/sundials_nvecserial.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/Release/sundials_nvecserial.exp
+  sundials_nvecserial_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\nvec_ser\Release\sundials_nvecserial.dll

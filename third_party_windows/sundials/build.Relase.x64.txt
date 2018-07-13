@@ -1,0 +1,605 @@
+1>------ Build started: Project: ZERO_CHECK, Configuration: Release x64 ------
+1>  Checking Build System
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sundials/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_dense/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_band/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spfgmr/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spbcgs/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_pcg/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/arkode/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/ida/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/idas/CMakeFiles/generate.stamp is up-to-date.
+1>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp is up-to-date.
+2>------ Build started: Project: sundials_sunmatrixdense_shared, Configuration: Release x64 ------
+3>------ Build started: Project: sundials_sunmatrixband_shared, Configuration: Release x64 ------
+4>------ Build started: Project: sundials_sunlinsolband_static, Configuration: Release x64 ------
+5>------ Build started: Project: sundials_arkode_shared, Configuration: Release x64 ------
+6>------ Build started: Project: sundials_arkode_static, Configuration: Release x64 ------
+7>------ Build started: Project: sundials_cvode_shared, Configuration: Release x64 ------
+8>------ Build started: Project: sundials_cvode_static, Configuration: Release x64 ------
+9>------ Build started: Project: sundials_cvodes_shared, Configuration: Release x64 ------
+2>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_dense/CMakeLists.txt
+2>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_dense/CMakeFiles/generate.stamp is up-to-date.
+3>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_band/CMakeLists.txt
+2>  sunmatrix_dense.c
+7>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/cvode/CMakeLists.txt
+5>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/arkode/CMakeLists.txt
+4>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_band/CMakeLists.txt
+6>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/arkode/CMakeLists.txt
+2>  sundials_nvector.c
+8>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/cvode/CMakeLists.txt
+3>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/CMakeFiles/generate.stamp is up-to-date.
+7>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/CMakeFiles/generate.stamp is up-to-date.
+2>  sundials_matrix.c
+2>  sundials_math.c
+5>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/arkode/CMakeFiles/generate.stamp is up-to-date.
+4>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_band/CMakeFiles/generate.stamp is up-to-date.
+2>  Generating Code...
+6>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/arkode/CMakeFiles/generate.stamp is up-to-date.
+8>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/CMakeFiles/generate.stamp is up-to-date.
+9>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/cvodes/CMakeLists.txt
+4>  sunlinsol_band.c
+3>  sunmatrix_band.c
+7>  cvode.c
+9>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/CMakeFiles/generate.stamp is up-to-date.
+5>  arkode.c
+8>  cvode.c
+3>  sundials_nvector.c
+4>  sundials_linearsolver.c
+2>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_dense/Release/sundials_sunmatrixdense.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_dense/Release/sundials_sunmatrixdense.exp
+6>  arkode.c
+7>  cvode_bandpre.c
+3>  sundials_matrix.c
+4>  sundials_band.c
+5>  arkode_bandpre.c
+8>  cvode_bandpre.c
+3>  sundials_math.c
+4>  Generating Code...
+7>  cvode_bbdpre.c
+5>  arkode_bbdpre.c
+3>  Generating Code...
+8>  cvode_bbdpre.c
+7>  cvode_diag.c
+6>  arkode_bandpre.c
+8>  cvode_diag.c
+5>  arkode_butcher.c
+7>  cvode_direct.c
+6>  arkode_bbdpre.c
+8>  cvode_direct.c
+5>  arkode_direct.c
+7>  cvode_io.c
+8>  cvode_io.c
+6>  arkode_butcher.c
+5>  arkode_io.c
+7>  cvode_spils.c
+9>  cvodea.c
+8>  cvode_spils.c
+6>  arkode_direct.c
+2>  sundials_sunmatrixdense_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_dense\Release\sundials_sunmatrixdense.dll
+7>  sundials_nvector.c
+5>  arkode_spils.c
+8>  sundials_nvector.c
+7>  sundials_matrix.c
+8>  sundials_matrix.c
+6>  arkode_io.c
+9>  cvodea_io.c
+7>  sundials_linearsolver.c
+10>------ Build started: Project: sundials_cvodes_static, Configuration: Release x64 ------
+5>  sundials_nvector.c
+8>  sundials_linearsolver.c
+7>  sundials_math.c
+9>  cvodes.c
+5>  sundials_matrix.c
+8>  sundials_math.c
+6>  arkode_spils.c
+5>  sundials_linearsolver.c
+7>  sundials_band.c
+8>  sundials_band.c
+5>  sundials_math.c
+9>  cvodes_bandpre.c
+8>  sundials_dense.c
+7>  sundials_dense.c
+6>  sundials_nvector.c
+6>  sundials_matrix.c
+5>  sundials_band.c
+7>  sundials_direct.c
+6>  sundials_linearsolver.c
+8>  sundials_direct.c
+9>  cvodes_bbdpre.c
+5>  sundials_dense.c
+3>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/Release/sundials_sunmatrixband.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/Release/sundials_sunmatrixband.exp
+6>  sundials_math.c
+7>  sundials_iterative.c
+8>  sundials_iterative.c
+4>  sundials_sunlinsolband_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_band\Release\sundials_sunlinsolband.lib
+5>  sundials_direct.c
+11>------ Build started: Project: sundials_ida_shared, Configuration: Release x64 ------
+7>  sundials_version.c
+9>  cvodes_io.c
+8>  sundials_version.c
+6>  sundials_band.c
+5>  sundials_iterative.c
+7>  nvector_serial.c
+8>  nvector_serial.c
+6>  sundials_dense.c
+9>  cvodes_diag.c
+7>  sunmatrix_band.c
+6>  sundials_direct.c
+5>  sundials_version.c
+8>  sunmatrix_band.c
+9>  cvodes_direct.c
+5>  nvector_serial.c
+6>  sundials_iterative.c
+7>  sunmatrix_dense.c
+8>  sunmatrix_dense.c
+5>  sunmatrix_band.c
+6>  sundials_version.c
+9>  cvodes_spils.c
+7>  sunmatrix_sparse.c
+8>  sunmatrix_sparse.c
+10>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/cvodes/CMakeLists.txt
+6>  nvector_serial.c
+5>  sunmatrix_dense.c
+9>  sundials_nvector.c
+6>  sunmatrix_band.c
+7>  Generating Code...
+8>  Generating Code...
+5>  sunmatrix_sparse.c
+9>  sundials_matrix.c
+3>  sundials_sunmatrixband_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\Release\sundials_sunmatrixband.dll
+6>  sunmatrix_dense.c
+9>  sundials_linearsolver.c
+12>------ Build started: Project: sundials_ida_static, Configuration: Release x64 ------
+9>  sundials_math.c
+5>  Generating Code...
+6>  sunmatrix_sparse.c
+10>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/CMakeFiles/generate.stamp is up-to-date.
+9>  sundials_band.c
+6>  Generating Code...
+9>  sundials_dense.c
+11>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/ida/CMakeLists.txt
+9>  sundials_direct.c
+9>  sundials_iterative.c
+9>  sundials_version.c
+9>  nvector_serial.c
+9>  sunmatrix_band.c
+9>  Generating Code...
+11>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/ida/CMakeFiles/generate.stamp is up-to-date.
+7>  Compiling...
+7>  sunlinsol_band.c
+8>  Compiling...
+8>  sunlinsol_band.c
+7>  sunlinsol_dense.c
+8>  sunlinsol_dense.c
+7>  sunlinsol_spbcgs.c
+10>  cvodea.c
+8>  sunlinsol_spbcgs.c
+7>  sunlinsol_spfgmr.c
+7>  sunlinsol_spgmr.c
+8>  sunlinsol_spfgmr.c
+7>  sunlinsol_sptfqmr.c
+8>  sunlinsol_spgmr.c
+10>  cvodea_io.c
+8>  sunlinsol_sptfqmr.c
+7>  sunlinsol_pcg.c
+5>  Compiling...
+5>  sunlinsol_band.c
+8>  sunlinsol_pcg.c
+10>  cvodes.c
+7>  Generating Code...
+5>  sunlinsol_dense.c
+5>  sunlinsol_spbcgs.c
+8>  Generating Code...
+10>  cvodes_bandpre.c
+5>  sunlinsol_spfgmr.c
+6>  Compiling...
+6>  sunlinsol_band.c
+10>  cvodes_bbdpre.c
+5>  sunlinsol_spgmr.c
+6>  sunlinsol_dense.c
+5>  sunlinsol_sptfqmr.c
+10>  cvodes_io.c
+6>  sunlinsol_spbcgs.c
+10>  cvodes_diag.c
+5>  sunlinsol_pcg.c
+6>  sunlinsol_spfgmr.c
+10>  cvodes_direct.c
+5>  Generating Code...
+11>  ida.c
+6>  sunlinsol_spgmr.c
+10>  cvodes_spils.c
+6>  sunlinsol_sptfqmr.c
+10>  sundials_nvector.c
+6>  sunlinsol_pcg.c
+9>  Compiling...
+9>  sunmatrix_dense.c
+11>  ida_bbdpre.c
+10>  sundials_matrix.c
+6>  Generating Code...
+10>  sundials_linearsolver.c
+9>  sunmatrix_sparse.c
+10>  sundials_math.c
+11>  ida_direct.c
+9>  sunlinsol_band.c
+11>  ida_ic.c
+10>  sundials_band.c
+10>  sundials_dense.c
+9>  sunlinsol_dense.c
+7>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/Release/sundials_cvode.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/Release/sundials_cvode.exp
+11>  ida_io.c
+10>  sundials_direct.c
+9>  sunlinsol_spbcgs.c
+11>  ida_spils.c
+10>  sundials_iterative.c
+9>  sunlinsol_spfgmr.c
+11>  sundials_nvector.c
+10>  sundials_version.c
+11>  sundials_matrix.c
+9>  sunlinsol_spgmr.c
+10>  nvector_serial.c
+11>  sundials_linearsolver.c
+9>  sunlinsol_sptfqmr.c
+11>  sundials_math.c
+8>  sundials_cvode_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvode\Release\sundials_cvode.lib
+10>  sunmatrix_band.c
+13>------ Build started: Project: sundials_idas_shared, Configuration: Release x64 ------
+11>  sundials_band.c
+9>  sunlinsol_pcg.c
+10>  Generating Code...
+7>  sundials_cvode_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvode\Release\sundials_cvode.dll
+11>  sundials_dense.c
+14>------ Build started: Project: sundials_idas_static, Configuration: Release x64 ------
+9>  Generating Code...
+11>  sundials_direct.c
+11>  sundials_iterative.c
+11>  sundials_version.c
+11>  nvector_serial.c
+11>  sunmatrix_band.c
+11>  sunmatrix_dense.c
+11>  sunmatrix_sparse.c
+13>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/idas/CMakeLists.txt
+11>  sunlinsol_band.c
+14>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/idas/CMakeLists.txt
+6>  sundials_arkode_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\arkode\Release\sundials_arkode.lib
+11>  Generating Code...
+15>------ Build started: Project: sundials_kinsol_shared, Configuration: Release x64 ------
+13>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/idas/CMakeFiles/generate.stamp is up-to-date.
+14>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/idas/CMakeFiles/generate.stamp is up-to-date.
+13>  idas.c
+9>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/Release/sundials_cvodes.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvodes/Release/sundials_cvodes.exp
+14>  idas.c
+15>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt
+13>  idaa.c
+10>  Compiling...
+10>  sunmatrix_dense.c
+13>  idas_io.c
+10>  sunmatrix_sparse.c
+14>  idaa.c
+15>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp is up-to-date.
+13>  idas_ic.c
+10>  sunlinsol_band.c
+14>  idas_io.c
+10>  sunlinsol_dense.c
+13>  idaa_io.c
+14>  idas_ic.c
+11>  Compiling...
+10>  sunlinsol_spbcgs.c
+13>  idas_direct.c
+9>  sundials_cvodes_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvodes\Release\sundials_cvodes.dll
+11>  sunlinsol_dense.c
+11>  sunlinsol_spbcgs.c
+10>  sunlinsol_spfgmr.c
+16>------ Build started: Project: sundials_kinsol_static, Configuration: Release x64 ------
+14>  idaa_io.c
+11>  sunlinsol_spfgmr.c
+13>  idas_spils.c
+10>  sunlinsol_spgmr.c
+14>  idas_direct.c
+11>  sunlinsol_spgmr.c
+10>  sunlinsol_sptfqmr.c
+13>  idas_bbdpre.c
+14>  idas_spils.c
+11>  sunlinsol_sptfqmr.c
+10>  sunlinsol_pcg.c
+13>  sundials_nvector.c
+15>  kinsol.c
+11>  sunlinsol_pcg.c
+14>  idas_bbdpre.c
+13>  sundials_matrix.c
+10>  Generating Code...
+13>  sundials_linearsolver.c
+11>  Generating Code...
+15>C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol.c(243): warning C4244: '=': conversion from 'double' to 'sunindextype', possible loss of data
+13>  sundials_math.c
+14>  sundials_nvector.c
+15>  kinsol_io.c
+14>  sundials_matrix.c
+13>  sundials_band.c
+14>  sundials_linearsolver.c
+15>  kinsol_direct.c
+14>  sundials_math.c
+13>  sundials_dense.c
+15>  kinsol_spils.c
+13>  sundials_direct.c
+14>  sundials_band.c
+14>  sundials_dense.c
+13>  sundials_iterative.c
+15>  kinsol_bbdpre.c
+13>  sundials_version.c
+14>  sundials_direct.c
+16>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt
+13>  nvector_serial.c
+14>  sundials_iterative.c
+15>  sundials_nvector.c
+16>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp is up-to-date.
+13>  sunmatrix_band.c
+14>  sundials_version.c
+15>  sundials_matrix.c
+13>  sunmatrix_dense.c
+15>  sundials_linearsolver.c
+14>  nvector_serial.c
+13>  Generating Code...
+15>  sundials_math.c
+14>  sunmatrix_band.c
+15>  sundials_band.c
+14>  sunmatrix_dense.c
+15>  sundials_dense.c
+14>  Generating Code...
+15>  sundials_direct.c
+15>  sundials_iterative.c
+15>  sundials_version.c
+15>  nvector_serial.c
+15>  sunmatrix_band.c
+16>  kinsol.c
+15>  sunmatrix_dense.c
+15>  sunmatrix_sparse.c
+16>C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol.c(243): warning C4244: '=': conversion from 'double' to 'sunindextype', possible loss of data
+15>  sunlinsol_band.c
+16>  kinsol_io.c
+15>  sunlinsol_dense.c
+16>  kinsol_direct.c
+11>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/ida/Release/sundials_ida.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/ida/Release/sundials_ida.exp
+15>  Generating Code...
+5>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/arkode/Release/sundials_arkode.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/arkode/Release/sundials_arkode.exp
+16>  kinsol_spils.c
+16>  kinsol_bbdpre.c
+16>  sundials_nvector.c
+16>  sundials_matrix.c
+17>------ Build started: Project: sundials_nvecserial_shared, Configuration: Release x64 ------
+16>  sundials_linearsolver.c
+16>  sundials_math.c
+16>  sundials_band.c
+16>  sundials_dense.c
+16>  sundials_direct.c
+16>  sundials_iterative.c
+16>  sundials_version.c
+11>  sundials_ida_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\ida\Release\sundials_ida.dll
+16>  nvector_serial.c
+18>------ Build started: Project: sundials_nvecserial_static, Configuration: Release x64 ------
+13>  Compiling...
+16>  sunmatrix_band.c
+16>  sunmatrix_dense.c
+13>  sunmatrix_sparse.c
+13>  sunlinsol_band.c
+5>  sundials_arkode_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\arkode\Release\sundials_arkode.dll
+13>  sunlinsol_dense.c
+16>  sunmatrix_sparse.c
+14>  Compiling...
+19>------ Build started: Project: sundials_sunlinsolband_shared, Configuration: Release x64 ------
+13>  sunlinsol_spbcgs.c
+14>  sunmatrix_sparse.c
+16>  sunlinsol_band.c
+13>  sunlinsol_spfgmr.c
+14>  sunlinsol_band.c
+16>  sunlinsol_dense.c
+15>  Compiling...
+15>  sunlinsol_spbcgs.c
+13>  sunlinsol_spgmr.c
+14>  sunlinsol_dense.c
+17>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/nvec_ser/CMakeLists.txt
+16>  Generating Code...
+15>  sunlinsol_spfgmr.c
+14>  sunlinsol_spbcgs.c
+13>  sunlinsol_sptfqmr.c
+14>  sunlinsol_spfgmr.c
+15>  sunlinsol_spgmr.c
+18>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/nvec_ser/CMakeLists.txt
+17>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/CMakeFiles/generate.stamp is up-to-date.
+13>  sunlinsol_pcg.c
+14>  sunlinsol_spgmr.c
+15>  sunlinsol_sptfqmr.c
+13>  Generating Code...
+15>  sunlinsol_pcg.c
+14>  sunlinsol_sptfqmr.c
+18>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/CMakeFiles/generate.stamp is up-to-date.
+17>  nvector_serial.c
+15>  Generating Code...
+14>  sunlinsol_pcg.c
+17>  sundials_math.c
+10>  sundials_cvodes_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvodes\Release\sundials_cvodes.lib
+14>  Generating Code...
+17>  Generating Code...
+20>------ Build started: Project: sundials_sunmatrixsparse_static, Configuration: Release x64 ------
+16>  Compiling...
+16>  sunlinsol_spbcgs.c
+16>  sunlinsol_spfgmr.c
+18>  nvector_serial.c
+16>  sunlinsol_spgmr.c
+13>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/idas/Release/sundials_idas.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/idas/Release/sundials_idas.exp
+18>  sundials_math.c
+16>  sunlinsol_sptfqmr.c
+18>  Generating Code...
+16>  sunlinsol_pcg.c
+20>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_sparse/CMakeLists.txt
+16>  Generating Code...
+17>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/Release/sundials_nvecserial.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/nvec_ser/Release/sundials_nvecserial.exp
+20>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/CMakeFiles/generate.stamp is up-to-date.
+13>  sundials_idas_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\idas\Release\sundials_idas.dll
+15>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/Release/sundials_kinsol.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/Release/sundials_kinsol.exp
+21>------ Build started: Project: sundials_sunlinsoldense_shared, Configuration: Release x64 ------
+17>  sundials_nvecserial_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\nvec_ser\Release\sundials_nvecserial.dll
+22>------ Build started: Project: sundials_sunlinsoldense_static, Configuration: Release x64 ------
+20>  sunmatrix_sparse.c
+18>  sundials_nvecserial_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\nvec_ser\Release\sundials_nvecserial.lib
+14>  sundials_idas_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\idas\Release\sundials_idas.lib
+23>------ Build started: Project: sundials_sunlinsolpcg_shared, Configuration: Release x64 ------
+24>------ Build started: Project: sundials_sunlinsolpcg_static, Configuration: Release x64 ------
+20>  sundials_nvector.c
+15>  sundials_kinsol_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\Release\sundials_kinsol.dll
+20>  sundials_matrix.c
+20>  sundials_math.c
+25>------ Build started: Project: sundials_sunlinsolspbcgs_shared, Configuration: Release x64 ------
+20>  Generating Code...
+21>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_dense/CMakeLists.txt
+22>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_dense/CMakeLists.txt
+21>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/CMakeFiles/generate.stamp is up-to-date.
+22>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/CMakeFiles/generate.stamp is up-to-date.
+24>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_pcg/CMakeLists.txt
+23>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_pcg/CMakeLists.txt
+25>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spbcgs/CMakeLists.txt
+24>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_pcg/CMakeFiles/generate.stamp is up-to-date.
+21>  sunlinsol_dense.c
+23>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_pcg/CMakeFiles/generate.stamp is up-to-date.
+22>  sunlinsol_dense.c
+21>  sundials_linearsolver.c
+26>------ Build started: Project: sundials_sunlinsolspbcgs_static, Configuration: Release x64 ------
+25>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spbcgs/CMakeFiles/generate.stamp is up-to-date.
+21>  sundials_dense.c
+22>  sundials_linearsolver.c
+21>  Generating Code...
+22>  sundials_dense.c
+20>  sundials_sunmatrixsparse_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\Release\sundials_sunmatrixsparse.lib
+27>------ Build started: Project: sundials_sunlinsolspfgmr_shared, Configuration: Release x64 ------
+22>  Generating Code...
+24>  sunlinsol_pcg.c
+23>  sunlinsol_pcg.c
+24>  sundials_math.c
+23>  sundials_math.c
+25>  sunlinsol_spbcgs.c
+24>  sundials_nvector.c
+23>  sundials_nvector.c
+24>  sundials_linearsolver.c
+23>  sundials_linearsolver.c
+24>  sundials_iterative.c
+23>  sundials_iterative.c
+25>  sundials_math.c
+24>  Generating Code...
+23>  Generating Code...
+21>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/Release/sundials_sunlinsoldense.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/Release/sundials_sunlinsoldense.exp
+25>  sundials_nvector.c
+25>  sundials_linearsolver.c
+27>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spfgmr/CMakeLists.txt
+25>  sundials_iterative.c
+25>  Generating Code...
+27>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spfgmr/CMakeFiles/generate.stamp is up-to-date.
+16>  sundials_kinsol_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\Release\sundials_kinsol.lib
+28>------ Build started: Project: sundials_sunlinsolspfgmr_static, Configuration: Release x64 ------
+21>  sundials_sunlinsoldense_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\Release\sundials_sunlinsoldense.dll
+23>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_pcg/Release/sundials_sunlinsolpcg.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_pcg/Release/sundials_sunlinsolpcg.exp
+27>  sunlinsol_spfgmr.c
+24>  sundials_sunlinsolpcg_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_pcg\Release\sundials_sunlinsolpcg.lib
+29>------ Build started: Project: sundials_sunlinsolspgmr_shared, Configuration: Release x64 ------
+30>------ Build started: Project: sundials_sunlinsolspgmr_static, Configuration: Release x64 ------
+25>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spbcgs/Release/sundials_sunlinsolspbcgs.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spbcgs/Release/sundials_sunlinsolspbcgs.exp
+27>  sundials_math.c
+22>  sundials_sunlinsoldense_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\Release\sundials_sunlinsoldense.lib
+31>------ Build started: Project: sundials_sunlinsolsptfqmr_shared, Configuration: Release x64 ------
+27>  sundials_nvector.c
+28>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spfgmr/CMakeLists.txt
+27>  sundials_linearsolver.c
+27>  sundials_iterative.c
+27>  Generating Code...
+23>  sundials_sunlinsolpcg_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_pcg\Release\sundials_sunlinsolpcg.dll
+32>------ Build started: Project: sundials_sunlinsolsptfqmr_static, Configuration: Release x64 ------
+28>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spfgmr/CMakeFiles/generate.stamp is up-to-date.
+29>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spgmr/CMakeLists.txt
+25>  sundials_sunlinsolspbcgs_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spbcgs\Release\sundials_sunlinsolspbcgs.dll
+33>------ Build started: Project: sundials_sunmatrixband_static, Configuration: Release x64 ------
+30>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spgmr/CMakeLists.txt
+29>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/CMakeFiles/generate.stamp is up-to-date.
+28>  sunlinsol_spfgmr.c
+30>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/CMakeFiles/generate.stamp is up-to-date.
+34>------ Build started: Project: sundials_sunmatrixdense_static, Configuration: Release x64 ------
+28>  sundials_math.c
+32>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_sptfqmr/CMakeLists.txt
+28>  sundials_nvector.c
+27>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spfgmr/Release/sundials_sunlinsolspfgmr.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spfgmr/Release/sundials_sunlinsolspfgmr.exp
+31>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_sptfqmr/CMakeLists.txt
+28>  sundials_linearsolver.c
+29>  sunlinsol_spgmr.c
+32>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/CMakeFiles/generate.stamp is up-to-date.
+33>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_band/CMakeLists.txt
+28>  sundials_iterative.c
+28>  Generating Code...
+31>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/CMakeFiles/generate.stamp is up-to-date.
+29>  sundials_math.c
+29>  sundials_nvector.c
+30>  sunlinsol_spgmr.c
+33>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/CMakeFiles/generate.stamp is up-to-date.
+29>  sundials_linearsolver.c
+29>  sundials_iterative.c
+34>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_dense/CMakeLists.txt
+29>  Generating Code...
+27>  sundials_sunlinsolspfgmr_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spfgmr\Release\sundials_sunlinsolspfgmr.dll
+30>  sundials_math.c
+35>------ Build started: Project: sundials_sunmatrixsparse_shared, Configuration: Release x64 ------
+32>  sunlinsol_sptfqmr.c
+30>  sundials_nvector.c
+34>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_dense/CMakeFiles/generate.stamp is up-to-date.
+30>  sundials_linearsolver.c
+31>  sunlinsol_sptfqmr.c
+30>  sundials_iterative.c
+32>  sundials_math.c
+30>  Generating Code...
+32>  sundials_nvector.c
+31>  sundials_math.c
+32>  sundials_linearsolver.c
+33>  sunmatrix_band.c
+32>  sundials_iterative.c
+31>  sundials_nvector.c
+32>  Generating Code...
+31>  sundials_linearsolver.c
+31>  sundials_iterative.c
+35>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_sparse/CMakeLists.txt
+33>  sundials_nvector.c
+33>  sundials_matrix.c
+31>  Generating Code...
+33>  sundials_math.c
+34>  sunmatrix_dense.c
+28>  sundials_sunlinsolspfgmr_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spfgmr\Release\sundials_sunlinsolspfgmr.lib
+33>  Generating Code...
+35>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/CMakeFiles/generate.stamp is up-to-date.
+34>  sundials_nvector.c
+29>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/Release/sundials_sunlinsolspgmr.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/Release/sundials_sunlinsolspgmr.exp
+34>  sundials_matrix.c
+34>  sundials_math.c
+34>  Generating Code...
+30>  sundials_sunlinsolspgmr_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spgmr\Release\sundials_sunlinsolspgmr.lib
+32>  sundials_sunlinsolsptfqmr_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\Release\sundials_sunlinsolsptfqmr.lib
+35>  sunmatrix_sparse.c
+29>  sundials_sunlinsolspgmr_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spgmr\Release\sundials_sunlinsolspgmr.dll
+31>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Release/sundials_sunlinsolsptfqmr.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Release/sundials_sunlinsolsptfqmr.exp
+35>  sundials_nvector.c
+33>  sundials_sunmatrixband_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\Release\sundials_sunmatrixband.lib
+35>  sundials_matrix.c
+35>  sundials_math.c
+34>  sundials_sunmatrixdense_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_dense\Release\sundials_sunmatrixdense.lib
+35>  Generating Code...
+31>  sundials_sunlinsolsptfqmr_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\Release\sundials_sunlinsolsptfqmr.dll
+35>     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/Release/sundials_sunmatrixsparse.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_sparse/Release/sundials_sunmatrixsparse.exp
+35>  sundials_sunmatrixsparse_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_sparse\Release\sundials_sunmatrixsparse.dll
+36>------ Build started: Project: ALL_BUILD, Configuration: Release x64 ------
+36>  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/CMakeLists.txt
+36>  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/CMakeFiles/generate.stamp is up-to-date.
+37>------ Skipped Build: Project: INSTALL, Configuration: Release x64 ------
+37>Project not selected to build for this solution configuration 
+========== Build: 36 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========

@@ -1,0 +1,22 @@
+HDF5 "testfiles/binfp64.h5" {
+DATASET "/fp/bin/64-bit" {
+   DATATYPE  H5T_IEEE_F64LE
+   DATASPACE  SIMPLE { ( 5, 3, 4 ) / ( H5S_UNLIMITED, 6, 7 ) }
+   STORAGE_LAYOUT {
+      CHUNKED ( 2, 2, 2 )
+      SIZE 768 (0.625:1 COMPRESSION)
+   }
+   FILTERS {
+      COMPRESSION DEFLATE { LEVEL 8 }
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_ALLOC
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_INCR
+   }
+   DATA {
+   }
+}
+}

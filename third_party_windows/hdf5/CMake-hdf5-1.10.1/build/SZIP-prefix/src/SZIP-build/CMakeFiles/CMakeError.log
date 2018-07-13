@@ -1,0 +1,1045 @@
+Determining if the function gethostname exists in the ucb; failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_77cf1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:47 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_77cf1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_77cf1.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_77cf1.dir\Debug\cmTC_77cf1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_77cf1.dir\Debug\cmTC_77cf1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostname /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77cf1.dir\Debug\\" /Fd"cmTC_77cf1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostname /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77cf1.dir\Debug\\" /Fd"cmTC_77cf1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_77cf1.exe" /INCREMENTAL /NOLOGO ucb.lib ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_77cf1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_77cf1.lib" /MACHINE:X64  /machine:x64 cmTC_77cf1.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: cannot open file 'ucb.lib' [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_77cf1.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_77cf1.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_77cf1.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'ucb.lib' [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_77cf1.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.69
+
+
+Determining if files windows.h;unistd.h exist failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b1356.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:48 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b1356.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b1356.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b1356.dir\Debug\cmTC_b1356.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b1356.dir\Debug\cmTC_b1356.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1356.dir\Debug\\" /Fd"cmTC_b1356.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1356.dir\Debug\\" /Fd"cmTC_b1356.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(3): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b1356.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b1356.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b1356.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(3): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b1356.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.66
+
+Source:
+/* */
+#include <windows.h>
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;pthread.h exist failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4f096.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:50 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4f096.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4f096.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4f096.dir\Debug\cmTC_4f096.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4f096.dir\Debug\cmTC_4f096.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f096.dir\Debug\\" /Fd"cmTC_4f096.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f096.dir\Debug\\" /Fd"cmTC_4f096.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(9): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4f096.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4f096.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4f096.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(9): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4f096.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.67
+
+Source:
+/* */
+#include <windows.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <io.h>
+#include <winsock2.h>
+#include <pthread.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;strings.h exist failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b0111.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:52 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b0111.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b0111.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b0111.dir\Debug\cmTC_b0111.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b0111.dir\Debug\cmTC_b0111.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0111.dir\Debug\\" /Fd"cmTC_b0111.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0111.dir\Debug\\" /Fd"cmTC_b0111.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b0111.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b0111.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b0111.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b0111.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.70
+
+Source:
+/* */
+#include <windows.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <io.h>
+#include <winsock2.h>
+#include <string.h>
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h;stdlib.h;memory.h;dlfcn.h exist failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7bb90.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:57 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7bb90.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7bb90.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7bb90.dir\Debug\cmTC_7bb90.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7bb90.dir\Debug\cmTC_7bb90.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb90.dir\Debug\\" /Fd"cmTC_7bb90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb90.dir\Debug\\" /Fd"cmTC_7bb90.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(13): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7bb90.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7bb90.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7bb90.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(13): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7bb90.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.63
+
+Source:
+/* */
+#include <windows.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <io.h>
+#include <winsock2.h>
+#include <string.h>
+#include <time.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if the function alarm exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21338.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:00 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_21338.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_21338.dir\Debug\cmTC_21338.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_21338.dir\Debug\cmTC_21338.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=alarm /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21338.dir\Debug\\" /Fd"cmTC_21338.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=alarm /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21338.dir\Debug\\" /Fd"cmTC_21338.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_21338.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_21338.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_21338.lib" /MACHINE:X64  /machine:x64 cmTC_21338.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol alarm referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_21338.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol alarm referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_21338.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_21338.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Determining if the function fork exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_94aa3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:01 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_94aa3.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_94aa3.dir\Debug\cmTC_94aa3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_94aa3.dir\Debug\cmTC_94aa3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fork /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94aa3.dir\Debug\\" /Fd"cmTC_94aa3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fork /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94aa3.dir\Debug\\" /Fd"cmTC_94aa3.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_94aa3.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_94aa3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_94aa3.lib" /MACHINE:X64  /machine:x64 cmTC_94aa3.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fork referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_94aa3.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol fork referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_94aa3.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_94aa3.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining if the function frexpf exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_839f7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:02 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_839f7.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_839f7.dir\Debug\cmTC_839f7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_839f7.dir\Debug\cmTC_839f7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=frexpf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_839f7.dir\Debug\\" /Fd"cmTC_839f7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=frexpf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_839f7.dir\Debug\\" /Fd"cmTC_839f7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_839f7.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_839f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_839f7.lib" /MACHINE:X64  /machine:x64 cmTC_839f7.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol frexpf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_839f7.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol frexpf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_839f7.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_839f7.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function frexpl exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_55ff8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:03 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_55ff8.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_55ff8.dir\Debug\cmTC_55ff8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_55ff8.dir\Debug\cmTC_55ff8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=frexpl /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55ff8.dir\Debug\\" /Fd"cmTC_55ff8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=frexpl /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55ff8.dir\Debug\\" /Fd"cmTC_55ff8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_55ff8.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_55ff8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_55ff8.lib" /MACHINE:X64  /machine:x64 cmTC_55ff8.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol frexpl referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_55ff8.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol frexpl referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_55ff8.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_55ff8.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining if the function getpwuid exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6156a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:04 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6156a.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6156a.dir\Debug\cmTC_6156a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6156a.dir\Debug\cmTC_6156a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6156a.dir\Debug\\" /Fd"cmTC_6156a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getpwuid /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6156a.dir\Debug\\" /Fd"cmTC_6156a.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_6156a.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_6156a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_6156a.lib" /MACHINE:X64  /machine:x64 cmTC_6156a.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getpwuid referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_6156a.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol getpwuid referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_6156a.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_6156a.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the function getrusage exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e7f69.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:05 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e7f69.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e7f69.dir\Debug\cmTC_e7f69.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e7f69.dir\Debug\cmTC_e7f69.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getrusage /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7f69.dir\Debug\\" /Fd"cmTC_e7f69.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getrusage /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7f69.dir\Debug\\" /Fd"cmTC_e7f69.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_e7f69.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_e7f69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_e7f69.lib" /MACHINE:X64  /machine:x64 cmTC_e7f69.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getrusage referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_e7f69.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol getrusage referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_e7f69.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_e7f69.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function lstat exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_faa96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:06 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_faa96.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_faa96.dir\Debug\cmTC_faa96.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_faa96.dir\Debug\cmTC_faa96.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lstat /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faa96.dir\Debug\\" /Fd"cmTC_faa96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lstat /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faa96.dir\Debug\\" /Fd"cmTC_faa96.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_faa96.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_faa96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_faa96.lib" /MACHINE:X64  /machine:x64 cmTC_faa96.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol lstat referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_faa96.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol lstat referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_faa96.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_faa96.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Determining if the function rand_r exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_eb9a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:07 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_eb9a2.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_eb9a2.dir\Debug\cmTC_eb9a2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_eb9a2.dir\Debug\cmTC_eb9a2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand_r /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb9a2.dir\Debug\\" /Fd"cmTC_eb9a2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=rand_r /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb9a2.dir\Debug\\" /Fd"cmTC_eb9a2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_eb9a2.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_eb9a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_eb9a2.lib" /MACHINE:X64  /machine:x64 cmTC_eb9a2.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_eb9a2.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_eb9a2.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_eb9a2.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Determining if the function random exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_180c6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:08 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_180c6.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_180c6.dir\Debug\cmTC_180c6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_180c6.dir\Debug\cmTC_180c6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=random /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_180c6.dir\Debug\\" /Fd"cmTC_180c6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=random /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_180c6.dir\Debug\\" /Fd"cmTC_180c6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_180c6.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_180c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_180c6.lib" /MACHINE:X64  /machine:x64 cmTC_180c6.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol random referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_180c6.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol random referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_180c6.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_180c6.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_601a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:09 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_601a9.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_601a9.dir\Debug\cmTC_601a9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_601a9.dir\Debug\cmTC_601a9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setsysinfo /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_601a9.dir\Debug\\" /Fd"cmTC_601a9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setsysinfo /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_601a9.dir\Debug\\" /Fd"cmTC_601a9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_601a9.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_601a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_601a9.lib" /MACHINE:X64  /machine:x64 cmTC_601a9.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol setsysinfo referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_601a9.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol setsysinfo referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_601a9.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_601a9.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.77
+
+
+Determining if the function siglongjmp exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_864d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:12 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_864d1.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_864d1.dir\Debug\cmTC_864d1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_864d1.dir\Debug\cmTC_864d1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=siglongjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_864d1.dir\Debug\\" /Fd"cmTC_864d1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=siglongjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_864d1.dir\Debug\\" /Fd"cmTC_864d1.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_864d1.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_864d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_864d1.lib" /MACHINE:X64  /machine:x64 cmTC_864d1.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol siglongjmp referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_864d1.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol siglongjmp referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_864d1.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_864d1.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9cf93.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:13 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9cf93.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9cf93.dir\Debug\cmTC_9cf93.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9cf93.dir\Debug\cmTC_9cf93.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigsetjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cf93.dir\Debug\\" /Fd"cmTC_9cf93.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigsetjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cf93.dir\Debug\\" /Fd"cmTC_9cf93.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_9cf93.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_9cf93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_9cf93.lib" /MACHINE:X64  /machine:x64 cmTC_9cf93.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigsetjmp referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_9cf93.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigsetjmp referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_9cf93.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9cf93.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function sigaction exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4916d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:14 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4916d.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4916d.dir\Debug\cmTC_4916d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4916d.dir\Debug\cmTC_4916d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigaction /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4916d.dir\Debug\\" /Fd"cmTC_4916d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigaction /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4916d.dir\Debug\\" /Fd"cmTC_4916d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_4916d.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_4916d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_4916d.lib" /MACHINE:X64  /machine:x64 cmTC_4916d.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigaction referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_4916d.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigaction referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_4916d.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_4916d.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining if the function sigprocmask exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a688f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:15 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a688f.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a688f.dir\Debug\cmTC_a688f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a688f.dir\Debug\cmTC_a688f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigprocmask /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a688f.dir\Debug\\" /Fd"cmTC_a688f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sigprocmask /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a688f.dir\Debug\\" /Fd"cmTC_a688f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_a688f.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_a688f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_a688f.lib" /MACHINE:X64  /machine:x64 cmTC_a688f.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigprocmask referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_a688f.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol sigprocmask referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_a688f.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_a688f.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_78e25.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:16 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_78e25.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_78e25.dir\Debug\cmTC_78e25.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_78e25.dir\Debug\cmTC_78e25.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78e25.dir\Debug\\" /Fd"cmTC_78e25.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78e25.dir\Debug\\" /Fd"cmTC_78e25.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_78e25.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_78e25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_78e25.lib" /MACHINE:X64  /machine:x64 cmTC_78e25.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_78e25.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_78e25.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_78e25.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Determining if the function srandom exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_edc25.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:17 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_edc25.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_edc25.dir\Debug\cmTC_edc25.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_edc25.dir\Debug\cmTC_edc25.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=srandom /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_edc25.dir\Debug\\" /Fd"cmTC_edc25.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=srandom /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_edc25.dir\Debug\\" /Fd"cmTC_edc25.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_edc25.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_edc25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_edc25.lib" /MACHINE:X64  /machine:x64 cmTC_edc25.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol srandom referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_edc25.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol srandom referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_edc25.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_edc25.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.79
+
+
+Determining if the function symlink exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1dcef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:18 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1dcef.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1dcef.dir\Debug\cmTC_1dcef.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1dcef.dir\Debug\cmTC_1dcef.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=symlink /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1dcef.dir\Debug\\" /Fd"cmTC_1dcef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=symlink /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1dcef.dir\Debug\\" /Fd"cmTC_1dcef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_1dcef.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_1dcef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_1dcef.lib" /MACHINE:X64  /machine:x64 cmTC_1dcef.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol symlink referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_1dcef.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol symlink referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_1dcef.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_1dcef.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.90
+
+
+Determining if the function vasprintf exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d5292.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:21 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d5292.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d5292.dir\Debug\cmTC_d5292.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d5292.dir\Debug\cmTC_d5292.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vasprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5292.dir\Debug\\" /Fd"cmTC_d5292.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vasprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5292.dir\Debug\\" /Fd"cmTC_d5292.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_d5292.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_d5292.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_d5292.lib" /MACHINE:X64  /machine:x64 cmTC_d5292.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol vasprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_d5292.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol vasprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_d5292.exe : fatal error LNK1120: 1 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_d5292.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+Determining if the function vsnprintf exists failed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_47cc9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:22 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_47cc9.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_47cc9.dir\Debug\cmTC_47cc9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_47cc9.dir\Debug\cmTC_47cc9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47cc9.dir\Debug\\" /Fd"cmTC_47cc9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47cc9.dir\Debug\\" /Fd"cmTC_47cc9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_47cc9.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_47cc9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_47cc9.lib" /MACHINE:X64  /machine:x64 cmTC_47cc9.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol vsnprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol vsnprintf [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol _vsnprintf [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_47cc9.exe : fatal error LNK1120: 2 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol vsnprintf referenced in function main [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+  MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol vsnprintf [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+  MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol _vsnprintf [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+  C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_47cc9.exe : fatal error LNK1120: 2 unresolved externals [C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_47cc9.vcxproj]
+
+    0 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:00.80
+
+

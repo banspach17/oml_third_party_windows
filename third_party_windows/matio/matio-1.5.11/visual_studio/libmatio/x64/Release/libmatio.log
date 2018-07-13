@@ -1,0 +1,615 @@
+﻿  endian.c
+  inflate.c
+..\..\src\inflate.c(62): warning C4267: '+=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(83): warning C4267: '+=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(659): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(661): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(677): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(679): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\inflate.c(681): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+  io.c
+  mat.c
+..\..\src\mat.c(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat.c(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat.c(830): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\mat.c(850): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(835): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat.c(941): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat.c(947): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat.c(984): warning C4996: '_mktemp': This function or variable may be unsafe. Consider using _mktemp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(229): note: see declaration of '_mktemp'
+..\..\src\mat.c(1153): warning C4018: '<': signed/unsigned mismatch
+..\..\src\mat.c(1139): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat.c(1156): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat.c(1229): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(1239): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(1591): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\mat.c(1665): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(1714): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(1684): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(1805): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat.c(2291): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+  mat4.c
+..\..\src\mat4.c(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat4.c(225): warning C4244: '=': conversion from 'std::size_t' to 'double', possible loss of data
+..\..\src\mat4.c(234): warning C4244: '=': conversion from 'std::size_t' to 'double', possible loss of data
+..\..\src\mat4.c(291): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+..\..\src\mat4.c(343): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat4.c(357): warning C4244: '=': conversion from 'double' to 'std::size_t', possible loss of data
+..\..\src\mat4.c(367): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat4.c(664): warning C4267: '*=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat4.c(647): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat4.c(661): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat4.c(701): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat4.c(711): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat4.c(767): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\mat4.c(769): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\mat4.c(771): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\mat4.c(773): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\src\mat4.c(889): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  mat5.c
+..\..\src\mat5.c(105): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(145): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(357): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat5.c(394): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(475): note: see declaration of 'ctime'
+..\..\src\mat5.c(546): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(559): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(569): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(591): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(609): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(621): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(637): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(650): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(660): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(679): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(770): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(905): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(938): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1000): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1006): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1006): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1012): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1012): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1019): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1019): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1027): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1027): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1034): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1034): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1040): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1040): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1046): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1046): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1052): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1052): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1058): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1058): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1064): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1064): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1109): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1109): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1123): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1125): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1156): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1158): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(1205): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1229): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1238): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1251): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1261): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1285): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1465): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1587): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(1652): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat5.c(1826): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat5.c(1933): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2001): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2050): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2055): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2075): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2118): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2155): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2166): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2213): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2338): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2433): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2496): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2543): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2585): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(2749): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2851): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2864): warning C4267: 'initializing': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2931): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\mat5.c(2945): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(2959): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\mat5.c(2972): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\mat5.c(2990): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\mat5.c(3009): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+..\..\src\mat5.c(3081): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3084): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3088): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3093): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3097): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3100): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3103): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3106): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3109): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3112): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3130): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3134): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3139): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3145): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3150): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3154): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3158): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3162): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3166): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3170): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3224): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3414): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(3590): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4008): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4354): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\mat5.c(4354): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\mat5.c(4360): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\mat5.c(4360): warning C4244: '=': conversion from 'mat_int32_t' to 'float', possible loss of data
+..\..\src\mat5.c(4360): warning C4244: '=': conversion from 'mat_uint32_t' to 'float', possible loss of data
+..\..\src\mat5.c(4360): warning C4244: '=': conversion from 'mat_int64_t' to 'float', possible loss of data
+..\..\src\mat5.c(4360): warning C4244: '=': conversion from 'mat_uint64_t' to 'float', possible loss of data
+..\..\src\mat5.c(4367): warning C4244: '=': conversion from 'double' to 'mat_int64_t', possible loss of data
+..\..\src\mat5.c(4367): warning C4244: '=': conversion from 'float' to 'mat_int64_t', possible loss of data
+..\..\src\mat5.c(4375): warning C4244: '=': conversion from 'double' to 'mat_uint64_t', possible loss of data
+..\..\src\mat5.c(4375): warning C4244: '=': conversion from 'float' to 'mat_uint64_t', possible loss of data
+..\..\src\mat5.c(4382): warning C4244: '=': conversion from 'double' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4382): warning C4244: '=': conversion from 'float' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4382): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4382): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4388): warning C4244: '=': conversion from 'double' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4388): warning C4244: '=': conversion from 'float' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4388): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4388): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4394): warning C4244: '=': conversion from 'double' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4394): warning C4244: '=': conversion from 'float' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4394): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4394): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4400): warning C4244: '=': conversion from 'double' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4400): warning C4244: '=': conversion from 'float' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4400): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4400): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'double' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'float' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4406): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'double' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'float' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4412): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4428): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4428): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4428): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4428): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\mat5.c(4428): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\mat5.c(4434): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4434): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4434): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\mat5.c(4434): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4434): warning C4244: '=': conversion from 'mat_int32_t' to 'float', possible loss of data
+..\..\src\mat5.c(4434): warning C4244: '=': conversion from 'mat_uint32_t' to 'float', possible loss of data
+..\..\src\mat5.c(4434): warning C4244: '=': conversion from 'mat_int64_t' to 'float', possible loss of data
+..\..\src\mat5.c(4434): warning C4244: '=': conversion from 'mat_uint64_t' to 'float', possible loss of data
+..\..\src\mat5.c(4441): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4441): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4441): warning C4244: '=': conversion from 'double' to 'mat_int64_t', possible loss of data
+..\..\src\mat5.c(4441): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4441): warning C4244: '=': conversion from 'float' to 'mat_int64_t', possible loss of data
+..\..\src\mat5.c(4449): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4449): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4449): warning C4244: '=': conversion from 'double' to 'mat_uint64_t', possible loss of data
+..\..\src\mat5.c(4449): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4449): warning C4244: '=': conversion from 'float' to 'mat_uint64_t', possible loss of data
+..\..\src\mat5.c(4456): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4456): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4456): warning C4244: '=': conversion from 'double' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4456): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4456): warning C4244: '=': conversion from 'float' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4456): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4456): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(4462): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4462): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4462): warning C4244: '=': conversion from 'double' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4462): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4462): warning C4244: '=': conversion from 'float' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4462): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4462): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\mat5.c(4468): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4468): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4468): warning C4244: '=': conversion from 'double' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4468): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4468): warning C4244: '=': conversion from 'float' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4468): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4468): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int16_t', possible loss of data
+..\..\src\mat5.c(4474): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4474): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4474): warning C4244: '=': conversion from 'double' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4474): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4474): warning C4244: '=': conversion from 'float' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4474): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4474): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4480): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'double' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'float' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4480): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4486): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'double' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'float' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4486): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\mat5.c(4325): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4525): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(4976): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5149): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(5245): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(5158): warning C4267: 'initializing': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(5392): warning C4267: '=': conversion from 'size_t' to 'mat_int32_t', possible loss of data
+..\..\src\mat5.c(5438): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5443): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5463): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5483): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5716): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5719): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat5.c(5745): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(5759): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(5779): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(5799): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\mat5.c(5816): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+  mat73.c
+..\..\src\mat73.c(671): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(694): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(933): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat73.c(952): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat73.c(961): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat73.c(996): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\mat73.c(1070): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(1076): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(1127): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(1287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\src\mat73.c(1292): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\src\mat73.c(1677): warning C4018: '<': signed/unsigned mismatch
+..\..\src\mat73.c(1704): warning C4018: '<': signed/unsigned mismatch
+..\..\src\mat73.c(1755): warning C4018: '<': signed/unsigned mismatch
+..\..\src\mat73.c(1762): warning C4018: '<': signed/unsigned mismatch
+..\..\src\mat73.c(2039): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\src\mat73.c(2046): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\..\src\mat73.c(2243): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\..\src\mat73.c(2279): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(475): note: see declaration of 'ctime'
+..\..\src\mat73.c(2342): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2441): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2469): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2487): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2506): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2507): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\mat73.c(2838): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  matvar_cell.c
+..\..\src\matvar_cell.c(52): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_cell.c(101): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_cell.c(110): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_cell.c(120): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_cell.c(177): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+  matvar_struct.c
+..\..\src\matvar_struct.c(64): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_struct.c(79): warning C4018: '<': signed/unsigned mismatch
+..\..\src\matvar_struct.c(94): warning C4018: '<': signed/unsigned mismatch
+..\..\src\matvar_struct.c(59): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\matvar_struct.c(85): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\matvar_struct.c(122): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_struct.c(129): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\matvar_struct.c(291): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\matvar_struct.c(505): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+..\..\src\matvar_struct.c(554): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  read_data.c
+..\..\src\read_data.c(313): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(319): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(324): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(331): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(338): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(338): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(346): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(346): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(353): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(359): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(365): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(371): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(377): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(383): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(428): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(490): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(497): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(502): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(508): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(515): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(520): warning C4244: '=': conversion from 'mat_int64_t' to 'double', possible loss of data
+..\..\src\read_data.c(533): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(540): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(545): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(551): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(558): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(563): warning C4244: '=': conversion from 'mat_uint64_t' to 'double', possible loss of data
+..\..\src\read_data.c(803): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(804): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(804): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\read_data.c(804): warning C4244: '=': conversion from 'mat_int32_t' to 'float', possible loss of data
+..\..\src\read_data.c(804): warning C4244: '=': conversion from 'mat_uint32_t' to 'float', possible loss of data
+..\..\src\read_data.c(804): warning C4244: '=': conversion from 'mat_int64_t' to 'float', possible loss of data
+..\..\src\read_data.c(804): warning C4244: '=': conversion from 'mat_uint64_t' to 'float', possible loss of data
+..\..\src\read_data.c(832): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(833): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\src\read_data.c(833): warning C4244: '=': conversion from 'mat_int32_t' to 'float', possible loss of data
+..\..\src\read_data.c(833): warning C4244: '=': conversion from 'mat_uint32_t' to 'float', possible loss of data
+..\..\src\read_data.c(833): warning C4244: '=': conversion from 'mat_int64_t' to 'float', possible loss of data
+..\..\src\read_data.c(833): warning C4244: '=': conversion from 'mat_uint64_t' to 'float', possible loss of data
+..\..\src\read_data.c(861): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(862): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(862): warning C4244: '=': conversion from 'double' to 'mat_int64_t', possible loss of data
+..\..\src\read_data.c(862): warning C4244: '=': conversion from 'float' to 'mat_int64_t', possible loss of data
+..\..\src\read_data.c(891): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(892): warning C4244: '=': conversion from 'double' to 'mat_int64_t', possible loss of data
+..\..\src\read_data.c(892): warning C4244: '=': conversion from 'float' to 'mat_int64_t', possible loss of data
+..\..\src\read_data.c(921): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(922): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(922): warning C4244: '=': conversion from 'double' to 'mat_uint64_t', possible loss of data
+..\..\src\read_data.c(922): warning C4244: '=': conversion from 'float' to 'mat_uint64_t', possible loss of data
+..\..\src\read_data.c(951): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(953): warning C4244: '=': conversion from 'double' to 'mat_uint64_t', possible loss of data
+..\..\src\read_data.c(953): warning C4244: '=': conversion from 'float' to 'mat_uint64_t', possible loss of data
+..\..\src\read_data.c(981): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(982): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(982): warning C4244: '=': conversion from 'double' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(982): warning C4244: '=': conversion from 'float' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(982): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(982): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(1011): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1012): warning C4244: '=': conversion from 'double' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(1012): warning C4244: '=': conversion from 'float' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(1012): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(1012): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int32_t', possible loss of data
+..\..\src\read_data.c(1039): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1040): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1040): warning C4244: '=': conversion from 'double' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1040): warning C4244: '=': conversion from 'float' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1040): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1040): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1069): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1070): warning C4244: '=': conversion from 'double' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1070): warning C4244: '=': conversion from 'float' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1070): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1070): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint32_t', possible loss of data
+..\..\src\read_data.c(1097): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1098): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1098): warning C4244: '=': conversion from 'double' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1098): warning C4244: '=': conversion from 'float' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1098): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1098): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1127): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1128): warning C4244: '=': conversion from 'double' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1128): warning C4244: '=': conversion from 'float' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1128): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1128): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int16_t', possible loss of data
+..\..\src\read_data.c(1155): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1156): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1156): warning C4244: '=': conversion from 'double' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1156): warning C4244: '=': conversion from 'float' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1156): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1156): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1185): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1186): warning C4244: '=': conversion from 'double' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1186): warning C4244: '=': conversion from 'float' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1186): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1186): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint16_t', possible loss of data
+..\..\src\read_data.c(1213): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1214): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'double' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'float' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1214): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1243): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'double' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'float' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1244): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_int8_t', possible loss of data
+..\..\src\read_data.c(1271): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1272): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'double' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'float' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1272): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1301): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'double' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'float' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'mat_int16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'mat_uint16_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'mat_int64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1302): warning C4244: '=': conversion from 'mat_uint64_t' to 'mat_uint8_t', possible loss of data
+..\..\src\read_data.c(1359): warning C4244: '=': conversion from 'mat_uint16_t' to 'char', possible loss of data
+..\..\src\read_data.c(1364): warning C4244: '=': conversion from 'mat_uint16_t' to 'char', possible loss of data
+..\..\src\read_data.c(1392): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1402): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1403): warning C4244: '=': conversion from 'mat_uint16_t' to 'char', possible loss of data
+..\..\src\read_data.c(1407): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1408): warning C4244: '=': conversion from 'mat_uint16_t' to 'char', possible loss of data
+..\..\src\read_data.c(1533): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1533): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1533): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1533): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1539): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1539): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1539): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1539): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1546): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1546): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1546): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1546): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1554): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1554): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1554): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1554): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1561): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1561): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1561): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1561): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1567): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1567): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1567): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1567): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1573): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1573): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1573): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1573): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1579): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1579): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1579): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1579): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1585): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1585): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1585): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1585): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1591): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1591): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1591): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1591): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1711): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1711): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1711): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1711): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1717): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1717): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1717): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1717): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1724): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1724): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1724): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1724): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1732): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1732): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1732): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1732): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1739): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1739): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1739): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1739): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1745): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1745): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1745): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1745): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1751): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1751): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1751): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1751): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1757): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1757): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1757): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1757): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1763): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1763): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1763): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1763): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1769): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1769): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1769): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1769): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1817): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1818): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1958): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(1964): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1964): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1970): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1970): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1977): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1977): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1985): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1985): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1992): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1992): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1998): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(1998): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2004): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2004): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2010): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2010): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2016): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2016): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2022): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2022): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+..\..\src\read_data.c(2217): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2217): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2223): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2223): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2230): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2230): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2238): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2238): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2245): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2245): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2251): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2251): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2257): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2257): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2263): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2263): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2269): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2269): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2275): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\read_data.c(2275): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  snprintf.c
+     Creating library C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\libmatio.lib and object C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\libmatio.exp
+  Generating code
+  All 208 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  libmatio.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\libmatio.dll
+  libmatio.vcxproj -> C:\oss\third_party\matio\matio-1.5.11\visual_studio\x64\Release\libmatio.pdb (Full PDB)

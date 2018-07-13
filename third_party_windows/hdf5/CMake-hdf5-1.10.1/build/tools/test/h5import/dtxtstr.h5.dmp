@@ -1,0 +1,49 @@
+HDF5 "testfiles/txtstr.h5" {
+DATASET "/mytext/data" {
+   DATATYPE  H5T_STRING {
+      
+      STRSIZE H5T_VARIABLE;
+      
+      STRPAD H5T_STR_NULLTERM;
+      
+      CSET H5T_CSET_ASCII;
+      
+      CTYPE H5T_C_S1;
+   
+   }
+   DATASPACE  SIMPLE { ( 2 ) / ( 2 ) }
+   
+   STORAGE_LAYOUT {
+      
+      CONTIGUOUS
+      
+      SIZE 32
+      
+      OFFSET 4096
+   
+   }
+   
+   FILTERS {
+      
+      NONE
+   
+   }
+   
+   FILLVALUE {
+      
+      FILL_TIME H5D_FILL_TIME_ALLOC
+      
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   
+   }
+   
+   ALLOCATION_TIME {
+      
+      H5D_ALLOC_TIME_LATE
+   
+   }
+   DATA {
+   
+   }
+}
+}

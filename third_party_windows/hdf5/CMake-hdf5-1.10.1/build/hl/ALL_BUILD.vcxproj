@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8B2FC74D-A24F-37AB-A7F2-C34CF08666E5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZERO_CHECK.vcxproj">
+      <Project>{936DD9ED-CB83-3045-8A8A-8E52B12995AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\extend_dset.vcxproj">
+      <Project>{EA87BD23-CCB5-3ADF-A1D8-F73255D1C0D2}</Project>
+      <Name>extend_dset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\gif2h5.vcxproj">
+      <Project>{7F1B1707-BF69-3251-B447-90D7FD7FC1FC}</Project>
+      <Name>gif2h5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\gif2h5_files.vcxproj">
+      <Project>{F2EE83D0-1AE2-3AAE-A52D-D00A959F3167}</Project>
+      <Name>gif2h5_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\gif2h5\h52gif.vcxproj">
+      <Project>{9462BEDA-6AA0-3B0D-AB4A-2A9CA1D0490B}</Project>
+      <Name>h52gif</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watch.vcxproj">
+      <Project>{9555B5D8-341E-37E8-9FF8-4706CD10BDA4}</Project>
+      <Name>h5watch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watch-files.vcxproj">
+      <Project>{51EE73DA-2EF7-3F1D-9FFA-C5BCB44FA079}</Project>
+      <Name>h5watch-files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\h5watchgentest.vcxproj">
+      <Project>{A81C828B-A9A0-3529-962A-D8E7AE636DDA}</Project>
+      <Name>h5watchgentest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\src\hdf5_hl-static.vcxproj">
+      <Project>{1AF1B8E7-04B1-3BF1-B709-8E86AD2A0EE9}</Project>
+      <Name>hdf5_hl-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_ds1.vcxproj">
+      <Project>{8823F066-14BF-3EC5-A887-DE32A22CB1E1}</Project>
+      <Name>hl_ex_ex_ds1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_ds1_files.vcxproj">
+      <Project>{C35C233E-C618-3A53-A6CA-477D64A30C6F}</Project>
+      <Name>hl_ex_ex_ds1_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_image1.vcxproj">
+      <Project>{8B4AD04E-9D54-332D-A375-6F1845A2D04B}</Project>
+      <Name>hl_ex_ex_image1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_image2.vcxproj">
+      <Project>{440C6F75-4AF8-3F90-9211-0AE37A9378FB}</Project>
+      <Name>hl_ex_ex_image2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite1.vcxproj">
+      <Project>{8996B365-A696-301B-B77A-BBDB1D2FEDDD}</Project>
+      <Name>hl_ex_ex_lite1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite2.vcxproj">
+      <Project>{C688FFDA-7C2D-3001-9E79-BED64B651911}</Project>
+      <Name>hl_ex_ex_lite2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_lite3.vcxproj">
+      <Project>{27A22552-1FCD-3895-B4E4-64F995D10D4C}</Project>
+      <Name>hl_ex_ex_lite3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_01.vcxproj">
+      <Project>{F08FCDB3-AD69-3E9B-A979-EDC673A8F500}</Project>
+      <Name>hl_ex_ex_table_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_02.vcxproj">
+      <Project>{488A18C9-5C79-3564-B941-BF95D2969936}</Project>
+      <Name>hl_ex_ex_table_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_03.vcxproj">
+      <Project>{72228A75-B557-3F2F-B95C-CE92EA8A7326}</Project>
+      <Name>hl_ex_ex_table_03</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_04.vcxproj">
+      <Project>{41AC8FBB-BA78-3DAE-9362-3090B10A3AE8}</Project>
+      <Name>hl_ex_ex_table_04</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_05.vcxproj">
+      <Project>{17451411-3B34-34DF-8C7E-451ED5A83089}</Project>
+      <Name>hl_ex_ex_table_05</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_06.vcxproj">
+      <Project>{D1EEC632-451E-368C-A76E-9E8F1A1B92CC}</Project>
+      <Name>hl_ex_ex_table_06</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_07.vcxproj">
+      <Project>{5917F673-FA51-3705-9667-2C8A4BBC8F16}</Project>
+      <Name>hl_ex_ex_table_07</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_08.vcxproj">
+      <Project>{1D10BF06-2ECB-37AF-9FA0-DAEF3645C76B}</Project>
+      <Name>hl_ex_ex_table_08</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_09.vcxproj">
+      <Project>{AFCB6767-9987-3BC9-ABDD-EBAED1EAB26A}</Project>
+      <Name>hl_ex_ex_table_09</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_10.vcxproj">
+      <Project>{6F76BC0F-01D9-30C9-82EC-A402E8587612}</Project>
+      <Name>hl_ex_ex_table_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_11.vcxproj">
+      <Project>{74074E0C-F480-3244-811D-71C63DEF2EBF}</Project>
+      <Name>hl_ex_ex_table_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ex_table_12.vcxproj">
+      <Project>{8118FF36-7122-3984-A398-591EE59B5E79}</Project>
+      <Name>hl_ex_ex_table_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\examples\hl_ex_ptExampleFL.vcxproj">
+      <Project>{850406B1-9741-3AB3-AB60-B63D3B06551B}</Project>
+      <Name>hl_ex_ptExampleFL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\hl_swmr_check_compat_vfd.vcxproj">
+      <Project>{1866A662-A7DE-31D6-8E91-7A0DDBCDDE3F}</Project>
+      <Name>hl_swmr_check_compat_vfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_ds.vcxproj">
+      <Project>{A3A6FCC1-3F40-3FE5-B063-D838FB5F5487}</Project>
+      <Name>hl_test_ds</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_dset_append.vcxproj">
+      <Project>{39093624-3C31-38FF-AF68-F8D78CCD7C68}</Project>
+      <Name>hl_test_dset_append</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_dset_opt.vcxproj">
+      <Project>{FD73C529-01AF-37DA-B2E6-A70659BBA2F9}</Project>
+      <Name>hl_test_dset_opt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_file_image.vcxproj">
+      <Project>{9AB600F8-2C1D-385D-92F9-10E661D74A01}</Project>
+      <Name>hl_test_file_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_files.vcxproj">
+      <Project>{D019EB94-D2DE-3980-BB5E-D507F95F670D}</Project>
+      <Name>hl_test_files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_image.vcxproj">
+      <Project>{73DDA3B0-0A53-3961-8DBA-D8A023191F6C}</Project>
+      <Name>hl_test_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_ld.vcxproj">
+      <Project>{B8A005D0-43BE-3DDE-AA84-EBC51234D8A9}</Project>
+      <Name>hl_test_ld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_lite.vcxproj">
+      <Project>{4E09B873-4019-3342-8DC0-E4852D69FA28}</Project>
+      <Name>hl_test_lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_packet.vcxproj">
+      <Project>{416593EC-C20A-3346-AA16-CD28651A18E1}</Project>
+      <Name>hl_test_packet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\test\hl_test_table.vcxproj">
+      <Project>{899B4406-12A6-3C07-B28C-7690BEBE48DD}</Project>
+      <Name>hl_test_table</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

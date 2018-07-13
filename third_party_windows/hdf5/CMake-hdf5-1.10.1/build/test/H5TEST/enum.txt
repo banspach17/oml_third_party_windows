@@ -1,0 +1,7 @@
+Testing named enumeration types                                        PASSED
+Testing enumeration conversions                                        PASSED
+Testing O(1) conversions                                               PASSED
+Testing O(log N) converions                                            PASSED
+Testing for non-existing name and value                                PASSED
+Testing some functions with enumeration types                          PASSED
+All enum tests passed.

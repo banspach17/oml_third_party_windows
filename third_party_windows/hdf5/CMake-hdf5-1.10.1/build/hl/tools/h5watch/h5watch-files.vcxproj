@@ -1,0 +1,1446 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51EE73DA-2EF7-3F1D-9FFA-C5BCB44FA079}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>h5watch-files</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																																		</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-help1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-help1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd4.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd4.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd5.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd5.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-nomax.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-nomax.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-none.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-none.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll0.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll0.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-ff3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-ff3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-label.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-label.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-early.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-early.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-late.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-late.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-simple.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-simple.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																																		</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-help1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-help1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd4.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd4.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd5.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd5.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-nomax.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-nomax.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-none.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-none.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll0.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll0.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-ff3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-ff3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-label.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-label.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-early.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-early.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-late.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-late.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-simple.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-simple.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																																		</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-help1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-help1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd4.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd4.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd5.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd5.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-nomax.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-nomax.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-none.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-none.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll0.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll0.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-ff3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-ff3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-label.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-label.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-early.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-early.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-late.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-late.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-simple.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-simple.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\matio\CMake-hdf5-1.10.1\build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\bin;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZLIB-prefix\src\ZLIB;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build;C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\tools\lib;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\src;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>																																		</Message>
+      <Command>setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-help1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-help1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd4.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd4.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-cmpd5.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-cmpd5.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-nomax.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-nomax.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-dset-none.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-dset-none.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-file.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-file.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-poll0.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-poll0.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-err-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-err-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-esc-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-esc-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-f2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-f2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-ff3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-ff3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-label.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-label.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f1.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f1.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-f3.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-f3.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-cmpd-two-ff2.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-cmpd-two-ff2.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-early.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-early.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-late.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-late.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-one-simple.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-one-simple.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-d.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-d.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+C:\CMake\bin\cmake.exe -E copy_if_different C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/testfiles/w-ext-two-width.ddl C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/testfiles/w-ext-two-width.ddl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1 -BC:/oss/third_party/matio/CMake-hdf5-1.10.1/build --check-stamp-file C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/hl/tools/h5watch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/matio/CMake-hdf5-1.10.1/hdf5-1.10.1/hl/tools/h5watch/CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeTests.cmake;C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\tools\h5watch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\hl\tools\h5watch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\ZERO_CHECK.vcxproj">
+      <Project>{936DD9ED-CB83-3045-8A8A-8E52B12995AA}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

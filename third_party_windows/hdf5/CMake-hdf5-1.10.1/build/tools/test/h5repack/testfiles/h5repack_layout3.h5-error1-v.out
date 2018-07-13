@@ -1,0 +1,20 @@
+HDF5 "out-error1.h5repack_layout3.h5" {
+DATASET "chunk_unlimit1" {
+   DATATYPE  H5T_STD_I32LE
+   DATASPACE  SIMPLE { ( 300, 200 ) / ( H5S_UNLIMITED, H5S_UNLIMITED ) }
+   STORAGE_LAYOUT {
+      CHUNKED ( 600, 5 )
+      SIZE 480000
+   }
+   FILTERS {
+      NONE
+   }
+   FILLVALUE {
+      FILL_TIME H5D_FILL_TIME_IFSET
+      VALUE  H5D_FILL_VALUE_DEFAULT
+   }
+   ALLOCATION_TIME {
+      H5D_ALLOC_TIME_INCR
+   }
+}
+}

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/ida/serial/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/ida/serial/CMakeFiles/generate.stamp is up-to-date.
+  idaKrylovDemo_ls.c
+  idaKrylovDemo_ls.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\ida\serial\Release\idaKrylovDemo_ls.exe

@@ -1,0 +1,13 @@
+dataset "/Data/Compressed_Data" is open
+dataset "/Data_new/Compressed_Data" is open
+
+Iterating over elements in the file
+Name : Data
+Name : Data_new
+
+Unlinking...
+"Data" is unlinked
+
+Iterating over elements in the file again
+Name : Data_new
+

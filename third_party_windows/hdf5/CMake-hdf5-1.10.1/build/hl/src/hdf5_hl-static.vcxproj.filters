@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5DO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5DS.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5IM.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LTanalyze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LTparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5PT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5TB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LD.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5DOpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5DSpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5IMpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LTparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LTpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5PTpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5TBpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\H5LDpublic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\hdf5_hl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\hl\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81B79D3A-82FD-36F8-9F99-8B06E7CE3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A5506D51-6C46-34AA-A502-CA3AF95AF360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

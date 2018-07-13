@@ -1,0 +1,514 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:43 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\3.9.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\3.9.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/3.9.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3974c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:44 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_3974c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3974c.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3974c.dir\Debug\cmTC_3974c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3974c.dir\Debug\cmTC_3974c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3974c.dir\Debug\\" /Fd"cmTC_3974c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3974c.dir\Debug\\" /Fd"cmTC_3974c.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_3974c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_3974c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_3974c.lib" /MACHINE:X64  /machine:x64 cmTC_3974c.dir\Debug\testCCompiler.obj
+  cmTC_3974c.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_3974c.exe
+  cmTC_3974c.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_3974c.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_3974c.dir\Debug\cmTC_3974c.tlog\unsuccessfulbuild".
+  Touching "cmTC_3974c.dir\Debug\cmTC_3974c.tlog\cmTC_3974c.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_3974c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b8736.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:46 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b8736.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b8736.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b8736.dir\Debug\cmTC_b8736.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b8736.dir\Debug\cmTC_b8736.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8736.dir\Debug\\" /Fd"cmTC_b8736.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8736.dir\Debug\\" /Fd"cmTC_b8736.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_b8736.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_b8736.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_b8736.lib" /MACHINE:X64  /machine:x64 cmTC_b8736.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b8736.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_b8736.exe
+  cmTC_b8736.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_b8736.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_b8736.dir\Debug\cmTC_b8736.tlog\unsuccessfulbuild".
+  Touching "cmTC_b8736.dir\Debug\cmTC_b8736.tlog\cmTC_b8736.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_b8736.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.85
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7746f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:49 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7746f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7746f.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7746f.dir\Debug\cmTC_7746f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7746f.dir\Debug\cmTC_7746f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7746f.dir\Debug\\" /Fd"cmTC_7746f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7746f.dir\Debug\\" /Fd"cmTC_7746f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_7746f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_7746f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_7746f.lib" /MACHINE:X64  /machine:x64 cmTC_7746f.dir\Debug\CheckIncludeFiles.obj
+  cmTC_7746f.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_7746f.exe
+  cmTC_7746f.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_7746f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_7746f.dir\Debug\cmTC_7746f.tlog\unsuccessfulbuild".
+  Touching "cmTC_7746f.dir\Debug\cmTC_7746f.tlog\cmTC_7746f.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_7746f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5ca68.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:51 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5ca68.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5ca68.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5ca68.dir\Debug\cmTC_5ca68.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5ca68.dir\Debug\cmTC_5ca68.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ca68.dir\Debug\\" /Fd"cmTC_5ca68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ca68.dir\Debug\\" /Fd"cmTC_5ca68.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5ca68.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ca68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ca68.lib" /MACHINE:X64  /machine:x64 cmTC_5ca68.dir\Debug\CheckIncludeFiles.obj
+  cmTC_5ca68.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5ca68.exe
+  cmTC_5ca68.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ca68.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_5ca68.dir\Debug\cmTC_5ca68.tlog\unsuccessfulbuild".
+  Touching "cmTC_5ca68.dir\Debug\cmTC_5ca68.tlog\cmTC_5ca68.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5ca68.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_200ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:53 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_200ea.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_200ea.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_200ea.dir\Debug\cmTC_200ea.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_200ea.dir\Debug\cmTC_200ea.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_200ea.dir\Debug\\" /Fd"cmTC_200ea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_200ea.dir\Debug\\" /Fd"cmTC_200ea.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_200ea.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_200ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_200ea.lib" /MACHINE:X64  /machine:x64 cmTC_200ea.dir\Debug\CheckIncludeFiles.obj
+  cmTC_200ea.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_200ea.exe
+  cmTC_200ea.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_200ea.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_200ea.dir\Debug\cmTC_200ea.tlog\unsuccessfulbuild".
+  Touching "cmTC_200ea.dir\Debug\cmTC_200ea.tlog\cmTC_200ea.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_200ea.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.94
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h;stdlib.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_11268.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:54 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_11268.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_11268.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_11268.dir\Debug\cmTC_11268.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_11268.dir\Debug\cmTC_11268.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11268.dir\Debug\\" /Fd"cmTC_11268.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_11268.dir\Debug\\" /Fd"cmTC_11268.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_11268.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_11268.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_11268.lib" /MACHINE:X64  /machine:x64 cmTC_11268.dir\Debug\CheckIncludeFiles.obj
+  cmTC_11268.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_11268.exe
+  cmTC_11268.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_11268.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_11268.dir\Debug\cmTC_11268.tlog\unsuccessfulbuild".
+  Touching "cmTC_11268.dir\Debug\cmTC_11268.tlog\cmTC_11268.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_11268.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h;stdlib.h;memory.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bf680.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:56 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_bf680.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bf680.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bf680.dir\Debug\cmTC_bf680.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bf680.dir\Debug\cmTC_bf680.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf680.dir\Debug\\" /Fd"cmTC_bf680.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf680.dir\Debug\\" /Fd"cmTC_bf680.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_bf680.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_bf680.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_bf680.lib" /MACHINE:X64  /machine:x64 cmTC_bf680.dir\Debug\CheckIncludeFiles.obj
+  cmTC_bf680.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_bf680.exe
+  cmTC_bf680.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_bf680.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_bf680.dir\Debug\cmTC_bf680.tlog\unsuccessfulbuild".
+  Touching "cmTC_bf680.dir\Debug\cmTC_bf680.tlog\cmTC_bf680.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_bf680.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h;stdlib.h;memory.h;fcntl.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fb807.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:58 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_fb807.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fb807.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fb807.dir\Debug\cmTC_fb807.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fb807.dir\Debug\cmTC_fb807.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb807.dir\Debug\\" /Fd"cmTC_fb807.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb807.dir\Debug\\" /Fd"cmTC_fb807.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_fb807.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb807.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb807.lib" /MACHINE:X64  /machine:x64 cmTC_fb807.dir\Debug\CheckIncludeFiles.obj
+  cmTC_fb807.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_fb807.exe
+  cmTC_fb807.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_fb807.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_fb807.dir\Debug\cmTC_fb807.tlog\unsuccessfulbuild".
+  Touching "cmTC_fb807.dir\Debug\cmTC_fb807.tlog\cmTC_fb807.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_fb807.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+Determining if files windows.h;sys/stat.h;sys/types.h;stddef.h;stdint.h;io.h;winsock2.h;string.h;time.h;stdlib.h;memory.h;fcntl.h;inttypes.h exist passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5474b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:55:59 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5474b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5474b.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5474b.dir\Debug\cmTC_5474b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5474b.dir\Debug\cmTC_5474b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5474b.dir\Debug\\" /Fd"cmTC_5474b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5474b.dir\Debug\\" /Fd"cmTC_5474b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5474b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5474b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5474b.lib" /MACHINE:X64  /machine:x64 cmTC_5474b.dir\Debug\CheckIncludeFiles.obj
+  cmTC_5474b.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5474b.exe
+  cmTC_5474b.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5474b.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_5474b.dir\Debug\cmTC_5474b.tlog\unsuccessfulbuild".
+  Touching "cmTC_5474b.dir\Debug\cmTC_5474b.tlog\cmTC_5474b.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5474b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5ebef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:10 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5ebef.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5ebef.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5ebef.dir\Debug\cmTC_5ebef.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5ebef.dir\Debug\cmTC_5ebef.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=signal /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ebef.dir\Debug\\" /Fd"cmTC_5ebef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=signal /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ebef.dir\Debug\\" /Fd"cmTC_5ebef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5ebef.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ebef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ebef.lib" /MACHINE:X64  /machine:x64 cmTC_5ebef.dir\Debug\CheckFunctionExists.obj
+  cmTC_5ebef.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_5ebef.exe
+  cmTC_5ebef.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_5ebef.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_5ebef.dir\Debug\cmTC_5ebef.tlog\unsuccessfulbuild".
+  Touching "cmTC_5ebef.dir\Debug\cmTC_5ebef.tlog\cmTC_5ebef.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_5ebef.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.84
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9651f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:11 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9651f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9651f.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9651f.dir\Debug\cmTC_9651f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9651f.dir\Debug\cmTC_9651f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9651f.dir\Debug\\" /Fd"cmTC_9651f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setjmp /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9651f.dir\Debug\\" /Fd"cmTC_9651f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_9651f.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_9651f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_9651f.lib" /MACHINE:X64  /machine:x64 cmTC_9651f.dir\Debug\CheckFunctionExists.obj
+  cmTC_9651f.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_9651f.exe
+  cmTC_9651f.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_9651f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_9651f.dir\Debug\cmTC_9651f.tlog\unsuccessfulbuild".
+  Touching "cmTC_9651f.dir\Debug\cmTC_9651f.tlog\cmTC_9651f.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_9651f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+Determining if the function tmpfile exists passed with the following output:
+Change Dir: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_18de9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/12/2018 1:56:20 PM.
+Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_18de9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18de9.dir\Debug\".
+  Creating directory "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18de9.dir\Debug\cmTC_18de9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18de9.dir\Debug\cmTC_18de9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=tmpfile /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18de9.dir\Debug\\" /Fd"cmTC_18de9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=tmpfile /D WIN32_LEAN_AND_MEAN=1 /D NOGDI=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18de9.dir\Debug\\" /Fd"cmTC_18de9.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.9\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_18de9.exe" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_18de9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_18de9.lib" /MACHINE:X64  /machine:x64 cmTC_18de9.dir\Debug\CheckFunctionExists.obj
+  cmTC_18de9.vcxproj -> C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\Debug\cmTC_18de9.exe
+  cmTC_18de9.vcxproj -> C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/SZIP-prefix/src/SZIP-build/CMakeFiles/CMakeTmp/Debug/cmTC_18de9.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_18de9.dir\Debug\cmTC_18de9.tlog\unsuccessfulbuild".
+  Touching "cmTC_18de9.dir\Debug\cmTC_18de9.tlog\cmTC_18de9.lastbuildstate".
+Done Building Project "C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\SZIP-prefix\src\SZIP-build\CMakeFiles\CMakeTmp\cmTC_18de9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+

@@ -1,0 +1,60 @@
+   This program tests the Error API.  There're supposed to be some error messages
+********* Print error stack in HDF5 default way *********
+Second Test-DIAG: Error detected in Second Program (1.0) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c line 713 in main(): Error stack test failed
+    major: Error in test
+    minor: Error in error stack
+Error Test-DIAG: Error detected in Error Program (1.0) thread 0:
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c line 284 in error_stack(): Get number test failed, returned 0
+    major: Error in API
+    minor: Error in H5Eget_num
+
+********* Print error stack in customized way *********
+    error #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c in error_stack(): line 284
+        class: Error Test
+        major: Error in API
+        minor: Error in H5Eget_num
+    error #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c in main(): line 713
+        class: Second Test
+        major: Error in test
+        minor: Error in error stack
+
+Testing error API based on data I/O
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c line 226 in H5Dwrite(): not a dataset
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+Error Test-DIAG: Error detected in Error Program (1.0) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c line 728 in main(): Error test failed, it's wrong
+    major: Error in test
+    minor: Error in subroutine
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\test\error_test.c line 155 in test_error(): H5Dwrite failed as supposed to
+    major: Error in IO
+    minor: Error in H5Dwrite
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #002: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c line 226 in H5Dwrite(): not a dataset
+    major: Invalid arguments to routine
+    minor: Inappropriate type
+
+Testing error message during data reading when filter isn't registered
+HDF5-DIAG: Error detected in HDF5 (1.10.1) thread 0:
+  #000: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c line 171 in H5Dread(): can't read data
+    major: Dataset
+    minor: Read failed
+  #001: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c line 544 in H5D__read(): can't read data
+    major: Dataset
+    minor: Read failed
+  #002: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dchunk.c line 2050 in H5D__chunk_read(): unable to read raw data chunk
+    major: Low-level I/O
+    minor: Read failed
+  #003: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dchunk.c line 3405 in H5D__chunk_lock(): data pipeline read failed
+    major: Data filters
+    minor: Filter operation failed
+  #004: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Z.c line 1349 in H5Z_pipeline(): required filter 'bogus' is not registered
+    major: Data filters
+    minor: Read failed
+  #005: C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PL.c line 363 in H5PL_load(): required dynamically loaded plugin filter '305' is not available
+    major: Plugin for dynamically loaded library
+    minor: Unable to load metadata into cache
+
+All error API tests passed.

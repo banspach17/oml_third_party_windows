@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_spgmr/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_spgmr/CMakeFiles/generate.stamp is up-to-date.
+  sunlinsol_spgmr.c
+  sundials_math.c
+  sundials_nvector.c
+  sundials_linearsolver.c
+  sundials_iterative.c
+  Generating Code...
+  sundials_sunlinsolspgmr_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spgmr\Release\sundials_sunlinsolspgmr.lib

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/idas/serial/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/idas/serial/CMakeFiles/generate.stamp is up-to-date.
+  idasHeat2D_kry.c
+  idasHeat2D_kry.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\idas\serial\Release\idasHeat2D_kry.exe

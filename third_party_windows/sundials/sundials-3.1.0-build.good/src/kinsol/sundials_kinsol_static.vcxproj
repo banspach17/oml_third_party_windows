@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ECA209EE-01F5-3B26-88E5-B86435577B54}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>sundials_kinsol_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_kinsol_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_kinsol_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_kinsol_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;BUILD_SUNDIALS_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\oss\third_party\sundials\sundials-3.1.0\include;C:\oss\third_party\sundials\sundials-3.1.0-build\include;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\.;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\..\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -HC:/oss/third_party/sundials/sundials-3.1.0 -BC:/oss/third_party/sundials/sundials-3.1.0-build --check-stamp-file C:/oss/third_party/sundials/sundials-3.1.0-build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/oss/third_party/sundials/sundials-3.1.0/src/kinsol/CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\oss\third_party\sundials\sundials-3.1.0-build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol_io.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol_direct.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol_spils.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\kinsol\kinsol_bbdpre.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_nvector.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_matrix.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_linearsolver.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_math.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_band.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_dense.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_direct.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_iterative.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sundials\sundials_version.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\nvec_ser\nvector_serial.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_band\sunmatrix_band.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_dense\sunmatrix_dense.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunmat_sparse\sunmatrix_sparse.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_band\sunlinsol_band.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_dense\sunlinsol_dense.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spbcgs\sunlinsol_spbcgs.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spfgmr\sunlinsol_spfgmr.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_spgmr\sunlinsol_spgmr.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_sptfqmr\sunlinsol_sptfqmr.c"  />
+    <ClCompile Include="C:\oss\third_party\sundials\sundials-3.1.0\src\sunlinsol_pcg\sunlinsol_pcg.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\oss\third_party\sundials\sundials-3.1.0-build\ZERO_CHECK.vcxproj">
+      <Project>{BE97B066-C0FA-329E-9BD1-7343E832883C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

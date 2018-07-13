@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunlinsol_sptfqmr/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/CMakeFiles/generate.stamp is up-to-date.
+  sunlinsol_sptfqmr.c
+  sundials_math.c
+  sundials_nvector.c
+  sundials_linearsolver.c
+  sundials_iterative.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Release/sundials_sunlinsolsptfqmr.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_sptfqmr/Release/sundials_sunlinsolsptfqmr.exp
+  sundials_sunlinsolsptfqmr_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\Release\sundials_sunlinsolsptfqmr.dll

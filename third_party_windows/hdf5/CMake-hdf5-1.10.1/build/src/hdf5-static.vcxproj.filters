@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5checksum.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5dbg.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5system.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5timer.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5trace.c">
+      <Filter>H5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5A.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Abtree2.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Adense.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Adeprec.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Aint.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Atest.c">
+      <Filter>H5A</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5AC.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACdbg.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5AClog.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACmpio.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACproxy_entry.c">
+      <Filter>H5AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Bcache.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Bdbg.c">
+      <Filter>H5B</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2cache.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2dbg.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2hdr.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2int.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2internal.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2leaf.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2stat.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2test.c">
+      <Filter>H5B2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5C.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cdbg.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cepoch.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cimage.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Clog.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cmpio.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cprefetched.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cquery.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ctag.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ctest.c">
+      <Filter>H5C</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5CS.c">
+      <Filter>H5CS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5D.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dbtree.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dbtree2.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dchunk.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dcompact.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dcontig.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ddbg.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ddeprec.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dearray.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Defl.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dfarray.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dfill.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dint.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dio.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dlayout.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dmpio.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dnone.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Doh.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dscatgath.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dselect.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dsingle.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dtest.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dvirtual.c">
+      <Filter>H5D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5E.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Edeprec.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Eint.c">
+      <Filter>H5E</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EA.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAcache.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAdbg.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAdblkpage.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAdblock.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAhdr.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAiblock.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAint.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAsblock.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAstat.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAtest.c">
+      <Filter>H5EA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5F.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Faccum.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fcwfs.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fdbg.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fdeprec.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fefc.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ffake.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fint.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fio.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fmount.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fmpi.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fquery.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fsfile.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fspace.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fsuper.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fsuper_cache.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ftest.c">
+      <Filter>H5F</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FA.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAcache.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAdbg.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAdblkpage.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAdblock.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAhdr.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAint.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAstat.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAtest.c">
+      <Filter>H5FA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FD.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDcore.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDdirect.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDfamily.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDint.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDlog.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmpi.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmpio.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmulti.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDsec2.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDspace.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDstdio.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDtest.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDwindows.c">
+      <Filter>H5FD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FL.c">
+      <Filter>H5FL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FO.c">
+      <Filter>H5FO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FS.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FScache.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSdbg.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSint.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSsection.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSstat.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FStest.c">
+      <Filter>H5FS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5G.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gbtree2.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gcache.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gcompact.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gdense.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gdeprec.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gent.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gint.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Glink.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gloc.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gname.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gnode.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gobj.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Goh.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Groot.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gstab.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gtest.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gtraverse.c">
+      <Filter>H5G</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HF.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFbtree2.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFcache.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFdbg.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFdblock.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFdtable.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFhdr.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFhuge.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFiblock.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFiter.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFman.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFsection.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFspace.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFstat.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFtest.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFtiny.c">
+      <Filter>H5HF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HG.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGcache.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGdbg.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGquery.c">
+      <Filter>H5HG</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HL.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLcache.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLdbg.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLdblk.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLint.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLprfx.c">
+      <Filter>H5HL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HP.c">
+      <Filter>H5HP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5I.c">
+      <Filter>H5I</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Itest.c">
+      <Filter>H5I</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5L.c">
+      <Filter>H5L</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Lexternal.c">
+      <Filter>H5L</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MF.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MFaggr.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MFdbg.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MFsection.c">
+      <Filter>H5MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MM.c">
+      <Filter>H5MM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MP.c">
+      <Filter>H5MP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MPtest.c">
+      <Filter>H5MP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5O.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oainfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oalloc.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oattr.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oattribute.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Obogus.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Obtreek.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ocache.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ocache_image.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ochunk.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ocont.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ocopy.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Odbg.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Odrvinfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Odtype.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oefl.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ofill.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oflush.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ofsinfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oginfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Olayout.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Olinfo.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Olink.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Omessage.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Omtime.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oname.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Onull.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Opline.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Orefcount.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Osdspace.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oshared.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oshmesg.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ostab.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Otest.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ounknown.c">
+      <Filter>H5O</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5P.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pacpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pdapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pdcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pdeprec.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pdxpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pencdec.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pfapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pfcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pfmpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pgcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pint.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Plapl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Plcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pocpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pocpypl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pstrcpl.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ptest.c">
+      <Filter>H5P</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PB.c">
+      <Filter>H5PB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PL.c">
+      <Filter>H5PL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5R.c">
+      <Filter>H5R</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Rdeprec.c">
+      <Filter>H5R</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5UC.c">
+      <Filter>H5UC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5RS.c">
+      <Filter>H5RS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5S.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Sall.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Sdbg.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Shyper.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Smpio.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Snone.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Spoint.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Sselect.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Stest.c">
+      <Filter>H5S</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SL.c">
+      <Filter>H5SL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SM.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMbtree2.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMcache.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMmessage.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMtest.c">
+      <Filter>H5SM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ST.c">
+      <Filter>H5ST</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5T.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tarray.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tbit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tcommit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tcompound.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tconv.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tcset.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tdbg.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tdeprec.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tenum.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tfields.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tfixed.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tfloat.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tnative.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Toffset.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Toh.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Topaque.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Torder.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tpad.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tprecis.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tstrpad.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tvisit.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tvlen.c">
+      <Filter>H5T</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5TS.c">
+      <Filter>H5TS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5VM.c">
+      <Filter>H5VM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5WB.c">
+      <Filter>H5WB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Z.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zdeflate.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zfletcher32.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Znbit.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zscaleoffset.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zshuffle.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zszip.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ztrans.c">
+      <Filter>H5Z</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\H5Tinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\H5lib_settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\hdf5.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5api_adpt.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5public.h">
+      <Filter>H5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Apkg.h">
+      <Filter>H5A</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Apublic.h">
+      <Filter>H5A</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACpkg.h">
+      <Filter>H5AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACpublic.h">
+      <Filter>H5AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Bpkg.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Bpublic.h">
+      <Filter>H5B</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2pkg.h">
+      <Filter>H5B2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2public.h">
+      <Filter>H5B2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cpkg.h">
+      <Filter>H5C</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cpublic.h">
+      <Filter>H5C</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dpkg.h">
+      <Filter>H5D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dpublic.h">
+      <Filter>H5D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Epkg.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Epublic.h">
+      <Filter>H5E</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EApkg.h">
+      <Filter>H5EA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fpkg.h">
+      <Filter>H5F</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fpublic.h">
+      <Filter>H5F</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FApkg.h">
+      <Filter>H5FA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDcore.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDdirect.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDfamily.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDlog.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmpi.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmpio.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDmulti.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDpkg.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDpublic.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDsec2.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDstdio.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDwindows.h">
+      <Filter>H5FD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSpkg.h">
+      <Filter>H5FS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSpublic.h">
+      <Filter>H5FS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gpkg.h">
+      <Filter>H5G</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gpublic.h">
+      <Filter>H5G</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFpkg.h">
+      <Filter>H5HF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFpublic.h">
+      <Filter>H5HF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGpkg.h">
+      <Filter>H5HG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGpublic.h">
+      <Filter>H5HG</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLpkg.h">
+      <Filter>H5HL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLpublic.h">
+      <Filter>H5HL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ipkg.h">
+      <Filter>H5I</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ipublic.h">
+      <Filter>H5I</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Lpkg.h">
+      <Filter>H5L</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Lpublic.h">
+      <Filter>H5L</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MMpublic.h">
+      <Filter>H5MM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MPpkg.h">
+      <Filter>H5MP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Opkg.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Opublic.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oshared.h">
+      <Filter>H5O</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ppkg.h">
+      <Filter>H5P</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Ppublic.h">
+      <Filter>H5P</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PBpkg.h">
+      <Filter>H5PB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PLextern.h">
+      <Filter>H5PL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PLpkg.h">
+      <Filter>H5PL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PLpublic.h">
+      <Filter>H5PL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Rpkg.h">
+      <Filter>H5R</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Rpublic.h">
+      <Filter>H5R</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Spkg.h">
+      <Filter>H5S</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Spublic.h">
+      <Filter>H5S</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMpkg.h">
+      <Filter>H5SM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tpkg.h">
+      <Filter>H5T</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tpublic.h">
+      <Filter>H5T</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zpkg.h">
+      <Filter>H5Z</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zpublic.h">
+      <Filter>H5Z</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Aprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5ACprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5B2private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Bprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Cprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5CSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Dprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Eprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5EAprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FAprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FDprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Fprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FOprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MFprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5FSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Gprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HFprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HGprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5HPprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Iprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Lprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5MPprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Oprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Pprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PBprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5PLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5UCprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Rprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5RSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SLprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5SMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Sprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5STprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Tprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5TSprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5VMprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5WBprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Zprivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5win32defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Edefin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Einit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Epubgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5Eterm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\H5overflow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\hdf5-1.10.1\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\172e878a09b44daf7036c1a28b3fdde5\H5Tinit.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\oss\third_party\matio\CMake-hdf5-1.10.1\build\CMakeFiles\172e878a09b44daf7036c1a28b3fdde5\H5lib_settings.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{81B79D3A-82FD-36F8-9F99-8B06E7CE3529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A5506D51-6C46-34AA-A502-CA3AF95AF360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4FEAC741-D1A9-3BE2-B887-7D0B865CA293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5">
+      <UniqueIdentifier>{3DFD02E4-05FA-312F-9D53-135EC5AC5697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5A">
+      <UniqueIdentifier>{714C63EA-1557-3B62-9343-028437E438DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5AC">
+      <UniqueIdentifier>{54B6F02D-0219-30F2-9973-527AAAA49C27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5B">
+      <UniqueIdentifier>{D9359279-DD79-302A-AEA3-5C40A91C887F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5B2">
+      <UniqueIdentifier>{AFDA854A-211D-3586-B666-C890C340C8CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5C">
+      <UniqueIdentifier>{152D2E58-6160-3AD6-933F-4F97C62BCDD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5CS">
+      <UniqueIdentifier>{8002DCC8-BDAB-377F-8D59-3C8E6103D1EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5D">
+      <UniqueIdentifier>{4D0D4BB0-5389-3ED5-869B-370639E26ED8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5E">
+      <UniqueIdentifier>{5B66BC54-94B0-3070-A7EE-FDAF4AF1745E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5EA">
+      <UniqueIdentifier>{94F1B440-2E63-32BF-8CB0-B07A11B8953F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5F">
+      <UniqueIdentifier>{453529E7-74B0-3C78-B7DC-2F57C271E86F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FA">
+      <UniqueIdentifier>{48C82853-FB6D-32A5-AB8A-8163F9199082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FD">
+      <UniqueIdentifier>{953B90AC-7D72-3C64-A301-3776ECB4B172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FL">
+      <UniqueIdentifier>{0A9FCF80-24C1-3B01-9859-30E63598C673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FO">
+      <UniqueIdentifier>{54038472-94A0-31F1-9A30-4847E1637FE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5FS">
+      <UniqueIdentifier>{C1FEEF0E-35E9-34AF-A6C5-0A85C7428969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5G">
+      <UniqueIdentifier>{581CD959-C588-3617-81BB-55F46F610651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HF">
+      <UniqueIdentifier>{5450E5B8-4CC6-3249-912D-19A69D5F701A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HG">
+      <UniqueIdentifier>{9105A4E8-2D68-32CF-9DE4-7FC73733DA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HL">
+      <UniqueIdentifier>{ADC10A32-E0C1-33A3-8548-9B9F366E24FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5HP">
+      <UniqueIdentifier>{5ED19DF0-17CD-33D8-9E11-04947BDF6F66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5I">
+      <UniqueIdentifier>{249034A1-08FC-3A65-A233-404929761190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5L">
+      <UniqueIdentifier>{C86FC4B5-4A15-38E1-9B2B-C5FF0F1A8B0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5MF">
+      <UniqueIdentifier>{FBB05BC1-5BC9-3B85-8194-1BDFD0FD19FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5MM">
+      <UniqueIdentifier>{7D66734B-AE83-36F1-9DD7-28D8C20F4823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5MP">
+      <UniqueIdentifier>{68112866-DCCE-34EF-BF64-7EFC1E6BB836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5O">
+      <UniqueIdentifier>{BCC831E8-DA57-36E1-B105-536DFD71626E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5P">
+      <UniqueIdentifier>{441C5164-B013-30FB-8F07-07A7010B84D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5PB">
+      <UniqueIdentifier>{BC73418F-9056-3240-A837-9CC8D04F755B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5PL">
+      <UniqueIdentifier>{ABA3F14C-14BD-3515-BCA1-C4BFE94B281F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5R">
+      <UniqueIdentifier>{2ED58A3B-9D6F-347A-AF15-2DCD347803DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5RS">
+      <UniqueIdentifier>{AA2DC190-3E55-32DB-9017-13090DDC0F63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5S">
+      <UniqueIdentifier>{C201DEAE-90EB-36F7-9360-6E5F273641F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5SL">
+      <UniqueIdentifier>{3C8CB4CC-EE66-37AC-86FA-9F9C7DA36E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5SM">
+      <UniqueIdentifier>{5A1BE66D-1330-30FF-83A9-853BFBAF0960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5ST">
+      <UniqueIdentifier>{F11DA091-9C0D-33DD-B6C0-FE6D52C2F5E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5T">
+      <UniqueIdentifier>{0CD21C85-F9E2-3085-BB45-DDDB5EEE6D06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5TS">
+      <UniqueIdentifier>{B5BFD965-5767-3C7A-8871-07F2C7CA3E86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5UC">
+      <UniqueIdentifier>{A77424AF-054E-3994-BA5D-92B1CB859440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5VM">
+      <UniqueIdentifier>{3FD6671E-0F30-3AC3-95B7-71448BD91157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5WB">
+      <UniqueIdentifier>{56316D47-052D-37FF-8CEC-0D8F6763A53F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H5Z">
+      <UniqueIdentifier>{ACA1E487-316B-3B37-A480-3CB0D55DA687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

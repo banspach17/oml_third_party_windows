@@ -1,0 +1,24 @@
+
+Data Written to File:
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+
+Write subset to file specifying: 
+  offset=1x2 stride=1x1 count=3x4 block=1x1
+
+Data in File after Subset is Written:
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 5 5 5 5 2 2 2 2
+ 1 1 5 5 5 5 2 2 2 2
+ 1 1 5 5 5 5 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+ 1 1 1 1 1 2 2 2 2 2
+

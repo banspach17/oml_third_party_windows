@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Windows-WIN7-vs2015-STATIC"
+	BuildStamp="20180112-1852-Experimental"
+	Name="WIN7VS201564.XXXX"
+	Generator="ctest-3.9.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="tr-lap904"
+	OSRelease=" Professional"
+	OSVersion=" (Build 14393)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="34707"
+	TotalPhysicalMemory="32659"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2711"
+	>
+	<Configure>
+		<StartDateTime>Jan 12 13:52 Eastern Standard Time</StartDateTime>
+		<StartConfigureTime>1515783161</StartConfigureTime>
+		<ConfigureCommand>"C:/CMake/bin/cmake.exe" -C "C:/oss/third_party/matio/CMake-hdf5-1.10.1\hdf5-1.10.1/config/cmake/cacheinit.cmake" -DCMAKE_BUILD_TYPE:STRING=Release  -DBUILD_SHARED_LIBS:BOOL=OFF -DHDF5_BUILD_FORTRAN:BOOL=OFF -DHDF5_ENABLE_F2003:BOOL=OFF -DHDF5_BUILD_JAVA:BOOL=OFF -DCMAKE_INSTALL_PREFIX:PATH=C:/Program Files/HDF_Group/HDF5/1.10.1 -DCTEST_CONFIGURATION_TYPE:STRING=Release -DHDF5_ALLOW_EXTERNAL_SUPPORT:STRING=TGZ -DTGZPATH:PATH=C:/oss/third_party/matio/CMake-hdf5-1.10.1 -DHDF5_PACKAGE_EXTLIBS:BOOL=ON -DSITE:STRING=WIN7VS201564.XXXX -DBUILDNAME:STRING=Windows-WIN7-vs2015-STATIC "-GVisual Studio 14 2015 Win64" "" "C:/oss/third_party/matio/CMake-hdf5-1.10.1\hdf5-1.10.1"</ConfigureCommand>
+		<Log>loading initial cache file C:/oss/third_party/matio/CMake-hdf5-1.10.1\hdf5-1.10.1/config/cmake/cacheinit.cmake
+-- The C compiler identification is MSVC 19.0.24215.1
+-- The CXX compiler identification is MSVC 19.0.24215.1
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- SOVERSION: 101.0.0
+-- SOVERSION_TOOLS: 100.0.1
+-- SOVERSION_CXX: 101.0.0
+-- SOVERSION_F: 100.1.0
+-- SOVERSION_HL: 100.0.1
+-- SOVERSION_HL_CXX: 100.1.0
+-- SOVERSION_HL_F: 100.0.1
+-- SOVERSION_JAVA: 100.1.0
+-- Check for STD namespace
+-- Check for STD namespace - found
+-- Looking for gethostname in ucb;
+-- Looking for gethostname in ucb; - not found
+-- Performing Other Test STDC_HEADERS - Success
+-- Looking for include files windows.h, sys/file.h
+-- Looking for include files windows.h, sys/file.h - not found
+-- Looking for include files windows.h, sys/ioctl.h
+-- Looking for include files windows.h, sys/ioctl.h - not found
+-- Looking for include files windows.h, sys/resource.h
+-- Looking for include files windows.h, sys/resource.h - not found
+-- Looking for include files windows.h, sys/socket.h
+-- Looking for include files windows.h, sys/socket.h - not found
+-- Looking for 3 include files windows.h, ..., sys/time.h
+-- Looking for 3 include files windows.h, ..., sys/time.h - not found
+-- Looking for 4 include files windows.h, ..., features.h
+-- Looking for 4 include files windows.h, ..., features.h - not found
+-- Looking for 4 include files windows.h, ..., dirent.h
+-- Looking for 4 include files windows.h, ..., dirent.h - not found
+-- Looking for 4 include files windows.h, ..., setjmp.h
+-- Looking for 4 include files windows.h, ..., setjmp.h - found
+-- Looking for 6 include files windows.h, ..., stdint.h
+-- Looking for 6 include files windows.h, ..., stdint.h - found
+-- Looking for 7 include files windows.h, ..., unistd.h
+-- Looking for 7 include files windows.h, ..., unistd.h - not found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for 7 include files windows.h, ..., mach/mach_time.h
+-- Looking for 7 include files windows.h, ..., mach/mach_time.h - not found
+-- Looking for 7 include files windows.h, ..., io.h
+-- Looking for 7 include files windows.h, ..., io.h - found
+-- Looking for 8 include files windows.h, ..., winsock2.h
+-- Looking for 8 include files windows.h, ..., winsock2.h - found
+-- Looking for 9 include files windows.h, ..., sys/timeb.h
+-- Looking for 9 include files windows.h, ..., sys/timeb.h - found
+-- Looking for 10 include files windows.h, ..., globus/common.h
+-- Looking for 10 include files windows.h, ..., globus/common.h - not found
+-- Looking for 10 include files windows.h, ..., pdb.h
+-- Looking for 10 include files windows.h, ..., pdb.h - not found
+-- Looking for 10 include files windows.h, ..., pthread.h
+-- Looking for 10 include files windows.h, ..., pthread.h - not found
+-- Looking for 10 include files windows.h, ..., srbclient.h
+-- Looking for 10 include files windows.h, ..., srbclient.h - not found
+-- Looking for 10 include files windows.h, ..., string.h
+-- Looking for 10 include files windows.h, ..., string.h - found
+-- Looking for 11 include files windows.h, ..., strings.h
+-- Looking for 11 include files windows.h, ..., strings.h - not found
+-- Looking for 11 include files windows.h, ..., stdlib.h
+-- Looking for 11 include files windows.h, ..., stdlib.h - found
+-- Looking for 12 include files windows.h, ..., memory.h
+-- Looking for 12 include files windows.h, ..., memory.h - found
+-- Looking for 13 include files windows.h, ..., dlfcn.h
+-- Looking for 13 include files windows.h, ..., dlfcn.h - not found
+-- Looking for 13 include files windows.h, ..., inttypes.h
+-- Looking for 13 include files windows.h, ..., inttypes.h - found
+-- Looking for 14 include files windows.h, ..., netinet/in.h
+-- Looking for 14 include files windows.h, ..., netinet/in.h - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of __int64
+-- Check size of __int64 - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of int_least8_t
+-- Check size of int_least8_t - done
+-- Check size of uint_least8_t
+-- Check size of uint_least8_t - done
+-- Check size of int_fast8_t
+-- Check size of int_fast8_t - done
+-- Check size of uint_fast8_t
+-- Check size of uint_fast8_t - done
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of int_least16_t
+-- Check size of int_least16_t - done
+-- Check size of uint_least16_t
+-- Check size of uint_least16_t - done
+-- Check size of int_fast16_t
+-- Check size of int_fast16_t - done
+-- Check size of uint_fast16_t
+-- Check size of uint_fast16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of int_least32_t
+-- Check size of int_least32_t - done
+-- Check size of uint_least32_t
+-- Check size of uint_least32_t - done
+-- Check size of int_fast32_t
+-- Check size of int_fast32_t - done
+-- Check size of uint_fast32_t
+-- Check size of uint_fast32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of int_least64_t
+-- Check size of int_least64_t - done
+-- Check size of uint_least64_t
+-- Check size of uint_least64_t - done
+-- Check size of int_fast64_t
+-- Check size of int_fast64_t - done
+-- Check size of uint_fast64_t
+-- Check size of uint_fast64_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - failed
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of off64_t
+-- Check size of off64_t - failed
+-- Looking for 14 include files windows.h, ..., stdbool.h
+-- Looking for 14 include files windows.h, ..., stdbool.h - found
+-- Check size of _Bool
+-- Check size of _Bool - done
+-- Looking for alarm
+-- Looking for alarm - not found
+-- Looking for fcntl
+-- Looking for fcntl - not found
+-- Looking for flock
+-- Looking for flock - not found
+-- Looking for fork
+-- Looking for fork - not found
+-- Looking for frexpf
+-- Looking for frexpf - not found
+-- Looking for frexpl
+-- Looking for frexpl - not found
+-- Looking for getrusage
+-- Looking for getrusage - not found
+-- Looking for llround
+-- Looking for llround - found
+-- Looking for llroundf
+-- Looking for llroundf - found
+-- Looking for lround
+-- Looking for lround - found
+-- Looking for lroundf
+-- Looking for lroundf - found
+-- Looking for lstat
+-- Looking for lstat - not found
+-- Looking for rand_r
+-- Looking for rand_r - not found
+-- Looking for random
+-- Looking for random - not found
+-- Looking for round
+-- Looking for round - found
+-- Looking for roundf
+-- Looking for roundf - found
+-- Looking for setsysinfo
+-- Looking for setsysinfo - not found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for setjmp
+-- Looking for setjmp - found
+-- Looking for siglongjmp
+-- Looking for siglongjmp - not found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - not found
+-- Looking for sigprocmask
+-- Looking for sigprocmask - not found
+-- Looking for snprintf
+-- Looking for snprintf - not found
+-- Looking for srandom
+-- Looking for srandom - not found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for symlink
+-- Looking for symlink - not found
+-- Looking for tmpfile
+-- Looking for tmpfile - found
+-- Looking for asprintf
+-- Looking for asprintf - not found
+-- Looking for vasprintf
+-- Looking for vasprintf - not found
+-- Looking for waitpid
+-- Looking for waitpid - not found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - not found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - not found
+-- Performing CXX Test OLD_HEADER_FILENAME - Failed
+-- Performing CXX Test H5_NO_NAMESPACE - Failed
+-- Performing CXX Test H5_NO_STD - Failed
+-- Performing CXX Test BOOL_NOTDEFINED - Failed
+-- Performing CXX Test NO_STATIC_CAST - Failed
+-- Performing CXX Test CXX_HAVE_OFFSETOF - Failed
+-- Checking for InitOnceExecuteOnce:
+-- Performing Test InitOnceExecuteOnce - Success
+-- Performing Other Test HAVE_INLINE - Success
+-- Performing Other Test HAVE___INLINE__ - Failed
+-- Performing Other Test HAVE___INLINE - Success
+-- Checking for appropriate format for 64 bit long:
+-- Checking for appropriate format for 64 bit long: found "I64"
+-- Looking for difftime
+-- Looking for difftime - found
+-- Check size of __float128
+-- Check size of __float128 - failed
+-- Checking IF your system converts long double to (unsigned) long values with special algorithm... no
+-- Checking IF your system can convert (unsigned) long to long double values with special algorithm... no
+-- Checking IF correctly converting long double to (unsigned) long long values... yes
+-- Checking IF correctly converting (unsigned) long long to long double values... yes
+-- Checking IF alignment restrictions are strictly enforced... yes
+-- Filter ZLIB is built
+-- Filter ZLIB is ON
+-- Filter SZIP is built
+-- Filter SZIP is ON
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CTEST_CONFIGURATION_TYPE
+    HDF5_ENABLE_F2003
+
+
+-- Build files have been written to: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Jan 12 13:55 Eastern Standard Time</EndDateTime>
+		<EndConfigureTime>1515783328</EndConfigureTime>
+		<ElapsedMinutes>2.7</ElapsedMinutes>
+	</Configure>
+</Site>

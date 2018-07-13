@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/cvodes/serial/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/cvodes/serial/CMakeFiles/generate.stamp is up-to-date.
+  cvsFoodWeb_ASAp_kry.c
+  cvsFoodWeb_ASAp_kry.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\cvodes\serial\Release\cvsFoodWeb_ASAp_kry.exe

@@ -1,0 +1,30 @@
+Filesize: 67108864
+Compression Level: 6
+Buffer size == 128KB
+	Uncompressed Write Time: 0.03s
+	Uncompressed Write Throughput: 2279.61MB/s
+	Compression Ratio: 0.00113678
+	Compressed Write Time: 0.57s
+	Compressed Write Throughput: 113.15MB/s
+	Compression Time: 0.559129s
+Buffer size == 256KB
+	Uncompressed Write Time: 0.03s
+	Uncompressed Write Throughput: 2239.56MB/s
+	Compression Ratio: 0.00105667
+	Compressed Write Time: 0.50s
+	Compressed Write Throughput: 127.14MB/s
+	Compression Time: 0.49887s
+Buffer size == 512KB
+	Uncompressed Write Time: 0.04s
+	Uncompressed Write Throughput: 1595.73MB/s
+	Compression Ratio: 0.0010128
+	Compressed Write Time: 0.67s
+	Compressed Write Throughput: 94.98MB/s
+	Compression Time: 0.670787s
+Buffer size == 1MB
+	Uncompressed Write Time: 0.03s
+	Uncompressed Write Throughput: 2364.05MB/s
+	Compression Ratio: 0.000990868
+	Compressed Write Time: 0.61s
+	Compressed Write Throughput: 104.30MB/s
+	Compression Time: 0.61163s

@@ -1,0 +1,190 @@
+﻿  -- Install configuration: "Release"
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_config.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_fconfig.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/./LICENSE
+  
+  Install shared components
+  
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_band.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_dense.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_fnvector.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_iterative.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_linearsolver.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_math.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_matrix.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_nvector.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_pcg.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_sparse.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_spbcgs.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_spfgmr.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_spgmr.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_sptfqmr.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_types.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sundials/sundials_version.h
+  
+  Install NVECTOR_SERIAL
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_nvecserial.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_nvecserial.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_nvecserial.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/nvector/nvector_serial.h
+  
+  Install SUNMATRIX_DENSE
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixdense.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixdense.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixdense.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_dense.h
+  
+  Install SUNMATRIX_BAND
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixband.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixband.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixband.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_band.h
+  
+  Install SUNMATRIX_SPARSE
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixsparse.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixsparse.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunmatrixsparse.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_sparse.h
+  
+  Install SUNLINSOL_BAND
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolband.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolband.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolband.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_band.h
+  
+  Install SUNLINSOL_DENSE
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsoldense.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsoldense.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsoldense.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_dense.h
+  
+  Install SUNLINSOL_SPGMR
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspgmr.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspgmr.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspgmr.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spgmr.h
+  
+  Install SUNLINSOL_SPFGMR
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspfgmr.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspfgmr.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspfgmr.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spfgmr.h
+  
+  Install SUNLINSOL_SPBCGS
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspbcgs.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspbcgs.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolspbcgs.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spbcgs.h
+  
+  Install SUNLINSOL_SPTFQMR
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolsptfqmr.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolsptfqmr.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolsptfqmr.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_sptfqmr.h
+  
+  Install SUNLINSOL_PCG
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolpcg.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolpcg.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_sunlinsolpcg.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_pcg.h
+  
+  Install ARKODE
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_arkode.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_arkode.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_arkode.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode_bandpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/arkode/arkode_impl.h
+  
+  Install CVODE
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvode.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvode.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvode.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_bandpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_diag.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvode/cvode_impl.h
+  
+  Install CVODES
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvodes.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvodes.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_cvodes.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_bandpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_diag.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/cvodes/cvodes_impl.h
+  
+  Install IDA
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_ida.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_ida.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_ida.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/ida/ida.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/ida/ida_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/ida/ida_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/ida/ida_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/ida/ida_impl.h
+  
+  Install IDAS
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_idas.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_idas.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_idas.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/idas/idas.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/idas/idas_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/idas/idas_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/idas/idas_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/idas/idas_impl.h
+  
+  Install KINSOL
+  
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_kinsol.lib
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_kinsol.lib
+  -- Installing: C:/oss/third_party/sundials/sundials-3.1.0-install/lib/sundials_kinsol.dll
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/kinsol/kinsol_bbdpre.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/kinsol/kinsol_direct.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/kinsol/kinsol.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/kinsol/kinsol_spils.h
+  -- Up-to-date: C:/oss/third_party/sundials/sundials-3.1.0-install/include/kinsol/kinsol_impl.h
+  CMake Error at examples/arkode/C_serial/cmake_install.cmake:39 (file):
+    file cannot create directory: C:/Program
+    Files/sundials/examples/arkode/C_serial.  Maybe need administrative
+    privileges.
+  Call Stack (most recent call first):
+    cmake_install.cmake:62 (include)
+  
+  
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: C:\CMake\bin\cmake.exe -DBUILD_TYPE=Release -P cmake_install.cmake
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: if %errorlevel% neq 0 goto :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmErrorLevel
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: exit /b %1
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :cmDone
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: if %errorlevel% neq 0 goto :VCEnd
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 1.

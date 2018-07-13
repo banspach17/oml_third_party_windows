@@ -1,0 +1,8 @@
+﻿  sunmatrix_band.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_math.c
+  Generating Code...
+     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/Debug/sundials_sunmatrixband.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/Debug/sundials_sunmatrixband.exp
+  sundials_sunmatrixband_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\Debug\sundials_sunmatrixband.dll
+  sundials_sunmatrixband_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/Debug/sundials_sunmatrixband.pdb (Full PDB)

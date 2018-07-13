@@ -1,0 +1,12 @@
+Most thread-safety tests skipped because THREADSAFE not enabled
+
+For help use: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/bin/Release/ttsafe.exe -help
+Linked with hdf5 version 1.10 release 1
+Testing  -- library threadsafe status (is_threadsafe) 
+
+
+All tests were successful. 
+
+
+Cleaning Up temp files...
+

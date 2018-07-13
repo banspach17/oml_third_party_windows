@@ -1,0 +1,123 @@
+
+For help use: C:/oss/third_party/matio/CMake-hdf5-1.10.1/build/bin/Release/cpp_testhdf5.exe -help
+Linked with hdf5 version 1.10 release 1
+Testing  -- File I/O Operations (tfile) 
+   Subtest: File Creation I/O                                    PASSED
+   Subtest: File Opening I/O                                     PASSED
+   Subtest: File Size                                            PASSED
+   Subtest: File Name                                            PASSED
+   Subtest: File Attribute                                       PASSED
+   Subtest: Setting library version bounds                       PASSED
+   Subtest: Root group                                           PASSED
+   Subtest: File general information                             PASSED
+Testing  -- Dataset I/O Operations (dsets) 
+   Subtest: Create, open, close                                  PASSED
+   Subtest: Simple I/O                                           PASSED
+   Subtest: Data type conversion                                 PASSED
+   Subtest: Compression (setup)                                  PASSED
+   Subtest: Compression (uninitialized read)                     PASSED
+   Subtest: Compression (write)                                  PASSED
+   Subtest: Compression (read)                                   PASSED
+   Subtest: Compression (modify)                                 PASSED
+   Subtest: Compression (re-open)                                PASSED
+   Subtest: Compression (partial I/O)                            PASSED
+   Subtest: Compression (app-defined method)                     PASSED
+   Subtest: N-bit compression (setup)                            PASSED
+   Subtest: Multi-open with extending                            PASSED
+   Subtest: Various datatypes                                    PASSED
+   Subtest: DSetCreatPropList::setVirtual                        PASSED
+   Subtest: DataSet::getInMemDataSize()                          PASSED
+Testing  -- Dataspaces (th5s) 
+   Subtest: Dataspace Manipulation                               PASSED
+   Subtest: Scalar Dataspace Writing                             PASSED
+   Subtest: Scalar Dataspace Reading                             PASSED
+   Subtest: Null Dataspace Writing                               PASSED
+   Subtest: Compound Dataspace Writing                           PASSED
+   Subtest: Compound Dataspace Reading                           PASSED
+Testing  -- Attributes (tattr) 
+   Subtest: Basic Attribute Writing Functions                    PASSED
+   Subtest: Testing all overloads of Attribute::getName          PASSED
+   Subtest: Checking for Existence and Renaming Attribute        PASSED
+   Subtest: Basic Attribute Reading Functions                    PASSED
+   Subtest: Multiple Attribute Functions                         PASSED
+   Subtest: Basic Attribute Functions                            PASSED
+   Subtest: Basic Scalar Attribute Writing Functions             PASSED
+   Subtest: Basic Scalar Attribute Reading Functions             PASSED
+   Subtest: Multiple Attribute Writing Functions                 PASSED
+   Subtest: Multiple Attribute Reading Functions                 PASSED
+   Subtest: Removing Attribute Function                          PASSED
+   Subtest: Shared Datatypes with Attributes                     PASSED
+   Subtest: I/O on FL and VL String Attributes                   PASSED
+   Subtest: Check Attribute Existence                            PASSED
+   Subtest: Basic Attribute Writing Functions                    PASSED
+   Subtest: Testing all overloads of Attribute::getName          PASSED
+   Subtest: Checking for Existence and Renaming Attribute        PASSED
+   Subtest: Basic Attribute Reading Functions                    PASSED
+   Subtest: Multiple Attribute Functions                         PASSED
+   Subtest: Basic Attribute Functions                            PASSED
+   Subtest: Basic Scalar Attribute Writing Functions             PASSED
+   Subtest: Basic Scalar Attribute Reading Functions             PASSED
+   Subtest: Multiple Attribute Writing Functions                 PASSED
+   Subtest: Multiple Attribute Reading Functions                 PASSED
+   Subtest: Removing Attribute Function                          PASSED
+   Subtest: Shared Datatypes with Attributes                     PASSED
+   Subtest: I/O on FL and VL String Attributes                   PASSED
+   Subtest: Check Attribute Existence                            PASSED
+   Subtest: Dense Attribute Storage Creation                     PASSED
+   Subtest: Basic Code for Attributes with Creation Order Info   PASSED
+Testing  -- Objects (tobject) 
+   Subtest: H5Object::getObjName on Groups and Datasets          PASSED
+   Subtest: H5File::exists and Group::exists                     PASSED
+   Subtest: H5Object::getObjName on Committed Datatypes          PASSED
+   Subtest: H5File::childObjType and H5Group::childObjType       PASSED
+   Subtest: Group::getObjId                                      PASSED
+Testing  -- References (trefer) 
+   Subtest: Object Reference Parameters                          PASSED
+   Subtest: Object Reference Functions                           PASSED
+   Subtest: Object Reference to Group                            PASSED
+   Subtest: 1-D Dataset Region Reference Functions               PASSED
+Testing  -- Variable-Length Strings (tvlstr) 
+   Subtest: VL String on Datasets                                PASSED
+   Subtest: Special VL Strings                                   PASSED
+   Subtest: VL String Type                                       PASSED
+   Subtest: VL Strings on Compact Dataset                        PASSED
+   Subtest: VL String on Attributes                              PASSED
+   Subtest: VL String Array on Attributes                        PASSED
+   Subtest: VL String Array on Datasets                          PASSED
+   Subtest: I/O on VL strings with link/unlink                   PASSED
+Testing  -- Generic Data Types (ttypes) 
+   Subtest: PredType::getClass()                                 PASSED
+   Subtest: DataType::copy() and DataType::operator=             PASSED
+   Subtest: Query functions of compound and enumeration types    PASSED
+   Subtest: Transient datatypes                                  PASSED
+   Subtest: Named datatypes                                      PASSED
+Testing  -- Array Datatypes (tarray) 
+   Subtest: ArrayType::getArrayNDims & ArrayType::getArrayDims   PASSED
+   Subtest: ArrayType::operator=                                 PASSED
+   Subtest: ArrayType Const Methods                              PASSED
+Testing  -- Compound Data Types (tcompound) 
+   Subtest: Compound Data Types                                  PASSED
+   Subtest: Compound Element Reordering                          PASSED
+   Subtest: Compound Datatype Subset Conversions                 PASSED
+   Subtest: Compound Element Shrinking & Reordering              PASSED
+   Subtest: Optimized Struct Converter                           PASSED
+   Subtest: Compound Element Growing                             PASSED
+   Subtest: Compound Element Insertion                           PASSED
+   Subtest: Setting Size on Compound Datatype                    PASSED
+Testing  -- Dataset Property List (tdspl) 
+   Subtest: DSetMemXferPropList::set/getDataTransform()          PASSED
+Testing  -- Various Filters (tfilter) 
+   Subtest: 'Null' filter                                        PASSED
+   Subtest: szip filter (with encoder)                           PASSED
+Testing  -- Various Links (tlinks) 
+   Subtest: Link creation                                        PASSED
+   Subtest: Link creation (w/new group format)                   PASSED
+Testing  -- Group & Attribute Iteration (iterate) 
+   Subtest: Group Iteration                                      PASSED
+
+
+All tests were successful. 
+
+
+Cleaning Up temp files...
+

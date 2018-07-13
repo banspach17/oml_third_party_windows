@@ -1,0 +1,33 @@
+﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/cvode/CMakeLists.txt
+  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/cvode/CMakeFiles/generate.stamp is up-to-date.
+  cvode.c
+  cvode_bandpre.c
+  cvode_bbdpre.c
+  cvode_diag.c
+  cvode_direct.c
+  cvode_io.c
+  cvode_spils.c
+  sundials_nvector.c
+  sundials_matrix.c
+  sundials_linearsolver.c
+  sundials_math.c
+  sundials_band.c
+  sundials_dense.c
+  sundials_direct.c
+  sundials_iterative.c
+  sundials_version.c
+  nvector_serial.c
+  sunmatrix_band.c
+  sunmatrix_dense.c
+  sunmatrix_sparse.c
+  Generating Code...
+  Compiling...
+  sunlinsol_band.c
+  sunlinsol_dense.c
+  sunlinsol_spbcgs.c
+  sunlinsol_spfgmr.c
+  sunlinsol_spgmr.c
+  sunlinsol_sptfqmr.c
+  sunlinsol_pcg.c
+  Generating Code...
+  sundials_cvode_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\cvode\Release\sundials_cvode.lib

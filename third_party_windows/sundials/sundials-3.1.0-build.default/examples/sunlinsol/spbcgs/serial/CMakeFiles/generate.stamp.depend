@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/oss/third_party/sundials/sundials-3.1.0/examples/sunlinsol/spbcgs/serial/CMakeLists.txt
+C:/oss/third_party/sundials/sundials-3.1.0/examples/templates/cmakelists_serial_C_ex.in
