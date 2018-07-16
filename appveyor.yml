@@ -41,6 +41,8 @@ before_build:
     
     dir c:\oss\third_party
     
+    set OML
+    
 
 build:
   project: c:\oss\OpenMatrixPublic\VS2015\OpenMatrix\OpenMatrix.sln
@@ -49,7 +51,7 @@ build:
 test_script:
 
 - cmd: >-
-    c:\oss\OpenMatrix\scripts\appveyor_test.bat appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
+    rem c:\oss\OpenMatrix\scripts\appveyor_test.bat appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
     rem appveyor_test.bat script supports following test related options:
     rem appveyor_setup mingw where core_test_perl core_test_python end
     rem dir_x64_Release check_x64_Release
