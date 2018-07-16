@@ -31,7 +31,16 @@ environment:
   
 
 before_build:
-- cmd: git clone --depth=50 --branch=master https://github.com/OpenMatrixLanguage/OpenMatrix.git OpenMatrixPublic
+- cmd: >-
+    
+    git clone --depth=50 --branch=master https://github.com/OpenMatrixLanguage/OpenMatrix.git OpenMatrixPublic
+    
+    dir \oss
+    
+    dir \oss\OpenMatrixPublic
+    
+    dir \oss\third_party
+    
 
 build:
   project: OpenMatrixPublic\OpenMatrix\VS2015\OpenMatrix\OpenMatrix.sln
