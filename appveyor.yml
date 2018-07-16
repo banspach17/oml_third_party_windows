@@ -1,7 +1,7 @@
 version: 1.0.{build}
 configuration: Release
 platform: x64
-clone_folder: c:\oss\
+clone_folder: c:\oss\third_party
 init:
 - cmd: >-
     git config --global core.autolf true
@@ -22,12 +22,10 @@ init:
     
     python -m pip install numpy
     
-    git clone --depth=50 --branch=master https://github.com/OpenMatrixLanguage/OpenMatrix.git OpenMatrixPublic
-    
 
 environment:
   OML_ROOT: c:\oss\OpenMatrixPublic
-  OML_THIRDPARTY: c:\oss\third_party_windows
+  OML_THIRDPARTY: c:\oss\third_party\third_party_windows
   OML_APPVEYOR: TRUE
   PYTHON: c:\python36-x64
   
