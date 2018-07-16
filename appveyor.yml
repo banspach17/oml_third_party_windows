@@ -33,7 +33,7 @@ environment:
 before_build:
 - cmd: >-
     
-    git clone --depth=50 --branch=master https://github.com/OpenMatrixLanguage/OpenMatrix.git OpenMatrixPublic
+    git clone --depth=50 --branch=master https://github.com/OpenMatrixLanguage/OpenMatrix.git c:\oss\OpenMatrixPublic
     
     dir \oss
     
