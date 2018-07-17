@@ -22,7 +22,7 @@ init:
     
     which python
     
-    python -m pip install numpy
+    python -v -m pip install numpy
     
     
 
