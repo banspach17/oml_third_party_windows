@@ -43,6 +43,8 @@ before_build:
     
     set OML
     
+    copy /Y PropertySheet.props \oss\OpenMatrixPublic\VS2015\OpenMatrix
+    
 
 build:
   project: c:\oss\OpenMatrixPublic\VS2015\OpenMatrix\OpenMatrix.sln
