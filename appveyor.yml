@@ -24,8 +24,6 @@ init:
     
     python -m pip install numpy
     
-    python36 -m pip install numpy
-    
     
 
 environment:
