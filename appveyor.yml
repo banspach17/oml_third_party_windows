@@ -12,8 +12,10 @@ init:
     
     if exist .gitignore type .gitignore
     
-    SET PATH=%PYTHON%;%path%
+    SET 
     
+    SET PATH=\python36;%PYTHON%;%path%
+     
     python -V
     
     where python
