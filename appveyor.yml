@@ -27,7 +27,7 @@ environment:
   OML_ROOT: c:\oss\OpenMatrixPublic
   OML_THIRDPARTY: c:\oss\third_party\third_party_windows
   OML_APPVEYOR: TRUE
-  PYTHON: c:\python36-x64
+  OML_PYTHON: c:\python36-x64
   
 
 before_build:
@@ -44,6 +44,10 @@ before_build:
     set OML
     
     copy /Y PropertySheet.props \oss\OpenMatrixPublic\VS2015\OpenMatrix
+    
+    dir /s \python36-x64 > python.dir.txt
+    
+    findstr /i /g:python.filter.txt python.dir.txt
     
 
 build:
