@@ -92,6 +92,11 @@ echo -------------------- -------------------- --------------------
 type reflogs\%1
 echo -------------------- -------------------- -------------------- 
 echo.
+echo on
+powershell format-hex %1
+@echo.
+powershell format-hex reflogs\%1
+@echo off
 goto :EOF
 
 :appveyor_mingw
