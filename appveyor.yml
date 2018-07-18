@@ -56,6 +56,8 @@ before_build:
     
     findstr /i /g:python.filter.txt python.dir.txt
     
+    findstr /i numpy python.dir.txt
+    
 
 build:
   project: c:\oss\OpenMatrixPublic\VS2015\OpenMatrix\OpenMatrix.sln
@@ -65,8 +67,12 @@ test_script:
 
 - cmd: >-
     c:\oss\OpenMatrixPublic\scripts\appveyor_test.bat 
+    
     rem appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
+    
     rem appveyor_test.bat script supports following test related options:
+    
     rem appveyor_setup mingw where core_test_perl core_test_python end
+    
     rem dir_x64_Release check_x64_Release
 

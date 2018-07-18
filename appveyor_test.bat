@@ -63,7 +63,11 @@ goto :EOF
 @echo ---------- ---------- ---------- ---------- ---------- 
 @echo Run regression tests using perl script
 cd %OML_ROOT%\Tests\RegressionTests
-perl %OML_ROOT%\Tests\regressOMLConsole.pl
+perl %OML_ROOT%\Tests\regressOMLConsole.pl -limit 10
+echo.
+if not exist *.log echo ALL TESTS PASS! & echo. & goto :EOF
+echo.
+for %%a in ("*.log") do call :run_log_compare %%a
 goto :EOF
 
 :core_test_python
@@ -71,6 +75,22 @@ goto :EOF
 @echo Run regression tests using python script
 cd %OML_ROOT%\Tests\RegressionTests
 %OML_ROOT%\Tests\oml_run_tests.py -x omlconsole.exe
+goto :EOF
+
+
+:run_log_compare
+echo Display %1 and reflogs\%1 files
+echo -------------------- -------------------- -------------------- 
+echo %1
+echo -------------------- -------------------- -------------------- 
+type %1
+echo -------------------- -------------------- -------------------- 
+echo.
+echo reflogs\%1
+echo -------------------- -------------------- -------------------- 
+type reflogs\%1
+echo -------------------- -------------------- -------------------- 
+echo.
 goto :EOF
 
 :appveyor_mingw
@@ -83,18 +103,22 @@ goto :EOF
 :where_check
 @echo ---------- ---------- ---------- ---------- ---------- 
 @echo Run the where command for key files
+@echo on
 where omlconsole.exe
 where oml.dll
 where mathcore.dll
 where libblas.dll
 where liblapack.dll
+@echo off
 goto :EOF
 
 :dir_x64_Release
 @echo ---------- ---------- ---------- ---------- ---------- 
 @echo Display programs built in x64\Release directory
-dir c:\oss\OpenMatrix\VS2015\OpenMatrix\x64\Release\*.exe
-dir c:\oss\OpenMatrix\VS2015\OpenMatrix\x64\Release\*.dll
+@echo on
+dir %OML_ROOT%\VS2015\OpenMatrix\x64\Release\*.exe
+dir %OML_ROOT%\VS2015\OpenMatrix\x64\Release\*.dll
+@echo off
 goto :EOF
 
 :check_x64_Release
