@@ -79,4 +79,7 @@ test_script:
     rem appveyor_setup mingw where core_test_perl core_test_python end
     
     rem dir_x64_Release check_x64_Release
+    
+    c:\oss\OpenMatrixPublic\Tests\run_toolbox_tests.bat
+    
 
