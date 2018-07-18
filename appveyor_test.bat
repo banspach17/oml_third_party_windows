@@ -96,6 +96,8 @@ echo on
 powershell format-hex %1
 @echo.
 powershell format-hex reflogs\%1
+@echo.
+git check-attr -a reflogs\%1
 @echo off
 goto :EOF
 
