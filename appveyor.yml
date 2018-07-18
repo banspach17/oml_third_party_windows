@@ -56,7 +56,7 @@ before_build:
     
     findstr /i /g:python.filter.txt python.dir.txt
     
-    findstr /i numpy python.dir.txt
+    rem findstr /i numpy python.dir.txt
     
 
 build:
