@@ -48,6 +48,8 @@ before_build:
     
     copy /Y PropertySheet.props \oss\OpenMatrixPublic\VS2015\OpenMatrix
     
+    copy /Y OpenMatrix.sln \oss\OpenMatrixPublic\VS2015\OpenMatrix
+    
     dir /s \python36-x64 > python.dir.txt
     
     findstr /i /g:python.filter.txt python.dir.txt
