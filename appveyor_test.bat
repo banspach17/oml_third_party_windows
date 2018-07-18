@@ -57,7 +57,8 @@ set appveyor_path=%OML_ROOT%\VS2015\OpenMatrix\x64\Release;%appveyor_path%
 set path=%appveyor_path%;%path%
 set appveyor_setup=TRUE
 @echo off
-goto :EOF 
+echo Done appveyor_setup
+goto :EOF
 
 :core_test_perl
 @echo ---------- ---------- ---------- ---------- ---------- 
