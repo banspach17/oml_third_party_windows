@@ -22,7 +22,9 @@ init:
     
     which python
     
-    python -v -m pip install numpy
+    rem python -v -m pip install numpy
+    
+    python -m pip install numpy
     
     
 
@@ -62,7 +64,8 @@ build:
 test_script:
 
 - cmd: >-
-    rem c:\oss\OpenMatrix\scripts\appveyor_test.bat appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
+    c:\oss\OpenMatrixPublic\scripts\appveyor_test.bat 
+    rem appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
     rem appveyor_test.bat script supports following test related options:
     rem appveyor_setup mingw where core_test_perl core_test_python end
     rem dir_x64_Release check_x64_Release
