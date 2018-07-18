@@ -4,7 +4,9 @@ platform: x64
 clone_folder: c:\oss\third_party
 init:
 - cmd: >-
-    git config --global core.autolf true
+    rem git config --global core.autolf true
+    
+    git config --global core.autocrlf true
     
     git config --list
     
