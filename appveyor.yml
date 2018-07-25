@@ -44,7 +44,7 @@ before_build:
     
     rem curl -v -u 'openmatrixthirdparty:EfWb[RMP2GuRs^LHfna4' --disable-eprt --disable-epsv -O "ftp://ftp2.altair.com/%2foutgoing/smallfile.tar.gz"
     
-    curl -v -O http://www.netlib.org/lapack/lapack-3.7.1.tgz
+    rem curl -v -O http://www.netlib.org/lapack/lapack-3.7.1.tgz
     
     dir
     
