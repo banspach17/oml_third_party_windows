@@ -1,8 +1,0 @@
-﻿  test_sunlinsol_spgmr_serial.c
-  test_sunlinsol.c
-  sundials_linearsolver.c
-  sundials_nvector.c
-  Generating Code...
-     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunlinsol/spgmr/serial/Debug/test_sunlinsol_spgmr_serial.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunlinsol/spgmr/serial/Debug/test_sunlinsol_spgmr_serial.exp
-  test_sunlinsol_spgmr_serial.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\sunlinsol\spgmr\serial\Debug\test_sunlinsol_spgmr_serial.exe
-  test_sunlinsol_spgmr_serial.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/examples/sunlinsol/spgmr/serial/Debug/test_sunlinsol_spgmr_serial.pdb (Full PDB)

@@ -1,8 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/nvector/serial/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/CMakeFiles/generate.stamp is up-to-date.
-  test_nvector_serial.c
-  test_nvector.c
-  sundials_nvector.c
-  Generating Code...
-     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/MinSizeRel/test_nvector_serial.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/MinSizeRel/test_nvector_serial.exp
-  test_nvector_serial.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\nvector\serial\MinSizeRel\test_nvector_serial.exe

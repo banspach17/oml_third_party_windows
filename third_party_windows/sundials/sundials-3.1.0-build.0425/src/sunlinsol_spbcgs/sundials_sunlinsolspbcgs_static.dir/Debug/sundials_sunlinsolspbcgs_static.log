@@ -1,7 +1,0 @@
-﻿  sunlinsol_spbcgs.c
-  sundials_math.c
-  sundials_nvector.c
-  sundials_linearsolver.c
-  sundials_iterative.c
-  Generating Code...
-  sundials_sunlinsolspbcgs_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_spbcgs\Debug\sundials_sunlinsolspbcgs.lib

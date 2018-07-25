@@ -1,7 +1,0 @@
-﻿  test_nvector_serial.c
-  test_nvector.c
-  sundials_nvector.c
-  Generating Code...
-     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/Debug/test_nvector_serial.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/Debug/test_nvector_serial.exp
-  test_nvector_serial.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\nvector\serial\Debug\test_nvector_serial.exe
-  test_nvector_serial.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/examples/nvector/serial/Debug/test_nvector_serial.pdb (Full PDB)

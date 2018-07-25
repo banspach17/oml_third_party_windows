@@ -1,4 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/cvode/serial/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/cvode/serial/CMakeFiles/generate.stamp is up-to-date.
-  cvDiurnal_kry.c
-  cvDiurnal_kry.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\cvode\serial\MinSizeRel\cvDiurnal_kry.exe

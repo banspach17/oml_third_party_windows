@@ -1,7 +1,0 @@
-﻿  sunlinsol_dense.c
-  sundials_linearsolver.c
-  sundials_dense.c
-  Generating Code...
-     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/Debug/sundials_sunlinsoldense.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/Debug/sundials_sunlinsoldense.exp
-  sundials_sunlinsoldense_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_dense\Debug\sundials_sunlinsoldense.dll
-  sundials_sunlinsoldense_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_dense/Debug/sundials_sunlinsoldense.pdb (Full PDB)

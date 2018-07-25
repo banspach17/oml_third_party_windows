@@ -1,8 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/src/sunmat_band/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunmat_band/CMakeFiles/generate.stamp is up-to-date.
-  sunmatrix_band.c
-  sundials_nvector.c
-  sundials_matrix.c
-  sundials_math.c
-  Generating Code...
-  sundials_sunmatrixband_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunmat_band\MinSizeRel\sundials_sunmatrixband.lib

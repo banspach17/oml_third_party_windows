@@ -1,7 +1,0 @@
-﻿  sunlinsol_sptfqmr.c
-  sundials_math.c
-  sundials_nvector.c
-  sundials_linearsolver.c
-  sundials_iterative.c
-  Generating Code...
-  sundials_sunlinsolsptfqmr_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_sptfqmr\Debug\sundials_sunlinsolsptfqmr.lib

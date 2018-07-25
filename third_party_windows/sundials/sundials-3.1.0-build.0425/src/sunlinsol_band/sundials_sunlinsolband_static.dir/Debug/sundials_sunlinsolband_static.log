@@ -1,5 +1,0 @@
-﻿  sunlinsol_band.c
-  sundials_linearsolver.c
-  sundials_band.c
-  Generating Code...
-  sundials_sunlinsolband_static.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_band\Debug\sundials_sunlinsolband.lib

@@ -1,4 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/arkode/C_serial/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/arkode/C_serial/CMakeFiles/generate.stamp is up-to-date.
-  ark_brusselator1D.c
-  ark_brusselator1D.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\arkode\C_serial\Release\ark_brusselator1D.exe

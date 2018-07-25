@@ -1,4 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/idas/serial/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/idas/serial/CMakeFiles/generate.stamp is up-to-date.
-  idasAkzoNob_dns.c
-  idasAkzoNob_dns.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\idas\serial\Release\idasAkzoNob_dns.exe

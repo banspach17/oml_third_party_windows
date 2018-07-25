@@ -1,4 +1,0 @@
-﻿  Building Custom Rule C:/oss/third_party/sundials/sundials-3.1.0/examples/idas/serial/CMakeLists.txt
-  CMake does not need to re-run because C:/oss/third_party/sundials/sundials-3.1.0-build/examples/idas/serial/CMakeFiles/generate.stamp is up-to-date.
-  idasHessian_ASA_FSA.c
-  idasHessian_ASA_FSA.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\examples\idas\serial\MinSizeRel\idasHessian_ASA_FSA.exe

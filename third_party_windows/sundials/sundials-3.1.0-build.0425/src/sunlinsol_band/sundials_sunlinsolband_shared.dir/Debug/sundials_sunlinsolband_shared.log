@@ -1,7 +1,0 @@
-﻿  sunlinsol_band.c
-  sundials_linearsolver.c
-  sundials_band.c
-  Generating Code...
-     Creating library C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_band/Debug/sundials_sunlinsolband.lib and object C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_band/Debug/sundials_sunlinsolband.exp
-  sundials_sunlinsolband_shared.vcxproj -> C:\oss\third_party\sundials\sundials-3.1.0-build\src\sunlinsol_band\Debug\sundials_sunlinsolband.dll
-  sundials_sunlinsolband_shared.vcxproj -> C:/oss/third_party/sundials/sundials-3.1.0-build/src/sunlinsol_band/Debug/sundials_sunlinsolband.pdb (Full PDB)
