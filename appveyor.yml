@@ -52,15 +52,17 @@ before_build:
     
     dir c:\oss
     
-    dir c:\oss\OpenMatrixPublic
+    dir %OML_ROOT%
     
     dir c:\oss\third_party
     
     set OML
     
-    copy /Y PropertySheet.props \oss\OpenMatrixPublic\VS2015\OpenMatrix
+    copy /Y PropertySheet.props %OML_ROOT%\VS2015\OpenMatrix
     
-    copy /Y OpenMatrix.sln \oss\OpenMatrixPublic\VS2015\OpenMatrix
+    copy /Y OpenMatrix.sln %OML_ROOT%\VS2015\OpenMatrix
+    
+    copy /Y evaluate_test_results.bat %OML_ROOT%\Tests
     
     dir /s \python36-x64 > python.dir.txt
     
@@ -88,6 +90,12 @@ test_script:
     
     rem dir_x64_Release check_x64_Release
     
-    c:\oss\OpenMatrixPublic\Tests\run_toolbox_tests.bat
+    cd %OML_ROOT%\Tests
+    
+    dir
+    
+    run_toolbox_tests.bat
+    
+    evaluate_test_results.bat
     
 
