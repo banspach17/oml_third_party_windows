@@ -48,15 +48,28 @@ goto :end
 
 :appveyor_setup
 if exist appveyor_setup echo appveyor_setup already run & goto :EOF
-@echo on 
 @echo ---------- ---------- ---------- ---------- ---------- 
 @echo Run appveyor_setup
+@echo on 
+rem add mingw directory to path
 set appveyor_path=C:\mingw-w64\x86_64-7.2.0-posix-seh-rt_v5-rev1\mingw64\bin;
-set appveyor_path=%OML_THIRDPARTY%\lapack\lapack-3.7.1-build\bin;%appveyor_path%
+rem add OpenMatrix binary directory to path
 set appveyor_path=%OML_ROOT%\VS2015\OpenMatrix\x64\Release;%appveyor_path%
+rem add lapack directory to path
+set appveyor_path=%OML_THIRDPARTY%\lapack\lapack-3.7.1-build\bin;%appveyor_path%
+rem add fftw directory to path
+set appveyor_path=%OML_THIRDPARTY%\fftw\fftw-3.2.2\fftw-3.2.2-libs\x64\Release;%appveyor_path%
+rem add matio directory to path
+set appveyor_path=%OML_THIRDPARTY%\matio\matio-1.5.11\visual_studio\x64\Release;%appveyor_path%
+rem add sundials directory to path
+set appveyor_path=%OML_THIRDPARTY%\sundials\sundials-3.1.0-install\lib;%appveyor_path%
+@echo off
 set path=%appveyor_path%;%path%
 set appveyor_setup=TRUE
-@echo off
+echo.
+echo SHOW SYSTEM PATH:
+path
+echo.
 echo Done appveyor_setup
 goto :EOF
 

@@ -86,7 +86,7 @@ test_script:
 - cmd: >-
     rem c:\oss\OpenMatrixPublic\scripts\appveyor_test.bat 
     
-    c:\oss\third_party\appveyor_test.bat 
+    c:\oss\third_party\appveyor_test.bat where 
     
     rem appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
     
@@ -97,6 +97,8 @@ test_script:
     rem dir_x64_Release check_x64_Release
     
     cd %OML_ROOT%\Tests
+    
+    set path
     
     dir
     
