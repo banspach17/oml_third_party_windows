@@ -104,4 +104,8 @@ test_script:
     
     rem evaluate_test_results.bat
     
+    where omlconsole.exe
+    
+    where omlcae.dll
+    
 
