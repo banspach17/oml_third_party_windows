@@ -66,6 +66,8 @@ before_build:
     
     copy /Y evaluate_test_results.bat %OML_ROOT%\Tests
     
+    copy /Y regressOMLConsole.pl %OML_ROOT%\Tests
+    
     dir /s \python36-x64 > python.dir.txt
     
     findstr /i /g:python.filter.txt python.dir.txt
