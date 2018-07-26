@@ -76,9 +76,9 @@ before_build:
 build:
   project: c:\oss\OpenMatrixPublic\VS2015\OpenMatrix\OpenMatrix.sln
   verbosity: minimal
+  
 
 test_script:
-
 - cmd: >-
     rem c:\oss\OpenMatrixPublic\scripts\appveyor_test.bat 
     
