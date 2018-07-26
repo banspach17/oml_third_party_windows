@@ -77,16 +77,12 @@ build:
   project: c:\oss\OpenMatrixPublic\VS2015\OpenMatrix\OpenMatrix.sln
   verbosity: minimal
 
-on_finish:
-
-- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
-
 test_script:
 
 - cmd: >-
     rem c:\oss\OpenMatrixPublic\scripts\appveyor_test.bat 
     
-    c:\oss\third_party\appveyor_test.bat where 
+    c:\oss\third_party\appveyor_test.bat appveyor_setup where 
     
     rem appveyor_setup mingw where dir_x64_Release check_x64_Release core_test_perl end
     
@@ -98,16 +94,12 @@ test_script:
     
     cd %OML_ROOT%\Tests
     
-    set path
+    rem set path
     
     dir
     
     rem run_toolbox_tests.bat
     
-    rem evaluate_test_results.bat
-    
-    where omlconsole.exe
-    
-    where omlcae.dll
+    evaluate_test_results.bat
     
 
