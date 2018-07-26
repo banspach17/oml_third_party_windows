@@ -98,7 +98,7 @@ test_script:
     
     dir
     
-    rem run_toolbox_tests.bat
+    run_toolbox_tests.bat
     
     evaluate_test_results.bat
     
