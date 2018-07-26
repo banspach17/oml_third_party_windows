@@ -77,7 +77,7 @@ goto :EOF
 @echo ---------- ---------- ---------- ---------- ---------- 
 @echo Run regression tests using perl script
 cd %OML_ROOT%\Tests\RegressionTests
-perl %OML_ROOT%\Tests\regressOMLConsole.pl
+perl %OML_ROOT%\Tests\regressOMLConsole.pl --error_only
 echo.
 if not exist *.log echo ALL TESTS PASS! & echo. & goto :EOF
 echo.
